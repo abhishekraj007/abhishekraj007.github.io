@@ -1,0 +1,358 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+
+.link-color{
+	font-color:#fff!important;
+}
+
+.heading-font{
+	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+.paragraph-font{
+
+font-family: Merriweather, sans-serif, monospace;
+font-size: 1.2em;
+padding: 20px;
+
+}
+
+.btn {
+  display: inline-block;
+  
+  border-radius: 100px;
+  border: 1px outset #34a782;
+  
+  
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+
+.btn:hover {
+	color: transparent;
+	border-radius: 100px;
+  border: 2px outset  #34a782;
+  background: #1fa67a;
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px #20ac7f;
+  box-shadow: 4px 4px 4px #20ac7f;
+  letter-spacing: 2px;
+}
+
+.navbar-default {    
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+
+    background-color: #1b926c !important;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color:#f2f2f2;
+}
+
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus{
+	color: #fff;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav > li>a:focus{
+	color:#fff!important;
+}
+
+
+
+.navbar-default .nav > li>a{
+	color:#f2f2f2!important;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff!important;
+}
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #f05f40!important;
+    background-color: transparent;
+}
+
+
+
+
+/* HEADER SECTION */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    min-height: auto;
+    text-align: center;
+    color: #fff;   
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('http://www.macwallhd.com/wp-content/Wallpapers/20120625/At%20the%20Office%20Mac%20Apple%20Wallpapers%20Creative%20Planning-2982192420.jpeg') no-repeat center center fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    
+    
+}
+
+header .header-content{
+	position: relative;
+	width: 100%;
+	padding: 100px 15px;
+	text-align: center;
+}
+
+.header-h1{
+	 margin-top: 100px;
+	 padding: 50 0 50 0;
+   font-size: 60px;
+
+text-transform: uppercase;
+font-weight: 900;
+font-family: 'Lato', sans-serif;
+
+}
+
+.header-p{
+
+	font-weight: 300;
+	font-size: 20px;
+	font-family: Merriweather, sans-serif, monospace;
+
+}
+
+
+
+header .header-content .header-content-inner> hr{
+	width: 50%;
+	color: #a6a6a6;
+
+}
+
+header .header-content .header-content-inner .row .col-xm-6> a{
+	margin: 10px 10px 10px 10px;
+
+}
+
+
+/*  ABOUT US */
+
+.aboutme-section{
+
+    width: 100%;
+    min-height: 600px;
+    
+    text-align: center;
+    color: #fff;   
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+background-color: #20ac7f;
+
+   
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+
+}
+
+
+
+.img-profile{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: #fff 5px solid;
+	margin-left: 25%;
+	margin-top: 150px;
+}
+
+
+/* PORTFOLIO STYLING*/
+
+.portfolio-section{
+
+width: 100%;
+height: 100%;
+
+}
+
+.portfolio-section h2{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.portfolio-section p{
+	
+	margin-bottom: 10px;
+}
+
+.portfolio-section  hr{
+	width: 40%;
+	color:  #1fa67a;
+	border: 1px solid #34a782;
+
+}
+
+
+
+
+
+
+#portfolio .portfolio-item{
+	margin:0 0 15px 15px;
+	right:0}
+
+#portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+
+	 background-color: #20ac7f;
+
+	position:absolute;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition:all ease .5s;
+	-webkit-transition:all ease .5s;-moz-transition:all ease .5s
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
+	opacity:1
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
+	position:absolute;
+	width:100%;
+	height:20px;
+	font-size:20px;
+	text-align:center;
+	top:50%;
+	margin-top:-12px;
+	color:#fff}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{
+	margin-top:-12px
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{margin:0}
+
+#portfolio .portfolio-item .portfolio-caption{max-width:400px;margin:0 auto;background-color:#20ac7f;
+	
+
+	text-align:center;padding:25px}
+
+	#portfolio .portfolio-item .portfolio-caption h4{
+		color: #fff;
+font-family: 'Open Sans','Helvetica Neue', Helvetica, sans-serif;
+		text-transform:none;margin:0}
+
+	#portfolio .portfolio-item .portfolio-caption p{
+color: #f7f7f7;
+		font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px;margin:0}
+
+		#portfolio *{z-index:2}@media (min-width:767px){#portfolio .portfolio-item{margin:0 0 30px}}
+
+
+
+/* contact style */
+
+
+.contact-section{
+min-height: auto;
+width: 100%;
+color: #fff;
+text-align: center;
+height: 500px;
+
+background: url('http://www.responsive-web-design.co.za/wp-content/uploads/2013/03/natural-colors-background-BW.jpg') no-repeat center center fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-section .container-fluid > div> hr{
+	width: 20%;
+}
+
+.contact-section .container-fluid > div> h2{
+	margin-top: 100px;
+}
+
+.contact-section .container-fluid > div> p> a:hover,
+.contact-section .container-fluid .row > div> p> a:focus
+{
+	color: #fff;
+}
+
+
+/* FOOTER STYLING */
+
+footer{
+
+	padding:20px 0;
+background: #1b926c;
+	text-align: center;
+	}
+
+	footer span.copyright
+	{
+		color: #fff;
+		line-height:40px;font-family:Lobster,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
+
+ul.social-buttons li a{
+			display:block;
+
+			background-color:#10563e;
+
+			height:40px;width:40px;
+			border-radius:100%;
+			font-size:20px;
+			line-height:40px;
+			color:#fff;
+			outline:0;
+			-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s
+		}
+
+
+
+ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{
+				background-color:#24c18b;
+				}
