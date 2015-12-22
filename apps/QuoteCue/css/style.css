@@ -1,0 +1,80 @@
+body{
+  background: url('http://www.magic4walls.com/wp-content/uploads/2014/03/mystery-man-hand-favor-black-background-dark-fullscreen.jpg');
+  
+}
+#tagline{
+  color: #fff;
+  font-family:"Open sans"
+}
+
+#logo-red{
+  color: #f00;  
+}
+#logo-white{
+  color:#fff;
+}
+
+h1{  
+  padding:20px;
+  display: block;
+  text-shadow: 1px 3px 5px ;
+  font-size: 4em;  
+  font-family: 'Pacifico', 'Open Sans', cursive, Monospace;
+}
+
+
+.logo{
+  margin: 30px 0px 50px 0px;
+  height: 50px; 
+ 
+  
+}
+#align-button{
+  aligh-item:center;
+}
+
+.button-style{
+  position: fixed;
+  bottom: 20px;
+  left:30%;
+  right:30%;
+  
+  
+}
+.quote-box{
+  box-shadow: 5px 5px 80px #888888;
+  margin:50px;
+  padding: 20px 10px 10px 10px;
+  
+  border-radius: 20%;
+  
+}
+.quote-saying{
+  color:#fff;
+  font-size:25px;
+  text-transform: uppercase;
+  font-family: 'Merienda', cursive,serif;
+  text-shadow: 2px 2px 5px #888888;
+}
+.quote-author{
+  font-family: 'Tangerine', cursive, serif;
+  text-shadow: 2px 2px 5px #888888;
+  color:#cccccc;
+  font-style:italic;
+  font-size:30px;
+}
+
+#a-position{
+  position: fixed;
+  bottom: 0px;
+  left:30%;
+  right:30%;
+  
+}
+
+a{
+  color: #1a1a1a;
+}
+a:hover{
+  color: #fff;
+}
