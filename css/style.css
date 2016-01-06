@@ -51,12 +51,12 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 80%;
-    height: 200px;
+    height: 150px;
     left: 50%;
     margin: -100px 0 0 -100px;
     position: absolute;
     top: 50%;
-    width: 200px;
+    width: 150px;
     -webkit-animation:fadeinout 1.5s linear infinite;
     -moz-animation:fadeinout 1.5s linear infinite;
     animation:fadeinout 1.5s linear infinite;
@@ -117,13 +117,13 @@ header a {
 
 
 .container > header h1 {
-	font-size: 4em;
+	font-size: 5em;
 	line-height: 1.3;
 	margin: 0;
 	font-weight: 500;
 	color: #9d967d;
 	
-	font-family:'lust-display', sans-serif;
+	font-family:'Redressed', sans-serif;
 
 }
 
