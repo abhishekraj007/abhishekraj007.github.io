@@ -1,0 +1,19 @@
+  <div class="branding"><a ng-href="#/">MeetingMngr</a>&nbsp;
+    <a href=""><i class="fa fa-github"> </i></a>
+  </div>
+
+  <ul>
+    <li>
+      <a ng-show="currentUser" ng-href="#/meetings">Meetings
+        <span ng-show="howManyMeetings" class="badge">
+        {{howManyMeetings}}</span>
+      </a>
+    </li>
+
+    <li ng-show="currentUser"ng-controller="RegistrationController">
+      <a ng-href="#/login" ng-click="logout()">logout</a>
+    </li>
+
+    <li><a ng-hide="currentUser" ng-href="#/login">Login</a></li>
+    <li><a ng-hide="currentUser" ng-href="#/register">Register</a></li>
+  </ul>
