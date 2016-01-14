@@ -26,8 +26,11 @@
 
     </fieldset>
 
-    <button type="submit" class="btn"
-      ng-disabled="myform.$invalid">Login</button>
+    <button ng-click="toggle = !toggle" type="submit" class="btn"
+      ng-disabled="myform.$invalid"><span ng-hide="toggle">Login</span>
+      <span ng-show="toggle">Wait..</span>
+
+    </button>
     <p>or <a ng-href="#/register">register</a></p>
   </form>
 </section>
