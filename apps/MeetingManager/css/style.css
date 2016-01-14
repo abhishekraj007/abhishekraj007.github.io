@@ -75,7 +75,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 html {
   /*background-color: #F7F7F7;*/
-background-image: url("/images/background.jpg");
+background-image: url("https://www.planningpod.com/img/hero/purpleFlowers.jpg");
   min-height: 100%;
   height: auto;
 }
