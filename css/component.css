@@ -59,8 +59,8 @@ html, body,
 	background:#182327;
 }
 
-#specialized {
-	background: url(../images/specialized3.png) #1f2a30;
+#weather {
+	background: url(../images/weather.png) #1f2a30;
 	background-size: 70%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -70,24 +70,24 @@ html, body,
 
 }
 
-#specialized h2 {
+#weather h2 {
 	color: #e82737;
 }
 
-#specialized hr {
+#weather hr {
 	color: #e82737;
 	background: #e82737;
 }
 
 
-#specialized .info {
+#weather .info {
 
 	background: rgba(24, 33, 38, 0.9);
 
 }
 
-#boosted {
-	background: url(../images/boosted.png) #151515;
+#meeting {
+	background: url(../images/meeting.png) #151515;
 	background-size: 70%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -97,17 +97,17 @@ html, body,
 
 }
 
-#boosted h2 {
+#meeting h2 {
 	color: #ff6102;
 }
 
-#boosted hr {
+#meeting hr {
 	color: #ff6102;
 	background: #ff6102;
 }
 
 
-#boosted .info {
+#meeting .info {
 
 	background: rgba(21, 21, 21, 0.9);
 
