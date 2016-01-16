@@ -1,6 +1,6 @@
 /* Set all parents to full height */
 html, body, 
-.container,
+.theme-container,
 .cbp-fbscroller,
 .cbp-fbscroller section { 
 	height: 100%;
@@ -59,8 +59,36 @@ html, body,
 	background:#182327;
 }
 
+#bagsolution {
+	background: url(../images/bagsolution.png) #1f2a30;
+	background-size: 70%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: static;
+	transition: 1s ease-in-out;
+
+}
+
+#bagsolution h2 {
+	color: #e82737;
+}
+
+#bagsolution hr {
+	color: #e82737;
+	background: #e82737;
+}
+
+
+#bagsolution .info {
+
+	background: rgba(24, 33, 38, 0.9);
+
+}
+
+
 #weather {
-	background: url(../images/weather.png) #1f2a30;
+	background: url(../images/weather.png) #E25E70;
 	background-size: 70%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -71,23 +99,23 @@ html, body,
 }
 
 #weather h2 {
-	color: #e82737;
+	color: #FF626F;
 }
 
 #weather hr {
-	color: #e82737;
-	background: #e82737;
+	color: #FF626F;
+	background: #FF626F;
 }
 
 
 #weather .info {
 
-	background: rgba(24, 33, 38, 0.9);
+	background: rgba(58, 18, 24, 0.9);
 
 }
 
 #meeting {
-	background: url(../images/meeting.png) #151515;
+	background: url(../images/meeting.png) #310531;
 	background-size: 70%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -98,7 +126,7 @@ html, body,
 }
 
 #meeting h2 {
-	color: #E64AA8;
+	color: #F563BB;
 }
 
 #meeting hr {
@@ -109,12 +137,14 @@ html, body,
 
 #meeting .info {
 
-	background: rgba(21, 21, 21, 0.9);
+	background: rgba(21, 2, 21, 0.9);
 
 }
 
-#sassiholford {
-	background: url(../images/sassi3.png) #f9f9f9;
+
+
+#portfolio {
+	background: url(../images/portfolio.png) #055035; 
 	background-size: 70%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -124,8 +154,24 @@ html, body,
 
 }
 
+#portfolio h2 {
+    color: #4FE6B0;
+}
+
+#portfolio hr {
+	color: #4FE6B0;
+	background: #4FE6B0;
+}
 
 
+#portfolio .info {
+
+	background: rgba(3, 48, 32, 0.9);
+
+}
+
+
+/* For Button transition*/
 
 .hover {
 	background: #000;
@@ -134,78 +180,6 @@ html, body,
 
 }
 
-#sassiholford .info {
-	background: rgba(198, 198, 198, 0.9);
-
-}
-
-#dirtdays {
-	background: url(../images/dirtdays.png) #132b33;
-	background-size: 70%;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	position: static;
-	transition: 1s ease-in-out;
-
-}
-
-
-
-#dirtdays .info {
-	background: rgba(55, 84, 92, 0.9);
-
-}
-
-
-#volcom {
-	background: url(../images/volcom2.png) #015E7E;
-		background-size: 70%;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	position: static;
-	transition: 1s ease-in-out;
-}
-
-#volcom .info {
-	background: rgba(8, 116, 154, 0.9);
-
-}
-
-#volcom h2 {
-	color: #d5e7f3;
-}
-
-#volcom hr {
-	color: #d5e7f3;
-	background: #d5e7f3;
-}
-
-#rileyscycles {
-	background: url(../images/rileys3.png) #2D353F;
-		background-size: 70%;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	position: static;
-
-		transition: 1s ease-in-out;
-}
-
-#rileyscycles .info {
-	background: rgba(59, 72, 88, 0.9);
-
-}
-
-#rileyscycles h2 {
-	color: #ccc4ae;
-}
-
-#rileyscycles hr {
-	color: #ccc4ae;
-	background: #ccc4ae;
-}
 
 #fbsection5 {
 	background:#fff;

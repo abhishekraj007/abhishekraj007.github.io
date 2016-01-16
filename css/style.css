@@ -101,7 +101,7 @@ header a {
 	transition: 0.4s all linear;
 }
 
-.container > header {
+.theme-container > header {
 	padding: 2.875em 1.875em 1.875em;
 	position: absolute;
 	z-index: 1000;
@@ -116,7 +116,7 @@ header a {
 
 
 
-.container > header h1 {
+.theme-container > header h1 {
 	font-size: 5em;
 	line-height: 1.3;
 	margin: 0;
@@ -127,7 +127,7 @@ header a {
 
 }
 
-.container > header h2 {
+.theme-container > header h2 {
 	font-size: 1.325em;
 	line-height: 1.3;
 	margin: 0;
@@ -136,7 +136,7 @@ header a {
 }
 
 
-.container > header span {
+.theme-container > header span {
 	display: block;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -144,11 +144,11 @@ header a {
 	padding: 0 0 0.6em 0.1em;
 }
 
-.container > header nav {
+.theme-container > header nav {
 	float: right;
 }
 
-.container > header nav a {
+.theme-container > header nav a {
 	display: block;
 	float: left;
 	position: relative;
@@ -162,7 +162,7 @@ header a {
 	text-indent: -8000px;
 }
 
-.container > header nav a:after {
+.theme-container > header nav a:after {
 	content: attr(data-info);
 	color: #fff;
 	position: absolute;
@@ -174,11 +174,11 @@ header a {
 	pointer-events: none;
 }
 
-.container > header nav a:hover:after {
+.theme-container > header nav a:hover:after {
 	opacity: 1;
 }
 
-.container > header nav a:hover {
+.theme-container > header nav a:hover {
 	background: #47a3da;
 }
 
@@ -200,7 +200,7 @@ header a {
 	padding-left: 8px;
 }
 
-.container > header nav a:hover:before {
+.theme-container > header nav a:hover:before {
 	color: #fff;
 }
 
@@ -237,6 +237,162 @@ header a {
          transition: all 0.2s ease;
 
       }
+
+
+ /*Portfolio section*/
+ 
+
+.m-flip {
+  -moz-perspective: 1000;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+.m-flip,
+.m-flip .front, .m-flip .back {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 250px;
+  height: 250px;
+}
+.m-flip .m-flip__content {
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.m-flip .m-flip__content.active, .m-flip .m-flip__content:hover {
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.m-flip .front, .m-flip .back {
+  position: absolute;
+  /*top: 0;
+  left: 0;*/
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.m-flip .front {
+  z-index: 2;
+}
+
+.front img{
+	max-width: 250px;
+}
+
+.m-flip .back {
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
+
+.back{	
+	background: #000;
+	opacity: 0.8;
+	text-align: center;
+	color: #fff;
+
+}
+
+.back span{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.back .btn{
+text-align: center;
+border-radius: 100%;
+background: rgba(100, 100, 100, .8); 
+}
+
+.back a[.btn]{
+text-align: center;
+border-radius: 100%;
+background: rgba(100, 100, 100, .8); 
+}
+
+
+.portfolio-title> h1 {
+    font-size: 2.5em;
+    padding: 40px;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+    font-family: "lust-display",sans-serif;
+    color: #000;
+}
+
+
+ #card{ 	
+ 	display: inline-block;
+ }
+
+
+
+/*lightbox*/
+
+
+#lightbox { 
+position: fixed; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; 
+background: rgba(0, 0, 0, .8); 
+text-align:center;
+
+
+}
+
+.btn-trans{
+	opacity: 0.5 !important;
+}
+
+#lightbox img {
+
+position: absolute; 
+top: 5%; 
+left: 0px; 
+right: 0px; 
+bottom:5%;
+align:center; 
+max-width:90%; 
+max-height:90%; 
+margin:auto;
+box-shadow:0 0 25px #111;
+-webkit-box-shadow:0 0 25px #111;
+ -moz-box-shadow:0 0 25px #111;
+   
+}
+
+#lightbox p { 
+position:fixed; 
+z-index:999; 
+cursor:pointer; 
+right:10px; 
+top:10px ;
+text-align:  right; 
+padding: .25em .5em;  
+color: #fff; 
+margin-right: 20px; 
+font-size: 20px;  
+background: rgba(100, 100, 100, .5); 
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+}
+
+ /*end of Portfolio section*/
 
 section .info {
 	width: 50%;
@@ -301,7 +457,7 @@ section hr{
 }
 
 section .footer h1{
-	font-size: 2.725em;
+	font-size: 2.5em;
 	line-height: 1.6;
 	margin: 0;
 	font-weight: 400;
@@ -331,7 +487,7 @@ section .footer{
   	font-family: "ff-tisa-web-pro";
   	font-size: 1.2em;
   position: absolute;
-  color: #b8b8b8;
+  color: #807A7A;
   font-weight: 400;
   line-height: 26px;
 }
@@ -350,7 +506,7 @@ section .footer .button.button--wapasha {
 	color: #fff;
 }
 section .footer .button--wapasha.button--inverted {
-	background: #cdc8b6;
+	background: #A79F68;
 	color: #FFF;
 }
 section .footer .button--wapasha::before {
@@ -622,7 +778,7 @@ nav {
 
 .button {margin: 1em 0;}
 
-.container > header {
+.theme-container > header {
   padding: 0;
   position: absolute;
   z-index: 1000;
@@ -651,7 +807,7 @@ section .footer {
   line-height: 26px;
 }
 
-.container > header h1 {
+.theme-container > header h1 {
 	font-size: 2.6em;
 }
 

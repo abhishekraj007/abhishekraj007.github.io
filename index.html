@@ -13,6 +13,9 @@
     <meta property="og:site_name" content="Abhishek Raj's Portfolio"/>
     <meta property="og:description" content="Website, Mobile and Graphic Designer based in India"/>
     <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -20,21 +23,26 @@
     <script src="http://use.typekit.net/pzx0zeb.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     
-<link href='http://fonts.googleapis.com/css?family=Lust+Display' rel='stylesheet' type='text/css'>
+
 <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Redressed' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Redressed' rel='stylesheet' type='text/css'>    
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+<!-- <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+ -->
+
+<link rel="stylesheet" type="text/css" href="css/jquery.m.flip.css">
+
+
+
   </head>
   <body>
     <div id="preloader">
         <div id="loading-animation">&nbsp;</div>
     </div>
-    <div class="container">
+    <div class="theme-container">
 
       <header class="clearfix">
         <h1 class="wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.1s">Abhishek Raj</h1>
@@ -45,28 +53,49 @@
 
         <a href="#" target="_blank" class="shareicon2 entypo-facebook wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.4s"></a>
 
-        <a href="#" class="shareicon2 entypo-linkedin wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.5s"></a>
+        <a href="http://www.linkedin.com/in/abhishekrajme" class="shareicon2 entypo-linkedin wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.5s"></a>
 
         <a href="mailto:abhishekrajinfo@gmail.com" class="shareicon2 entypo-mail wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.5s"></a>
       </header> 
       <div id="cbp-fbscroller" class="cbp-fbscroller">
         <nav>
           <a href="index.html#fbsection1" class="cbp-fbcurrent">Abhishek Raj. Mobile and Website Designer</a>
-          <a href="index.html#weather">Weather App Concept</a>
-          
+          <a href="index.html#bagsolution">Bag Solution</a>  
+          <a href="index.html#weather">Weather App Concept</a>          
           <a href="index.html#meeting">Meeting Mngr</a>
-          <!--
-          <a href="index.html#sassiholford">Sassi Holford Website</a>
-          <a href="index.html#specialized">Speciliazed Website Concept</a>
-          <a href="index.html#rileyscycles">Volcom Website Concept</a>
-          -->
-        </nav>
+          <a href="index.html#portfolio">Portfolio Theme</a>
+          
+        </nav> <!-- navigation section -->
         
         <section id="fbsection1">
         <div id="particles-js"></div>
-
-
         </section>
+
+<!-- Full width App section -->
+
+
+<section id="bagsolution" class="sassihover">
+        <div class="info">
+        <div class="text">
+
+            <h1 class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.4s">Bag Solution</h1>
+            <h2 class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.5s">Wordpress, Php, Mysql</h2>
+            <hr class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s"/>
+            <div style="clear:both;"></div>
+            <div class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.8s">
+            <p>Bag Solution is a hypothetical e-commerce website. I build this website when I was learning and experimenting with wordpress and woo-commerce. This is fully functional and responsive.<br/>
+            </p>
+            <button onclick="window.location.href='http://bagsolution.tk' target='_blank'" id="fb3" class="sassi button button--wapasha button--round-l button--text-thin button--inverted">View Demo</button>
+            </div>
+        </div>
+        </div>    
+        <div class="mobileinfo">
+            <h1 class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.7s">Bag Solution</h1>
+            <div class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.8s"><button id="fb3" onclick="window.location.href='http://bagsolution.tk' target='_blank'" class=" button button--wapasha button--round-l button--text-thin button--inverted">View Demo</button></div>
+        </div>
+        </section>
+
+
 
 
         <section id="weather" class="sassihover">
@@ -91,11 +120,14 @@
         </section>
 
 
+
+
+
       <section id="meeting" class="sassihover">
         <div class="info">
         <div class="text">
 
-            <h1 class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.4s">Meetig Manager</h1>
+            <h1 class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.4s">Meeting Manager</h1>
             <h2 class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.5s">AngularJs, Firebase</h2>
             <hr class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s"/>
             <div style="clear:both;"></div>
@@ -115,20 +147,150 @@
 
 
 
+        <section id="portfolio" class="sassihover">
+        <div class="info">
+        <div class="text">
+
+            <h1 class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.4s">Portfolio Theme</h1>
+            <h2 class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.5s">Bootstrap</h2>
+            <hr class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s"/>
+            <div style="clear:both;"></div>
+            <div class="wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.8s">
+            <p>I build this portfolio theme while I was experimenting with bootstrap. Theme is very light weight, loads fast and is fully responsive.<br/>
+            </p>
+            <button onclick="window.location.href='http://abhishekraj.info/apps/Portfolio/'" id="fb3" class="sassi button button--wapasha button--round-l button--text-thin button--inverted">View Demo</button>
+            </div>
+        </div>
+        </div>    
+        <div class="mobileinfo">
+            <h1 class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.7s">Portfolio Theme</h1>
+            <div class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.8s"><button id="fb3" onclick="window.location.href='http://abhishekraj.info/apps/Portfolio/'" class=" button button--wapasha button--round-l button--text-thin button--inverted">View Demo</button></div>
+        </div>
+        </section>
 
 
+
+<!-- portfolio grid view section -->
+
+<div class="container text-center">
+  <div class="portfolio-title">
+    <h1 class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.5s">Work Continue..</h1>
+   
+  </div>
+
+
+    <div>
+
+        <!-- Single card -->
+          <div id="card" class="box m-flip">
+
+            <div class="front">
+              <img src="images/wiki_thumb.png" alt="Wiki Search Web App">
+            </div>
+
+            <div class="back">
+              <h3>Wiki Search</h3>
+              <span>Wiki App uses wikimedia API and provides you your desired result. just use it to understand it. Or, see this project on github.
+              </span><br><br>
+      
+              <a alt="View Full Size" image-link="images/wikisearch.png" class="btn btn-lg lightboxTrigger"><i class="fa fa-search-plus"></i></a>
+
+              <a class="btn btn-lg" target="_blank" href="http://abhishekraj.info/apps/WikiSearch"><i class="fa fa-eye"></i></a>  
+
+              <a class="btn btn-lg" target="_blank" href="http://github.com/abhishekraj007/WikiSearch"><i class="fa fa-github"></i></a>            
+            </div>
+
+        </div> <!-- End of single card -->
+           
+
+
+
+
+        <!-- Single card -->
+          <div id="card" class="box m-flip">
+
+            <div class="front">
+              <img src="images/casio_thumb.png" alt="Wiki Search Web App">
+            </div>
+
+            <div class="back">
+              <h3>Casio Web</h3>
+              <span>Casio web is a web calculator. Supports all basic calculation as well 
+                scientific calculation. Visit demo and source code through below links.
+              </span><br><br>
+      
+              <a alt="View Full Size" image-link="images/casio_web.png" class="btn btn-lg lightboxTrigger"><i class="fa fa-search-plus"></i></a>
+
+              <a class="btn btn-lg" target="_blank" href="http://abhishekraj.info/apps/Casio-Web-Calculator/"><i class="fa fa-eye"></i></a>  
+
+              <a class="btn btn-lg" target="_blank" href="http://github.com/abhishekraj007/Casio-Web-Calculator"><i class="fa fa-github"></i></a>            
+            </div>
+
+        </div> <!-- End of single card -->
+
+        <!-- Single card -->
+          <div id="card" class="box m-flip">
+
+            <div class="front">
+              <img src="images/quote_thumb.png" alt="Wiki Search Web App">
+            </div>
+
+            <div class="back">
+              <h3>Quote Cue</h3>
+              <span>Quote Cue is a random Quote Generator. Build in Javascript. View Demo and Source code through below link.
+              </span><br><br>
+      
+              <a  alt="View Full Size" image-link="images/quote.png" class="btn btn-lg lightboxTrigger"><i class="fa fa-search-plus"></i></a>
+
+              <a class="btn btn-lg" target="_blank" href="http://abhishekraj.info/apps/QuoteCue/"><i class="fa fa-eye"></i></a>  
+
+              <a class="btn btn-lg" target="_blank" href="https://github.com/abhishekraj007/QuoteCue-Web"><i class="fa fa-github"></i></a>            
+            </div>
+
+        </div> <!-- End of single card -->
+
+        <!-- Single card -->
+          <div id="card" class="box m-flip">
+
+            <div class="front">
+              <img src="images/jecrc_thumb.png" alt="Wiki Search Web App">
+            </div>
+
+            <div class="back">
+              <h3>JECRC Android App</h3>
+              <span>I build this android app for JECRC College. App features all necessary information regarding college. Visit this application on Play Store.
+              </span><br><br>
+      
+              <a alt="View Full Size" image-link="images/jecrc.png" class="btn btn-lg lightboxTrigger"><i class="fa fa-search-plus"></i></a>
+
+              <a class="btn btn-lg" target="_blank" href="http://play.google.com/store/apps/details?id=com.rajlab.jecrc"><i class="fa fa-eye"></i></a>                           
+            </div>
+
+        </div> <!-- End of single card -->
+
+  </div>  
+</div>
+
+
+<!-- end of portfolio section -->
+
+
+ <!-- Footer section -->
         <section id="fbsection5">
           <div class="footer">
             <img src="images/abhishekraj.jpg" id="avatar" class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.3s"/>
           <h1 class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.5s">Who the?</h1>
-          <p class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.7s">An enthusiastic website designer and developer based in India. 
+          <p class="wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.7s">Download my Resume and find out more about me. I hope very soon we will be in touch with new ideas. 
           </p>
-          <button onclick="window.location.href='mailto:abhishekrajinfo@gmail.com'" class="button button--wapasha button--round-l button--text-thin button--inverted wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="1.2s">Say Hello</button>
+          <button onclick="window.location.href='https://www.dropbox.com/s/2zbj55h2x9uoj1n/Abhishek%20Raj%20Resume-Prof.pdf?dl=1'" class="button button--wapasha button--round-l button--text-thin button--inverted wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="1.2s">Resume</button>
 
           </div>
         </section>
-      </div>
-    </div>
+        <!-- End of footer section -->
+
+
+      </div> <!-- fbscroller -->
+    </div> <!-- End of container -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/main.min.js"></script>
@@ -213,5 +375,9 @@ $(".sassi, .rileys, .spec").hover(function(){
   ga('send', 'pageview');
 
 </script>
+
+<script src="js/jquery.m.flip.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.19/dist/jquery.flip.min.js"></script>
+<script src="js/portfolio.js"></script>
   </body>
 </html>
