@@ -199,6 +199,38 @@ html, body,
 
 }
 
+
+
+ /*bookstore*/
+
+#bookstore {
+	background: url(../images/bookstore.png) #B5BF1A; 
+	background-size: 70%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: static;
+	transition: 1s ease-in-out;
+
+}
+
+#bookstore h2 {
+    color: #D9EF31;
+}
+
+#bookstore hr {
+	color: #D9EF31;
+	background: #D9EF31;
+}
+
+
+#bookstore .info {
+
+	background: rgba(56, 60, 10, 0.9);
+
+}
+
+
 /* For Button transition*/
 
 .hover {

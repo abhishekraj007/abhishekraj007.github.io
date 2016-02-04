@@ -504,24 +504,30 @@ section .footer .button{
 section .footer .button.button--wapasha {
 	background: #cdc8b6;
 	color: #fff;
+	
 }
 section .footer .button--wapasha.button--inverted {
 	background: #A79F68;
 	color: #FFF;
+	
 }
 section .footer .button--wapasha::before {
 	border: 1px solid #cdc8b6;
+
 }
 section .footer .button--wapasha.button--inverted::before {
 	border-color: #cdc8b6;
+
 }
 section .footer .button--wapasha:hover {
 	background: none;
 	color: #cdc8b6;
+	
 }
 section .footer .button--wapasha.button--inverted:hover {
 	background: none;
 	color: #cdc8b6;
+	
 }
 
 .button {
@@ -539,6 +545,7 @@ section .footer .button--wapasha.button--inverted:hover {
 	background: none;
 	color: inherit;
 	vertical-align: middle;
+	text-decoration:initial;
 	position: relative;
 	z-index: 1;
 	text-transform: uppercase;
@@ -601,6 +608,7 @@ section .footer .button--wapasha.button--inverted:hover {
 
 /* Wapasha */
 .button.button--wapasha {
+	text-decoration:initial;
 	background: #37474f;
 	color: #fff;
 	-webkit-transition: background-color 0.3s, color 0.3s;
