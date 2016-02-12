@@ -59,6 +59,35 @@ html, body,
 	background:#182327;
 }
 
+
+#shapemyhomes {
+	background: url(../images/shapemyhome.png) #3C3939;
+	background-size: 70%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: static;
+	transition: 1s ease-in-out;
+
+}
+
+#shapemyhomes h2 {
+	color: #FD6B3D;
+}
+
+#shapemyhomes hr {
+	color: #FD6B3D;
+	background: #FD6B3D;
+}
+
+
+#shapemyhomes .info {
+
+	background: rgba(28, 31, 33, 0.77);
+
+}
+
+
 #bagsolution {
 	background: url(../images/bagsolution.png) #1f2a30;
 	background-size: 70%;
