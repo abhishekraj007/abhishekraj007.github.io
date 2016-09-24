@@ -1,0 +1,644 @@
+$main: #8FB098;
+$background: #fafbfc;
+$white: #ffffff;
+$brown: #7d97ad;
+$highlight: #02B3E4;
+$highlight-dark: #1a93b5;
+$green: #15c26b;
+$btn-default: #fafbfc;
+$border-color: #dbe2e8;
+$box-shadow: #e4e4e4;
+$footer-background: #f4f4ef;
+$black: #000000;
+
+/* Global */
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    zoom: 1;
+}
+
+
+/* IE6 */
+
+*:first-child+html .clearfix {
+    zoom: 1;
+}
+
+
+/* IE7 */
+
+html,
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.btn-primary {
+    background-color: $highlight !important;
+    text-transform: uppercase;
+    height: 3.5em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+button {
+    letter-spacing: 0.1em;
+}
+
+.navbar-toggle{
+    background: $white;
+    margin: 1.5em;
+}
+.navbar-collapse{
+    background: $white;
+}
+
+
+
+/*---------------------------- section-wise style -------------------------
+-------------------------------------------------------------------------*/
+
+#highlight-color {
+    color: $highlight!important;
+}
+
+.container {
+    width: 95%;
+}
+
+.navbar-default {
+    margin: 0;
+    height: 8em;
+    background-color: $white;
+    .container {
+        .navbar-header {
+            a {
+                font-weight: 500;
+                img {
+                    width: 300px;
+                    height: 100px;
+                }
+            }
+        }
+        .navbar-right {
+            padding: 2em 0 0 0;
+        }
+    }
+}
+
+
+/* Banner */
+
+.banner {
+    background: url('https://in.udacity.com/assets/images/pages/homepage/homepage_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: $white;
+    .container {
+        .row {
+            padding: 6em;
+            h1 {
+                font-size: 3.5em;
+                font-weight: 300;
+                padding-bottom: 0.4em;
+            }
+            p {
+                font-size: 1.2em;
+            }
+            img {
+                width: 450px;
+            }
+            form {
+                padding: 3em;
+                .form-group {
+                    padding-left: 4em;
+                }
+                .input-lg {
+                    font-size: 14px;
+                    color: #000;
+                    line-height: 1.3333333;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
+
+
+/* Programs style */
+
+.programs {
+    .container {
+        .row {
+            margin-bottom: 4em;
+            .card-size-small {
+                height: 22em;
+                .btn {
+                    top: 18em;
+                }
+            }
+            .card-size-large {
+                height: 28em;
+                .btn {
+                    top: 24em;
+                }
+            }
+            .card {
+                -webkit-box-shadow: 0px 4px 10px 3px $box-shadow;
+                -moz-box-shadow: 0px 4px 10px 3px $box-shadow;
+                box-shadow: 0px 4px 10px 3px $box-shadow;
+                background-color: $white;
+                margin: -60px 10px 0 30px;
+                // height: 28em;
+                position: relative;
+                .nano-icon {
+                    background-color: $highlight;
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    // display: inline-block;
+                    margin: 2em 0 0 -1em;
+                    text-align: center;
+                    padding: 1em;
+                    i {
+                        font-size: 4em;
+                        color: $white;
+                    }
+                }
+                .course-icon {
+                    background-color: $green;
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    // display: inline-block;
+                    margin: 2em 0 0 -1em;
+                    text-align: center;
+                    padding: 1em;
+                    i {
+                        font-size: 4em;
+                        color: $white;
+                    }
+                }
+                h1 {
+                    font-size: 2.4em;
+                    padding: 2em 0 1em 4em;
+                    font-weight: 300;
+                    display: inline-block;
+                    margin: 0;
+                }
+                p {
+                    padding: 0 4em 3em 8em;
+                    font-size: 1.2em;
+                }
+                .btn-default {
+                    color: $highlight;
+                    background-color: $btn-default;
+                    letter-spacing: 0.1em;
+                    border-color: transparent;
+                    height: 4em;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    // top: 24em;
+                    position: absolute;
+                }
+                .btn-default:hover {
+                    color: $highlight-dark;
+                    background-color: #f5f5f5;
+                }
+            }
+        }
+    }
+}
+
+
+/* Car section */
+
+.driving-car {
+    background-image: url('https://in.udacity.com/assets/images/pages/homepage/sdc_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $white;
+    h1 {
+        padding: 2em 0 0.5em 2em;
+        font-weight: 300;
+        font-size: 3.5em;
+    }
+    p {
+        padding: 0 2em 1em 6.5em;
+        font-size: 1.1em;
+    }
+    button {
+        padding: 1em 5em 1em 5em;
+        font-weight: 600;
+        margin: 1em 0 2em 7em;
+    }
+    .video {
+        padding: 9em 2em;
+        iframe {
+            width: 500px;
+            height: 300px;
+        }
+    }
+}
+
+
+/* Student section */
+
+.students {
+    background-color: $background;
+    text-align: center;
+    .heading {
+        h2 {
+            padding: 1.5em 0 2.5em 0;
+            font-size: 2.2em;
+            font-weight: 300;
+        }
+    }
+    .row {
+        text-align: center;
+        .graduate {
+            border-right: 1px solid $border-color;
+        }
+        img.profile {
+            border-radius: 100%;
+            width: 6em;
+            height: 6em;
+        }
+        h3 {
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+        h4 {
+            color: $brown;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            padding: 0.5em 0 0;
+        }
+        .company-logo {
+            margin: auto;
+            width: 6em;
+        }
+    }
+    .student-footer {
+        padding: 4em 0 10em 0;
+        h3 {
+            padding: 1em;
+            font-weight: 300;
+        }
+        button {
+            padding: 0 4em;
+        }
+    }
+}
+
+
+/* Footer */
+
+footer {
+    background: $footer-background;
+    .container {
+        padding: 4em 0 0 0;
+        .footer-menu {
+            p {
+                text-transform: uppercase;
+                padding: 1em 0 1em 0;
+            }
+            ul {
+                list-style: none;
+                display: inline-block;
+                padding: 0;
+                li {
+                    a {
+                        color: $black;
+                        font-weight: 300;
+                        font-size: 1.1em;
+                        text-transform: capitalize;
+                        text-decoration: none;
+                        float: left;
+                        padding: 0.5em 0 0 0;
+                    }
+                }
+            }
+        }
+        .copyright {
+            padding: 8em 0 4em 3em;
+            .dropupmenu {
+                width: 15em;
+                button {
+                    width: 15em;
+                }
+            }
+            span {
+                color: $brown;
+                font-weight: 300;
+            }
+            .fa {
+                font-size: 2em;
+                color: $brown;
+                padding: 0 1em 0 0;
+            }
+        }
+    }
+}
+
+
+/* Making website responsive */
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1150px) {
+    /* NavBar */
+    .navbar-default {
+        margin: 0;
+        height: 8em;
+        background-color: $white;
+        .container {
+            .navbar-header {
+                a {
+                    font-weight: 500;
+                    img {
+                        width: 300px;
+                        height: 100px;
+                    }
+                }
+            }
+            .navbar-right {
+                padding: 2em 0 0 0;
+            }
+        }
+    }
+    .banner {
+        .container {
+            .row {
+                padding: 4em 0 0 2em;
+                h1 {
+                    font-size: 3.5em;
+                    font-weight: 300;
+                    padding-bottom: 0.4em;
+                }
+                form {
+                    padding: 3em 0 0 0;
+                    .form-group {
+                        padding-left: 4em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    /* NavBar */
+    .navbar-default {
+        margin: 0;
+        height: 6em;
+        background-color: $white;
+        .container {
+            .navbar-header {
+                a {
+                    font-weight: 500;
+                    img {
+                        width: 200px;
+                        height: 80px;
+                    }
+                }
+            }
+            .navbar-right {
+                padding: 1em 0 0 0;
+            }
+        }
+    }
+    /* Programs style */
+    .programs {
+        .container {
+            .row {
+                margin-bottom: 4em;
+                .col-sm-6 {
+                    padding: 0;
+                    .card-size-small {
+                        height: 18em;
+                        .btn {
+                            top: 14em;
+                        }
+                    }
+                    .card-size-large {
+                        height: 22em;
+                        .btn {
+                            top: 18em;
+                        }
+                    }
+                    .card {
+                        .nano-icon {
+                            width: 80px;
+                            height: 80px;
+                            margin: 2em 0 0 -1em;
+                            padding: 1em;
+                            i {
+                                font-size: 3em;
+                            }
+                        }
+                        .course-icon {
+                            width: 80px;
+                            height: 80px;
+                            margin: 2em 0 0 -1em;
+                            padding: 1em;
+                            i {
+                                font-size: 3em;
+                            }
+                        }
+                        h1 {
+                            font-size: 1.6em;
+                            padding: 2.4em 0 1em 5em;
+                        }
+                        p {
+                            padding: 0 4em 3em 8em;
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* Car section */
+    .driving-car {
+        h1 {
+            padding: 2em 0 0.5em 1em;
+            font-size: 3em;
+        }
+        p {
+            padding: 0 2em 1em 2.5em;
+            font-size: 1.1em;
+        }
+        button {
+            margin: 1em 0 2em 3em;
+        }
+        .video {
+            padding: 9em 2em;
+            iframe {
+                width: 350px;
+                height: 280px;
+            }
+        }
+    }
+    /* Student section */
+    .students {
+        .heading {
+            h2 {
+                font-size: 2em;
+            }
+        }
+    }
+    /* Footer */
+    footer {
+        .container {
+            .copyright {
+                .fa {
+                    padding: 0 0.5em 0 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    /* NavBar */
+    .navbar-default {
+        .container {
+            .navbar-right {
+                padding: 2em 0 0 0;
+                li>a {
+                    padding: 5px 8px;
+                }
+            }
+        }
+    }
+    .banner {
+        .container {
+            .row {
+                h1 {
+                    font-size: 2.5em;
+                }
+                form{
+                    display: none;
+                }
+            }
+        }
+    }
+    /* Programs style */
+    .programs {
+        .container {
+            .row {
+                margin-bottom: 4em;
+                .col-sm-6 {
+                    padding: 0;
+                    .card {
+                        
+                        margin-bottom: 100px;
+                        .card-size-small {
+                            height: 17em;
+                            .btn {
+                                top: 15em;
+                            }
+                        }
+                        .card-size-large {
+                            height: 20em;
+                            .btn {
+                                top: 16em;
+                            }
+                        }
+                        .nano-icon {
+                            width: 60px;
+                            height: 60px;
+                            margin: 2em 0 0 -1em;
+                            padding: 1;
+                            i {
+                                font-size: 2em;
+                            }
+                        }
+                        .course-icon {
+                            width: 60px;
+                            height: 60px;
+                            margin: 2em 0 0 -1em;
+                            padding: 1;
+                            i {
+                                font-size: 2em;
+                            }
+                        }
+                        h1 {
+                            font-size: 1.5em;
+                            padding: 2.4em 0 1em 3em;
+                        }
+                        p {
+                            padding: 0 2em 0 5em;
+                            font-size: 0.9em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* Car section */
+    .driving-car {
+        h1 {
+            padding: 2em 0 0.5em 1em;
+            font-size: 2.8em;
+        }
+        .video {
+            padding: 9em 2em;
+            iframe {
+                width: 500px;
+                height: 300px;
+            }
+        }
+    }
+    /* Student section */
+    .students {
+        .heading {
+            h2 {
+                font-size: 2em;
+            }
+        }
+    }
+    /* Footer */
+    footer {
+        .container {
+            
+            img{
+                width: 200px;
+            }
+            .copyright {
+                .fa {
+                    padding: 0 0.5em 0 0;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+ 
+     .video{
+         display: none;
+     }
+    
+}
