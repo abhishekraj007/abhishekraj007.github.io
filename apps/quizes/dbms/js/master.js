@@ -10,7 +10,7 @@ $(function () {
                 nextQuestionText: 'Next Question',
                 backButtonText: '',
                 completeQuizText: 'Get My Result!',
-                tryAgainText: 'ONR MORE!',
+                tryAgainText: 'GENERATE ANOTHER QUIZ!',
                 questionCountText: 'Question %current of %total',
                 preventUnansweredText: 'You must select at least one answer.',
                 questionTemplateText:  '%count. %text',
