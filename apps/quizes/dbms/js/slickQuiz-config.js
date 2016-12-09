@@ -15,58 +15,81 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What number is the letter A in the English alphabet?",
+            "q": "Which of the following indicates the maximum number of entities that can be involved in a relationship?",
             "a": [
-                {"option": "8",      "correct": false},
-                {"option": "14",     "correct": false},
-                {"option": "1",      "correct": true},
-                {"option": "23",     "correct": false} // no comma here
+                {"option": "Minimum cardinality",           "correct": false},
+                {"option": "Maximum cardinality",           "correct": true},
+                {"option": "ERD",                           "correct": false},
+                {"option": "Greater Entity Count (GEC)",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
-            "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
+            "correct": "<p><span>That's right!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span>The correct answer is Maximum cardinality</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following best represents your preferred breakfast?",
+            "q": "In a one-to-many relationship, the entity that is on the one side of the relationship is called a(n) ________ entity.",
             "a": [
-                {"option": "Bacon and eggs",               "correct": false},
-                {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                {"option": "Leftover pizza",               "correct": false},
-                {"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
+                {"option": "parent",               "correct": true},
+                {"option": "child",                 "correct": false},
+                {"option": "instance",               "correct": false},
+                {"option": "subtype",               "correct": false} // no comma here
             ],
-            "select_any": true,
-            "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
+            "correct": "<p><span>That's right!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> The correct answer is parent</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
+            "q": "SQL views can be used to hide:",
             "a": [
-                {"option": "Planet Earth",           "correct": true},
-                {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} // no comma here
+                {"option": "columns and rows only.",           "correct": true},
+                {"option": "complicated SQL syntax only",                  "correct": true},
+                {"option": "Database",  "correct": false},
+                {"option": "Table only",          "correct": true} // no comma here
             ],
             "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "incorrect": "<p><span>Not Quite.</span> The correct answer is:columns and rows only,  complicated SQL syntax only, Table only</p>" // no comma here
         },
         { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
+            "q": "Which of the following refers to an entity in which the identifier of one entity includes the identifier of another entity?",
             "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} // no comma here
+                {"option": "Weak entity",    "correct": false},
+                {"option": "Strong entity",     "correct": false},
+                {"option": "ID-dependent entity",      "correct": true},
+                {"option": "ID-independent entity",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
+            "correct": "<p><span>Holy bananas!</span> Absolutely Correct!</p>",
+            "incorrect": "<p><span>Fail.</span> Sorry. You lose. The correct answer is 'ID-dependent entity'</p>" // no comma here
         },
         { // Question 5
-            "q": "Is Earth bigger than a basketball?",
+            "q": "A ________ is a program that performs some common action on database data and that is stored in the database.",
             "a": [
-                {"option": "Yes",    "correct": true},
-                {"option": "No",     "correct": false} // no comma here
+                {"option": "trigger",               "correct": false},
+                {"option": "stored procedure",     "correct": true},
+                {"option": "pseudofile",            "correct":false },
+                {"option": "None of the above is correct", "correct": false}// no comma here
             ],
-            "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" // no comma here
-        } // no comma here
+            "correct": "<p><span>Good Job!</span></p>",
+            "incorrect": "<p><span>ERRRR!</span> The correct answer is: stored procedure</p>" // no comma here
+        },
+        { // Question 6
+            "q": "A foreign key is which of the following?",
+            "a": [
+                {"option": "Any attribute",               "correct": false},
+                {"option": "The same thing as a primary key",     "correct": false},
+                {"option": "An attribute that serves as the primary key of another relation",            "correct":true },
+                {"option": "An attribute that serves no purpose", "correct": false}
+            ],
+            "correct": "<p><span>Good Job!</span></p>",
+            "incorrect": "<p><span>ERRRR!</span>The correct answer is: An attribute that serves as the primary key of another relation</p>" 
+        },
+        { // Question 7
+            "q": "The entity integrity rule states that:",
+            "a": [
+                {"option": "no primary key attribute may be null",    "correct": true},
+                {"option": "no primary key can be composite",     "correct": false},
+                {"option": "no primary key may be unique",      "correct": false},
+                {"option": "no primary key may be equal to a value in a foreign key",   "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Holy bananas!</span> Absolutely Correct!</p>",
+            "incorrect": "<p><span>Sorry. You lose.</span> The correct answer is: no primary key attribute may be null</p>" // no comma here
+        }// No comma here
     ]
 };
