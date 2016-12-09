@@ -5,13 +5,13 @@
 var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge!!",
-        "main":    "<p>Think you're smart enough to be on Jeopardy? Find out with this super crazy knowledge quiz!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "main":    "<p>Let's see how well you are prepared!</p>",
+        "results": "<h5>I think you should try one more test</h5><p></p>",
+        "level1":  "Wao! You are real champion!",
+        "level2":  "Wao! Very soon you'll become a champion.",
+        "level3":  "Good. Next time prepared well.",
+        "level4":  "Whatt? Not prepared??",
+        "level5":  "God! You need to work extremely hard kid..." // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
