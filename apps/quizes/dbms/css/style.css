@@ -1,0 +1,42 @@
+/* YOUR CUSTOM STYLES */
+body{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    margin: 5px auto;
+}
+
+
+.btn-outline-primary {
+    border: 2px solid #FF9800;
+    color: #F57C00!important;
+    background-color: transparent;
+}
+.btn-outline-primary:active{
+    color: #fff;
+    background-color: #F57C00;
+    border-color: #FF9800;
+}
+.btn-outline-primary:hover{
+    color: #fff;
+    background-color: #F57C00;
+    border-color: #FF9800;
+}
+.btn-outline-primary:active:hover{
+    color: #fff;
+    background-color: #F57C00;
+    border-color: #FF9800;
+}
+
+.img-responsive { width:100%; }   
+
+ul, ul li {
+    list-style-type: inherit;
+    margin-left: 10px;
+}
+
+.pull-right{
+    float: right;
+}

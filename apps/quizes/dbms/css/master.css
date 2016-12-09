@@ -6,12 +6,12 @@ html {
 }
 
 body {
-    width: 800px;
-    margin: 0 auto;
-    border: 2px solid #ccc;
+    width: 100%;
+    margin: 10px auto;
+    border: none;
     border-top: none;
     background: #fff;
-    padding: 20px;
+    padding: 30px;
     font-family: Trebuchet, Arial,Helvetica,sans-serif;
     font-size: 16px;
     color: #353535;
@@ -21,9 +21,9 @@ body {
 h1,h2,h3,h4,h5,h6 {font-weight: bold;}
 
 h1 {
-    font-size: 26px;
-    margin: 0 0 20px;
-    color: #0C4569;
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    color: #56595a;
 }
 h2 {
     font-size: 22px;
@@ -32,6 +32,7 @@ h2 {
 h3 {
     font-size: 18px;
     margin: 15px 0 10px;
+    color: #56595a;
 }
 h4 {
     font-size: 16px;
@@ -56,17 +57,41 @@ ol li { list-style-type: decimal; margin-left: 20px; }
     float: left;
     width: auto;
     padding: 5px 15px;
-    color:#ffffff;
-    background-color:darkcyan;
+    /*color:#ffffff;*/
+    /*background-color:darkcyan;*/
     border: 1px solid #fff;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 	text-decoration: none;
+	 border: 2px solid #FF9800;
+    color: #F57C00!important;
+    background-color: transparent;
+     margin: 5px auto;
 }
-.button:hover {
-    background-color:darkslategray;
+
+.button:active{
+    color: #fff;
+    background-color: #F57C00;
+    border-color: #FF9800;
 }
+
+
+.button:hover{
+    color: #fff;
+    background-color: #F57C00;
+    border-color: #FF9800;
+}
+.button:active:hover{
+    color: #fff;
+    background-color: #F57C00;
+    border-color: #FF9800;
+}
+
+input[type="radio"] {
+    margin: 3px 3px 0px 5px;
+}
+
 
 .startQuiz {
     margin-top: 40px;

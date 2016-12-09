@@ -6,12 +6,12 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge!!",
         "main":    "<p>Let's see how well you are prepared!</p>",
-        "results": "<h5>I think you should try one more test</h5><p></p>",
+        "results": "",// Write here what you want to dispaly before Try Again Button
         "level1":  "Wao! You are real champion!",
-        "level2":  "Wao! Very soon you'll become a champion.",
-        "level3":  "Good. Next time prepared well.",
-        "level4":  "Whatt? Not prepared??",
-        "level5":  "God! You need to work extremely hard kid..." // no comma here
+        "level2":  "Very Good!.",
+        "level3":  "Satisfactory. Next time prepared well.",
+        "level4":  "Not prepared??",
+        "level5":  "God!! You need to work extremely hard kid..." // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
