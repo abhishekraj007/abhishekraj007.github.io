@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "One relation is created.",
+        "Two relations are created.",
+        "Three relations are created.",
+        "Four relations are created."
+      ],
+      "correct": {
+        "index": 2,
+        "text": ""
+      },
+      "number": 1,
+      "prompt": "When mapping a binary many-to-many relationship into a relation which of the following is true?"
+    },
+    {
+      "answers": [
+        "Used to develop logical schemas",
+        "A data definition language for OODB",
+        "A method to implement a logical schema",
+        "All of the above."
+      ],
+      "correct": {
+        "index": 3,
+        "text": ""
+      },
+      "number": 2,
+      "prompt": "The object definition language (ODL) is which of the following?"
+    },
+    {
+      "answers": [
+        "second normal form.",
+        "third normal form.",
+        "fourth normal form.",
+        "domain/key normal form."
+      ],
+      "correct": {
+        "index": 2,
+        "text": ""
+      },
+      "number": 4,
+      "prompt": "A relation is in this form if it is in BCNF and has no multivalued dependencies:"
+    },
+    {
+      "answers": [
+        "composite keys",
+        "determinants",
+        "candidate keys",
+        "foreign keys"
+      ],
+      "correct": {
+        "index": 2,
+        "text": ""
+      },
+      "number": 5,
+      "prompt": "The primary key is selected from the:"
+    }
+  ],
+  "title": "Let's see how well you got the DBMS?",
+  "url": null
+}
