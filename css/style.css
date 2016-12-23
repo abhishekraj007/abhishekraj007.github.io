@@ -99,7 +99,7 @@ img{
 
 
 @media screen 
-and (max-device-width: 580px){
+and (max-width: 580px){
 
     .btn{
      font-size: .7em;
@@ -110,8 +110,8 @@ and (max-device-width: 580px){
 }
 
 @media screen 
-and (min-device-width: 580px)
-and (max-device-width: 630px)
+and (min-width: 580px)
+and (max-width: 630px)
 {
 .btn{
       font-size: .7em;
@@ -121,8 +121,8 @@ and (max-device-width: 630px)
 
 
 @media screen 
-and (min-device-width: 630px)
-and (max-device-width: 900px){
+and (min-width: 630px)
+and (max-width: 900px){
 .btn{
     
    padding: .9em;
@@ -135,8 +135,8 @@ and (max-device-width: 900px){
 
 
 @media screen 
-and (min-device-width: 900px) 
-and (max-device-width: 1200px){
+and (min-width: 900px) 
+and (max-width: 1200px){
 
 .btn{
     font-size: 1em;
@@ -151,9 +151,9 @@ and (max-device-width: 1200px){
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+  and (min-width: 1200px) 
+  and (max-width: 1600px) 
+  and (-webkit-min-pixel-ratio: 1) { 
       
       
       
