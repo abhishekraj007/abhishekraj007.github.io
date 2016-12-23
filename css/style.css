@@ -18,8 +18,15 @@ img{
 .row{
     margin: 0;
 }
-.col-xs-12{
+
+.col-sm-8{
     margin: 0;
+    padding: 0;
+}
+
+.col-sm-1{
+    margin: 0;
+    padding: 0;
 }
 
 .globus{
