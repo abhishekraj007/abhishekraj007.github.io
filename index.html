@@ -12,6 +12,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
+    <!-- Ion Icons -->
+    <link rel="stylesheet" href="css/ionicons.min.css" type="text/css" />
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -19,6 +22,9 @@
     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
 
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
@@ -36,46 +42,84 @@
 <body>
 
     <section>
-         <div class="container">
+        <div class="container">
 
             <div class="col-sm-3">
-                <div class="side-nav">
-                    <div class="side-nav-list">
-                        <li>
-                            <a href="https://www.linkedin.com/in/abhishekrajme" target="_blank">
-                                <i class="fa fa-linkedin"></i> &nbsp; LinkedIn
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.github.com/abhishekraj007" target="_blank">
-                                <i class="fa fa-github"></i> &nbsp; Github
-                            </a>
-                        </li>
+                <div class="sidebar">
+                    <div class="side-nav widget">
+                        <div class="widget-title text-center">
+                            <h2>Links</h2>
+                        </div>
 
-                        <li>
 
-                            <a href="https://m.me/abhishekraj.info" target="_blank">
-                                <!--<i class="fa fa-commenting"></i>-->
-                                <img src="img/messenger.png" /> &nbsp; Message
-                            </a>
-                        </li>
+                        <div class="side-nav-list" data-aos="fade-up" data-aos-duration="2000">
+                            <li>
+                                <a href="https://www.linkedin.com/in/abhishekrajme" target="_blank">
+                                    <i class="ion-social-linkedin-outline"></i> &nbsp; LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.github.com/abhishekraj007" target="_blank">
+                                    <i class="ion-social-github-outline"></i> &nbsp; Github
+                                </a>
+                            </li>
 
+                            <li>
+
+                                <a href="https://m.me/abhishekraj.info" target="_blank">
+                                    <!--<i class="fa fa-commenting"></i>-->
+                                    <img src="img/messenger.png" /> &nbsp; Message
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="http://www.abhishekraj007.github.io/blog">
+                                    <!--<i class="fa fa-commenting"></i>-->
+                                    <i class="ion-ios-compose-outline"></i> &nbsp; Blog
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                    <!-- Side-nav -->
+
+                    <!-- Profile -->
+                    <div class="profile widget text-center">
+
+                        <div data-aos="fade-up" data-aos-duration="2000">
+
+                            <div class="widget-title">
+                                <h2>
+                                    About Me
+                                </h2>
+                            </div>
+
+                            <img src="img/profile.png" />
+                            <p class="desc">
+                                Hi! My name is Abhishek Raj. I am a CS Undergrad passionate about Front-End engineering. 
+                            </p>
+                        </div>
 
                     </div>
-
+                    <!-- Profile -->
                 </div>
+                <!-- sidebar -->
+
+
+
+
 
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-9 ">
 
 
-                <div class="portfolio">
+                <div class="portfolio widget">
 
-                    <div class="heading-top">
+
+                    <div class="widget-title">
                         <h2 class="text-center">Latest Works</h2>
 
                     </div>
-                    <div class="latest text-center">
+                    <div class="latest text-center" data-aos="fade-up" data-aos-duration="2000">
                         <div class="row">
                             <div class="col-sm-4">
                                 <img class="thumb image-responsive" src="img/time_tracker.png"></img>
@@ -98,15 +142,18 @@
                                 <a class="btn" href="">Visit Project</a>
 
                             </div>
+                            <!-- col-->
 
                         </div>
+                        <!-- row -->
                     </div>
+                    <!-- latest -->
 
                     <div class="others-pro">
                         <!--DBMS-->
                         <hr>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000">
                                 <div class="project-image pull-left">
                                     <img class="thumb" src="img/dbms.png" />
                                 </div>
@@ -125,7 +172,7 @@
                         <hr>
                         <!-- Forrest Gump -->
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000">
                                 <div class="project-image pull-left">
                                     <img class="thumb" src="img/forestrun.png" />
                                 </div>
@@ -144,9 +191,9 @@
 
                         <!--Show More Button-->
                         <div class="row text-center ">
-                            <div class="col-sm-12 ">
+                            <div class="col-sm-12 " data-aos="fade-up" data-aos-duration="2000">
                                 <div class="show-project">
-                                    <i class='fa fa-plus-circle'></i>
+                                    <i class='ion-ios-plus-outline'></i>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +203,7 @@
                             <!-- Forrest Gump -->
                             <hr>
                             <div class="row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000">
                                     <div class="project-image pull-left">
                                         <img class="thumb" src="img/backup.png" />
                                     </div>
@@ -175,7 +222,7 @@
 
                             <hr>
                             <div class="row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000">
                                     <div class="project-image pull-left">
                                         <img class="thumb" src="img/invoice.png" />
                                     </div>
@@ -192,7 +239,7 @@
                             </div>
                             <hr>
                             <div class="row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000">
                                     <div class="project-image pull-left">
                                         <img class="thumb" src="img/wiki_search.png" />
                                     </div>
@@ -208,9 +255,9 @@
                                 </div>
                             </div>
                             <div class="row text-center ">
-                                <div class="col-sm-12 ">
+                                <div class="col-sm-12 " data-aos="fade-up" data-aos-duration="2000">
                                     <div class="hide-project">
-                                        <i class='fa fa-times-circle'></i>
+                                        <i class='ion-ios-close-outline'></i>
                                     </div>
                                 </div>
                             </div>
@@ -219,7 +266,7 @@
 
                     </div>
                 </div>
-                <div class="clients-project text-center">
+                <div class="clients-project text-center" data-aos="fade-up" data-aos-duration="2000">
                     <div>
                         <a class="btn" href="#">Website & Mobile Apps in action</a>
                     </div>
@@ -244,6 +291,14 @@
 
 
     <!-- SCRIPTS -->
+
+    <script id="__bs_script__">
+        //<![CDATA[
+        document.write("<script async src='http://HOST:8082/browser-sync/browser-sync-client.js?v=2.18.6'><\/script>".replace("HOST", location.hostname));
+        //]]>
+    </script>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 
 </body>

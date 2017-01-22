@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-  
+    AOS.init();
     
     // On load add plus btn
     var $showBtn = $(".show-project");
