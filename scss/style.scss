@@ -16,11 +16,11 @@ body {
 }
 
 // Header
-header {
+nav {
     display: block;
 }
 
-.bar-header {
+.navigation {
     box-shadow: rgb(0, 0, 0) 0px -3px 9px;
     // position: fixed;
     width: 100%;
@@ -37,6 +37,10 @@ header {
         a::after {
             content: "</ > Abhishek Raj  ";
         }
+    }
+    
+    .menu{
+        
     }
 }
 
@@ -172,6 +176,11 @@ h3 {
     margin-top: -50px;
     font-size: 2em;
 }
+
+.pull-left{
+  float: left;
+}
+
 
 .latest img {}
 

@@ -10,11 +10,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
+nav {
   display: block;
 }
 
-.bar-header {
+.navigation {
   box-shadow: black 0px -3px 9px;
   width: 100%;
   z-index: 10;
@@ -22,7 +22,7 @@ header {
   background: white;
 }
 
-.bar-header .logo {
+.navigation .logo {
   line-height: 2.188rem;
   margin: 0px;
   padding: 10px 34px;
@@ -31,7 +31,7 @@ header {
   text-decoration: none;
 }
 
-.bar-header .logo a::after {
+.navigation .logo a::after {
   content: "</ > Abhishek Raj  ";
 }
 
@@ -160,6 +160,10 @@ h3 {
 .portfolio i {
   margin-top: -50px;
   font-size: 2em;
+}
+
+.pull-left {
+  float: left;
 }
 
 .latest h3 {

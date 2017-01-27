@@ -10,7 +10,11 @@
     <title>Abhishek Raj</title>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">-->
+
+    <!--Normalize css-->
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
 
     <!-- Ion Icons -->
     <link rel="stylesheet" href="css/ionicons.min.css" type="text/css" />
@@ -18,22 +22,12 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-
+    <!--custom style-->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!--animation-->
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
-
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-    <script type="text/javascript" src="js/main.js"></script>
 
 
 
@@ -42,11 +36,57 @@
 <body>
 
 
-    <header class="bar-header">
+    <nav class="nav navbar-default navigation">
         <h1 class="logo">
             <a href=""></a>
         </h1>
-    </header>
+
+
+        <!--<div class="navbar-header">-->
+        <!--    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">-->
+        <!--            <span class="sr-only">Toggle navigation</span>-->
+        <!--            <span class="icon-bar"></span>-->
+        <!--            <span class="icon-bar"></span>-->
+        <!--            <span class="icon-bar"></span>-->
+        <!--          </button>-->
+
+        <!--</div>-->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!--<div class="collapse navbar-collapse pull-right" id="menu">-->
+        <!--    <ul class="nav navbar-nav">-->
+        <!--        <li>-->
+        <!--            <a href="http://abhishekraj007.github.io/blog">-->
+                        <!--<i class="fa fa-commenting"></i>-->
+        <!--                <i class="ion-ios-compose-outline"></i> &nbsp; Blog-->
+        <!--            </a>-->
+        <!--        </li>-->
+        <!--        <li>-->
+        <!--            <a href="https://www.github.com/abhishekraj007" target="_blank">-->
+        <!--                <i class="ion-social-github-outline"></i> &nbsp; Github-->
+        <!--            </a>-->
+        <!--        </li>-->
+        <!--        <li>-->
+        <!--            <a href="https://www.linkedin.com/in/abhishekrajme" target="_blank">-->
+        <!--                <i class="ion-social-linkedin-outline"></i> &nbsp; LinkedIn-->
+        <!--            </a>-->
+        <!--        </li>-->
+                <!-- Linked In -->
+
+        <!--        <li>-->
+
+        <!--            <a href="https://m.me/abhishekraj.info" target="_blank">-->
+                        <!--<i class="fa fa-commenting"></i>-->
+        <!--                <img src="img/messenger.png" /> &nbsp; Message-->
+        <!--            </a>-->
+        <!--        </li>-->
+                <!-- Message-->
+
+        <!--    </ul>-->
+        <!--</div>-->
+
+
+    </nav>
 
 
     <section>
@@ -66,19 +106,22 @@
                                     <!--<i class="fa fa-commenting"></i>-->
                                     <i class="ion-ios-compose-outline"></i> &nbsp; Blog
                                 </a>
-                            </li><!-- Blog -->
+                            </li>
+                            <!-- Blog -->
 
                             <li>
                                 <a href="https://www.github.com/abhishekraj007" target="_blank">
                                     <i class="ion-social-github-outline"></i> &nbsp; Github
                                 </a>
-                            </li><!-- Github -->
+                            </li>
+                            <!-- Github -->
 
                             <li>
                                 <a href="https://www.linkedin.com/in/abhishekrajme" target="_blank">
                                     <i class="ion-social-linkedin-outline"></i> &nbsp; LinkedIn
                                 </a>
-                            </li> <!-- Linked In -->
+                            </li>
+                            <!-- Linked In -->
 
 
                             <li>
@@ -87,7 +130,8 @@
                                     <!--<i class="fa fa-commenting"></i>-->
                                     <img src="img/messenger.png" /> &nbsp; Message
                                 </a>
-                            </li> <!-- Message-->
+                            </li>
+                            <!-- Message-->
 
                         </div>
                     </div>
@@ -106,7 +150,7 @@
 
                             <img src="img/profile.png" />
                             <p class="desc">
-                                Hi! I'm Abhishek Raj. A CSE Undergrad. Am passionate about Front-End Engineering. When I'm not reading books, I'll be doing A/B Testing.
+                                Hello! I'm Abhishek. I'm a CSE Undergrad, Passionate about front-end engineering.
                             </p>
                         </div>
 
@@ -180,7 +224,7 @@
                             </div>
                         </div>
                         <!--End of DBMS-->
-                        
+
 
                         <!--Show More Button-->
                         <div class="row text-center ">
@@ -193,27 +237,27 @@
                         <!--End of show project Button -->
 
                         <div class="project-hidden">
-                            
+
                             <hr>
-                        <!-- Forrest Gump -->
-                        <div class="row">
-                            <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000">
-                                <div class="project-image pull-left">
-                                    <img class="thumb" src="img/forestrun.png" />
-                                </div>
-                                <div class="others-content">
-                                    <h3>Forrest Run Game</h3>
-                                    <div class="content">
-                                        <p>A running android game, inspired by Forrest Gump running. Accumulates scores by collecting coins and saves it on leaderboard.</p>
+                            <!-- Forrest Gump -->
+                            <div class="row">
+                                <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="project-image pull-left">
+                                        <img class="thumb" src="img/forestrun.png" />
                                     </div>
-                                    <a href="https://play.google.com/store/apps/details?id=com.akrj.app.runforrestrun" target="_blank">Visit Project</a>
+                                    <div class="others-content">
+                                        <h3>Forrest Run Game</h3>
+                                        <div class="content">
+                                            <p>A running android game, inspired by Forrest Gump running. Accumulates scores by collecting coins and saves it on leaderboard.</p>
+                                        </div>
+                                        <a href="https://play.google.com/store/apps/details?id=com.akrj.app.runforrestrun" target="_blank">Visit Project</a>
+
+                                    </div>
 
                                 </div>
-
                             </div>
-                        </div>
-                        <!--/Forrest Gump-->
-                            
+                            <!--/Forrest Gump-->
+
                             <!-- Backup manager -->
                             <hr>
                             <div class="row">
@@ -307,11 +351,19 @@
 
     <!-- SCRIPTS -->
 
-    <script id="__bs_script__">
-        //<![CDATA[
-        document.write("<script async src='http://HOST:8082/browser-sync/browser-sync-client.js?v=2.18.6'><\/script>".replace("HOST", location.hostname));
-        //]]>
-    </script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--custom js-->
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+     <script id="__bs_script__">
+    //     //<![CDATA[
+    //     document.write("<script async src='http://HOST:8082/browser-sync/browser-sync-client.js?v=2.18.6'><\/script>".replace("HOST", location.hostname));
+    //     //]]>
+    // </script>
 
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
