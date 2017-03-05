@@ -25,7 +25,6 @@
     <!--custom style-->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!--animation-->
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
 
@@ -36,143 +35,109 @@
 <body>
 
 
-    <nav class="nav navbar-default navigation">
-        <h1 class="logo">
-            <a href=""></a>
-        </h1>
+    <nav class="navbar navbar-default navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="logo" href="#"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://abhishekraj007.github.io/blog">
+                            <i class="ion-ios-compose-outline"></i> &nbsp; Blog
+                        </a>
+                    </li>
 
-
-        <!--<div class="navbar-header">-->
-        <!--    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">-->
-        <!--            <span class="sr-only">Toggle navigation</span>-->
-        <!--            <span class="icon-bar"></span>-->
-        <!--            <span class="icon-bar"></span>-->
-        <!--            <span class="icon-bar"></span>-->
-        <!--          </button>-->
-
-        <!--</div>-->
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <!--<div class="collapse navbar-collapse pull-right" id="menu">-->
-        <!--    <ul class="nav navbar-nav">-->
-        <!--        <li>-->
-        <!--            <a href="http://abhishekraj007.github.io/blog">-->
-                        <!--<i class="fa fa-commenting"></i>-->
-        <!--                <i class="ion-ios-compose-outline"></i> &nbsp; Blog-->
-        <!--            </a>-->
-        <!--        </li>-->
-        <!--        <li>-->
-        <!--            <a href="https://www.github.com/abhishekraj007" target="_blank">-->
-        <!--                <i class="ion-social-github-outline"></i> &nbsp; Github-->
-        <!--            </a>-->
-        <!--        </li>-->
-        <!--        <li>-->
-        <!--            <a href="https://www.linkedin.com/in/abhishekrajme" target="_blank">-->
-        <!--                <i class="ion-social-linkedin-outline"></i> &nbsp; LinkedIn-->
-        <!--            </a>-->
-        <!--        </li>-->
-                <!-- Linked In -->
-
-        <!--        <li>-->
-
-        <!--            <a href="https://m.me/abhishekraj.info" target="_blank">-->
-                        <!--<i class="fa fa-commenting"></i>-->
-        <!--                <img src="img/messenger.png" /> &nbsp; Message-->
-        <!--            </a>-->
-        <!--        </li>-->
-                <!-- Message-->
-
-        <!--    </ul>-->
-        <!--</div>-->
-
-
+                    <li>
+                        <a href="https://www.github.com/abhishekraj007" target="_blank">
+                            <i class="ion-social-github-outline"></i> &nbsp; Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/abhishekrajme" target="_blank">
+                            <i class="ion-social-linkedin-outline"></i> &nbsp; LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://m.me/abhishekraj.info" target="_blank">
+                            <!--<i class="fa fa-commenting"></i>-->
+                            <img class="menu-item-image" src="img/messenger.png" /> &nbsp; Message
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
-
 
     <section>
         <div class="container">
-
             <div class="col-sm-3">
+
                 <div class="sidebar">
-                    <div class="side-nav widget">
-                        <div class="widget-title text-center">
-                            <h2>Links</h2>
-                        </div>
-
-
-                        <div class="side-nav-list">
-                            <li>
-                                <a href="http://abhishekraj007.github.io/blog">
-                                    <!--<i class="fa fa-commenting"></i>-->
-                                    <i class="ion-ios-compose-outline"></i> &nbsp; Blog
-                                </a>
-                            </li>
-                            <!-- Blog -->
-
-                            <li>
-                                <a href="https://www.github.com/abhishekraj007" target="_blank">
-                                    <i class="ion-social-github-outline"></i> &nbsp; Github
-                                </a>
-                            </li>
-                            <!-- Github -->
-
-                            <li>
-                                <a href="https://www.linkedin.com/in/abhishekrajme" target="_blank">
-                                    <i class="ion-social-linkedin-outline"></i> &nbsp; LinkedIn
-                                </a>
-                            </li>
-                            <!-- Linked In -->
-
-
-                            <li>
-
-                                <a href="https://m.me/abhishekraj.info" target="_blank">
-                                    <!--<i class="fa fa-commenting"></i>-->
-                                    <img src="img/messenger.png" /> &nbsp; Message
-                                </a>
-                            </li>
-                            <!-- Message-->
-
-                        </div>
-                    </div>
-                    <!-- Side-nav -->
 
                     <!-- Profile -->
                     <div class="profile widget text-center">
-
-                        <div data-aos="fade-up" data-aos-duration="2000">
-
-                            <div class="widget-title">
-                                <h2>
-                                    About Me
-                                </h2>
-                            </div>
-
-                            <img src="img/profile.png" />
-                            <p class="desc">
-                                Hello! I'm Abhishek. I'm a CSE Undergrad, passionate about front-end engineering. When I'm not reading books, sherlock is playing on my laptop..
-                            </p>
+                        <div class="widget-title">
+                            <h2>
+                                About Me
+                            </h2>
                         </div>
-
+                        <img src="img/profile.png" />
+                        <p class="desc">
+                            Hello! I'm Abhishek. I'm a CSE Undergrad, passionate about front-end engineering. Here you can read about my <strong>works</strong> and <strong>project</strong>.
+                        </p>
                     </div>
                     <!-- Profile -->
+                    <div class="client-projects widget">
+                        <div class="widget-title text-center">
+                            <h2>Client's Projects</h2>
+                        </div>
+                        <div class="client-list">
+                            <ul>
+                                <li>
+                                    <a href="http://cbetter.in">CBetter Consulting
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.rasavjewels.com" target="_blank">Rajav Jewels
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="http://pinkcitykirana.com" target="_blank">Pinkcity Kirana
+                                </a>
+                                </li>
+                                <li> <a href="http://globusremedies.com" target="_blank">Globus Remedies  </a>
+                                </li>
+                                <li> <a href="http://designvolt.in" target="_blank">Design Volt</a>
+                                </li>
+                                <li> <a href="http://manishmedia.com" target="_blank">Manish Media</a>
+                                </li>
+                                <li> <a href="http://myinsignia.in" target="_blank">My Insignia</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                        <!-- side-nav-list -->
+                    </div>
+                    <!-- Client-project -->
                 </div>
                 <!-- sidebar -->
-
-
-
-
-
             </div>
+            <!-- col-sm-3 -->
+
             <div class="col-sm-9 ">
-
-
                 <div class="portfolio widget">
-
-
                     <div class="widget-title">
                         <h2 class="text-center">Latest Works</h2>
-
                     </div>
                     <div class="latest text-center" data-aos="fade-up" data-aos-duration="2000">
                         <div class="row">
@@ -343,7 +308,7 @@
 
     <!--Footer-->
     <footer class="page-footer text-center">
-        
+
         <!--<div>-->
         <!--    <span>Simplicity is the father of awesomeness</span>-->
         <!--</div>-->
@@ -355,18 +320,19 @@
     <!-- SCRIPTS -->
 
     <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!--custom js-->
     <script type="text/javascript" src="js/main.js"></script>
 
 
-     <script id="__bs_script__">
-    //     //<![CDATA[
-    //     document.write("<script async src='http://HOST:8082/browser-sync/browser-sync-client.js?v=2.18.6'><\/script>".replace("HOST", location.hostname));
-    //     //]]>
-    // </script>
+    <script id="__bs_script__">
+        //     //<![CDATA[
+        //     document.write("<script async src='http://HOST:8082/browser-sync/browser-sync-client.js?v=2.18.6'><\/script>".replace("HOST", location.hostname));
+        //     //]]>
+        //
+    </script>
 
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
