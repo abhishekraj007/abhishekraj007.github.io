@@ -1,5 +1,28 @@
 [
   {
+    "title":"Quotes",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"All",
+        "provider":"pinterest",
+        "arguments":[
+          "61783894827016980"
+        ]
+      },
+      {
+        "title":"Life",
+        "provider":"pinterest",
+        "arguments":[
+          "230035562155878604"
+        ]
+      }
+    ]
+  },
+  
+  {
     "title":"Wordpress Blogs",
     "drawable":"",
     "submenu":"",
