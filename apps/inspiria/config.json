@@ -182,23 +182,40 @@
   },
 
   {
-    "title": "Music",
+    "title": "Speeches",
     "drawable": "",
     "submenu": "",
     "iap": false,
     "tabs": [{
-      "title": "User",
+      "title": "Ultimate",
       "provider": "soundcloud",
       "arguments": [
-        "13568105", "user"
+        "150128207", "playlist"
       ]
     }, {
-      "title": "Playlist",
+      "title": "Ambitious",
       "provider": "soundcloud",
       "arguments": [
-        "104226047", "playlist"
+        "64500246", "playlist"
       ]
-    }]
+    },
+    {
+      "title": "Fearless",
+      "provider": "soundcloud",
+      "arguments": [
+        "131881637", "user"
+      ]
+    },
+    {
+      "title": "Success",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "64256790"
+      ]
+    },
+    
+    
+    ]
   },
 
 
