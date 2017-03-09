@@ -210,6 +210,59 @@
     }]
   },
 
+  {
+    "title": "Musics",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "Study Focus",
+        "provider": "soundcloud",
+        "arguments": [
+          "59174100", "playlist"
+        ]
+      }, {
+        "title": "Study Grind",
+        "provider": "soundcloud",
+        "arguments": [
+          "27087959", "playlist"
+        ]
+      }, {
+        "title": "Relax",
+        "provider": "soundcloud",
+        "arguments": [
+          "266375639", "playlist"
+        ]
+      }, {
+        "title": "Workout",
+        "provider": "soundcloud",
+        "arguments": [
+          "203727010", "playlist"
+        ]
+      }
+
+      , {
+        "title": "Workout",
+        "provider": "soundcloud",
+        "arguments": [
+          "203727010", "playlist"
+        ]
+      }, {
+        "title": "Ultimate",
+        "provider": "soundcloud",
+        "arguments": [
+          "86572871", "playlist"
+        ]
+      }, {
+        "title": "Passion",
+        "provider": "soundcloud",
+        "arguments": [
+          "60125241", "playlist"
+        ]
+      }
+    ]
+  },
+
 
   {
     "title": "Articles",
@@ -231,25 +284,45 @@
     "submenu": "",
     "iap": false,
     "tabs": [{
-      "title": "Tumblr",
+      "title": "Quote Journal",
       "provider": "tumblr",
       "arguments": [
-        "androidbackgrounds"
+        "thequotejournals"
+      ]
+    }, {
+      "title": "The Power",
+      "provider": "tumblr",
+      "arguments": [
+        "thepowerwithin"
+      ]
+    }, {
+      "title": "The Talk",
+      "provider": "tumblr",
+      "arguments": [
+        "quotethattalk"
       ]
     }]
   },
 
   {
-    "title": "Facebook",
+    "title": "Fb Quotes",
     "drawable": "",
     "submenu": "",
     "iap": false,
     "tabs": [{
-      "title": "Facebook",
-      "provider": "facebook",
-      "arguments": [
-        "104958162837"
-      ]
-    }]
+        "title": "Karen Motivation",
+        "provider": "facebook",
+        "arguments": [
+          "318094793706"
+        ]
+      }, {
+        "title": "The Light",
+        "provider": "facebook",
+        "arguments": [
+          "1047563178589559"
+        ]
+      }
+
+    ]
   }
 ]
