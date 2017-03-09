@@ -5,7 +5,7 @@
     "submenu": "",
     "iap": false,
     "tabs": [{
-      "title": "All",
+      "title": "Feed",
       "provider": "pinterest",
       "arguments": [
         "61783894827016980"
@@ -16,8 +16,109 @@
       "arguments": [
         "230035562155878604"
       ]
+    },
+    {
+      "title": "Meaning",
+      "provider": "pinterest",
+      "arguments": [
+        "24981041622051313"
+      ]
+    },
+    {
+      "title": "Wisdom",
+      "provider": "pinterest",
+      "arguments": [
+        "438538151154634339"
+      ]
+    },
+    {
+      "title": "Success",
+      "provider": "pinterest",
+      "arguments": [
+        "832603118549078676"
+      ]
+    },
+    {
+      "title": "Proverb",
+      "provider": "pinterest",
+      "arguments": [
+        "537406236723888469"
+      ]
+    },
+    {
+      "title": "Failure",
+      "provider": "pinterest",
+      "arguments": [
+        "345721777584097534"
+      ]
+    },
+    {
+      "title": "Fitness",
+      "provider": "pinterest",
+      "arguments": [
+        "383580161951540105"
+      ]
+    },
+    {
+      "title": "Author",
+      "provider": "pinterest",
+      "arguments": [
+        "474989160638693835"
+      ]
+    },
+    {
+      "title": "Money",
+      "provider": "pinterest",
+      "arguments": [
+        "305119012193332344"
+      ]
+    },
+    {
+      "title": "Love",
+      "provider": "pinterest",
+      "arguments": [
+        "438538151154315345"
+      ]
+    },
+    {
+      "title": "Friendship",
+      "provider": "pinterest",
+      "arguments": [
+        "438538151154315347"
+      ]
+    },
+    {
+      "title": "Job",
+      "provider": "pinterest",
+      "arguments": [
+        "540432092723694944"
+      ]
     }]
   }, 
+  
+  {
+    "title": "Videos",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Fight Mediocrity",
+      "provider": "youtube",
+      "arguments": [
+        "PL-bTaZrTDhtbhxgS59t4HzwCnq2iIYMgV",
+        "UCXLesGEfmyhxqOjoAqhRwhA"
+      ]
+    },
+    {
+      "title": "Picasso",
+      "provider": "youtube",
+      "arguments": [
+        "PL2tBZjk6erj2gK3ut--MeiC0m-63cbCpe",
+        "UCORp0Fxa5lHFuZfLHxfeLuQ"
+      ]
+    }
+    ]
+  },
   
   {
     "title": "Movies",
@@ -34,94 +135,7 @@
     }]
   },
 
-  {
-    "title": "Wordpress Blogs",
-    "drawable": "",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-      "title": "Recent",
-      "provider": "wordpress",
-      "arguments": [
-        "en.blog.wordpress.com"
-      ]
-    }, {
-      "title": "Themes",
-      "provider": "wordpress",
-      "arguments": [
-        "en.blog.wordpress.com",
-        "themes"
-      ]
-    }, {
-      "title": "Securita",
-      "provider": "wordpress",
-      "arguments": [
-        "en.blog.wordpress.com",
-        "security"
-      ]
-    }, {
-      "title": "Events",
-      "provider": "wordpress",
-      "arguments": [
-        "en.blog.wordpress.com",
-        "events"
-      ]
-    }]
-  }, {
-    "title": "Radio 3FM",
-    "drawable": "",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-      "title": "Radio 3FM",
-      "provider": "radio",
-      "arguments": [
-        "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=709809"
-      ]
-    }]
-  }, {
-    "title": "Live TV ABC",
-    "drawable": "",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-      "title": "Live TV ABC",
-      "provider": "stream",
-      "arguments": [
-        "http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8"
-      ]
-    }]
-  }, {
-    "title": "RSS",
-    "drawable": "",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-      "title": "Feed",
-      "provider": "rss",
-      "arguments": [
-        "http://feeds.feedburner.com/AndroidPolice"
-      ]
-    }, {
-      "title": "Podcast",
-      "provider": "rss",
-      "arguments": [
-        "http://feeds.nature.com/nature/podcast/current"
-      ]
-    }]
-  }, {
-    "title": "Tumblr",
-    "drawable": "",
-    "submenu": "Social Media",
-    "iap": false,
-    "tabs": [{
-      "title": "Tumblr",
-      "provider": "tumblr",
-      "arguments": [
-        "androidbackgrounds"
-      ]
-    }]
-  }, {
+{
     "title": "SoundCloud",
     "drawable": "",
     "submenu": "Social Media",
@@ -139,31 +153,38 @@
         "104226047", "playlist"
       ]
     }]
-  }, {
-    "title": "Twitter",
+  },
+  
+  
+   {
+    "title": "Articles",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Feed",
+      "provider": "rss",
+      "arguments": [
+        "http://feeds.feedburner.com/AndroidPolice"
+      ]
+    }]
+  }, 
+  
+  {
+    "title": "HD Wallpapers",
     "drawable": "",
     "submenu": "Social Media",
     "iap": false,
     "tabs": [{
-      "title": "Twitter",
-      "provider": "twitter",
+      "title": "Tumblr",
+      "provider": "tumblr",
       "arguments": [
-        "Android"
+        "androidbackgrounds"
       ]
     }]
-  }, {
-    "title": "Instagram",
-    "drawable": "",
-    "submenu": "Social Media",
-    "iap": false,
-    "tabs": [{
-      "title": "Instagram",
-      "provider": "instagram",
-      "arguments": [
-        "2948597263"
-      ]
-    }]
-  }, {
+  }, 
+  
+   {
     "title": "Facebook",
     "drawable": "",
     "submenu": "Social Media",
@@ -173,89 +194,6 @@
       "provider": "facebook",
       "arguments": [
         "104958162837"
-      ]
-    }]
-  }, {
-    "title": "Youtube",
-    "drawable": "",
-    "submenu": "Social Media",
-    "iap": false,
-    "tabs": [{
-      "title": "Youtube",
-      "provider": "youtube",
-      "arguments": [
-        "UU7V6hW6xqPAiUfataAZZtWA",
-        "UC7V6hW6xqPAiUfataAZZtWA"
-      ]
-    }]
-  }, {
-    "title": "Pinterest",
-    "drawable": "",
-    "submenu": "Social Media",
-    "iap": false,
-    "tabs": [{
-      "title": "Pinterest",
-      "provider": "pinterest",
-      "arguments": [
-        "515451188540423446"
-      ]
-    }]
-  }, {
-    "title": "WebView",
-    "drawable": "",
-    "submenu": "Other",
-    "iap": false,
-    "tabs": [{
-      "title": "WebView",
-      "provider": "webview",
-      "arguments": [
-        "http://www.google.com"
-      ]
-    }]
-
-  }, {
-    "title": "Categories",
-    "drawable": "",
-    "submenu": "Other",
-    "iap": false,
-    "tabs": [{
-      "title": "Categories",
-      "provider": "overview",
-      "arguments": [
-        "overview.json"
-      ]
-    }]
-  }, {
-    "title": "Wordpress Other",
-    "drawable": "",
-    "submenu": "Other",
-    "iap": false,
-    "tabs": [{
-      "title": "WP JSON & Disqus",
-      "provider": "wordpress",
-      "arguments": [
-        "http://androidpolice.com",
-        "",
-        "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
-      ]
-    }, {
-      "title": "WP REST",
-      "provider": "wordpress",
-      "arguments": [
-        "https://androidpolice.com/wp-json/wp/v2/",
-        ""
-      ]
-    }]
-  }, {
-    "title": "Location",
-    "drawable": "",
-    "submenu": "Other",
-    "iap": false,
-    "tabs": [{
-      "title": "",
-      "provider": "maps",
-      "arguments": [
-        "atm"
       ]
     }]
   }
