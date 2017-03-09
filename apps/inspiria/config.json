@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "Quotes",
     "drawable": "https://d30y9cdsu7xlg0.cloudfront.net/png/34133-200.png",
     "submenu": "",
@@ -16,110 +15,157 @@
       "arguments": [
         "230035562155878604"
       ]
-    },
-    {
+    }, {
       "title": "Meaning",
       "provider": "pinterest",
       "arguments": [
         "24981041622051313"
       ]
-    },
-    {
+    }, {
       "title": "Wisdom",
       "provider": "pinterest",
       "arguments": [
         "438538151154634339"
       ]
-    },
-    {
+    }, {
       "title": "Success",
       "provider": "pinterest",
       "arguments": [
         "832603118549078676"
       ]
-    },
-    {
+    }, {
       "title": "Proverb",
       "provider": "pinterest",
       "arguments": [
         "537406236723888469"
       ]
-    },
-    {
+    }, {
       "title": "Failure",
       "provider": "pinterest",
       "arguments": [
         "345721777584097534"
       ]
-    },
-    {
+    }, {
       "title": "Fitness",
       "provider": "pinterest",
       "arguments": [
         "383580161951540105"
       ]
-    },
-    {
+    }, {
       "title": "Author",
       "provider": "pinterest",
       "arguments": [
         "474989160638693835"
       ]
-    },
-    {
+    }, {
       "title": "Money",
       "provider": "pinterest",
       "arguments": [
         "305119012193332344"
       ]
-    },
-    {
+    }, {
       "title": "Love",
       "provider": "pinterest",
       "arguments": [
         "438538151154315345"
       ]
-    },
-    {
+    }, {
       "title": "Friendship",
       "provider": "pinterest",
       "arguments": [
         "438538151154315347"
       ]
-    },
-    {
+    }, {
       "title": "Job",
       "provider": "pinterest",
       "arguments": [
         "540432092723694944"
       ]
     }]
-  }, 
-  
+  },
+
   {
     "title": "Videos",
     "drawable": "",
     "submenu": "",
     "iap": false,
     "tabs": [{
-      "title": "Fight Mediocrity",
-      "provider": "youtube",
-      "arguments": [
-        "PL-bTaZrTDhtbhxgS59t4HzwCnq2iIYMgV",
-        "UCXLesGEfmyhxqOjoAqhRwhA"
-      ]
-    },
-    {
-      "title": "Picasso",
-      "provider": "youtube",
-      "arguments": [
-        "PL2tBZjk6erj2gK3ut--MeiC0m-63cbCpe",
-        "UCORp0Fxa5lHFuZfLHxfeLuQ"
-      ]
-    }
+        "title": "Fight Mediocrity",
+        "provider": "youtube",
+        "arguments": [
+          "PL-bTaZrTDhtbhxgS59t4HzwCnq2iIYMgV",
+          "UCXLesGEfmyhxqOjoAqhRwhA"
+        ]
+      }, {
+        "title": "Picasso Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PL2tBZjk6erj2gK3ut--MeiC0m-63cbCpe",
+          "UCORp0Fxa5lHFuZfLHxfeLuQ"
+        ]
+      }, {
+        "title": "Be Inspired",
+        "provider": "youtube",
+        "arguments": [
+          "PL9XDPqN8lxBphPe-jqlu6cRejGpd54oqA",
+          "UCaKZDEMDdQc8t6GzFj1_TDw"
+        ]
+      }
+
+      , {
+        "title": "Video Advice",
+        "provider": "youtube",
+        "arguments": [
+          "PLMuukMLwizzLB6LrL1Hl3CyNsqeNybvGC",
+          "UCAwylBbx8RiRD3VsaYdwNTw"
+        ]
+      }
+
+      , {
+        "title": "Fearless",
+        "provider": "youtube",
+        "arguments": [
+          "PLTFCM8gfGxuHBhndEzKpwLNbBn617cRft",
+          "UCf9_s9ii6BZ-klpgmtIi3WQ"
+        ]
+      }, 
+      {
+        "title": "Absolute Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PLsixLV2OhyUxOBhjXsEncvx0j8rA5U-oA",
+          "UCpmZQGTZXn9xd4nN59pbIWQ"
+        ]
+      }
+      , {
+        "title": "RedFrost",
+        "provider": "youtube",
+        "arguments": [
+          "PLkXex0-Sjz1taMMLgTbUI6jdeBA6tnd_g",
+          "UCXD5aOFDPO1W264sJvYc85Q"
+        ]
+      }
+
+      , {
+        "title": "TED",
+        "provider": "youtube",
+        "arguments": [
+          "PLAC463A2B6B2CEC7F",
+          "UCAuUUnT6oDeKwE6v1NGQxug"
+        ]
+      }
+      , {
+        "title": "BigThink",
+        "provider": "youtube",
+        "arguments": [
+          "PL5uULy4b0kV7ptjEsuMwvBAHENZ0aiGcy",
+          "UCvQECJukTDE2i6aCoMnS-Vg"
+        ]
+      }
+
     ]
   },
-  
+
   {
     "title": "Movies",
     "drawable": "https://d30y9cdsu7xlg0.cloudfront.net/png/10681-200.png",
@@ -135,10 +181,10 @@
     }]
   },
 
-{
-    "title": "SoundCloud",
+  {
+    "title": "Music",
     "drawable": "",
-    "submenu": "Social Media",
+    "submenu": "",
     "iap": false,
     "tabs": [{
       "title": "User",
@@ -154,9 +200,9 @@
       ]
     }]
   },
-  
-  
-   {
+
+
+  {
     "title": "Articles",
     "drawable": "",
     "submenu": "",
@@ -168,12 +214,12 @@
         "http://feeds.feedburner.com/AndroidPolice"
       ]
     }]
-  }, 
-  
+  },
+
   {
     "title": "HD Wallpapers",
     "drawable": "",
-    "submenu": "Social Media",
+    "submenu": "",
     "iap": false,
     "tabs": [{
       "title": "Tumblr",
@@ -182,12 +228,12 @@
         "androidbackgrounds"
       ]
     }]
-  }, 
-  
-   {
+  },
+
+  {
     "title": "Facebook",
     "drawable": "",
-    "submenu": "Social Media",
+    "submenu": "",
     "iap": false,
     "tabs": [{
       "title": "Facebook",
