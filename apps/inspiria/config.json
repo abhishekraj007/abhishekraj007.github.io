@@ -128,16 +128,14 @@
           "PLTFCM8gfGxuHBhndEzKpwLNbBn617cRft",
           "UCf9_s9ii6BZ-klpgmtIi3WQ"
         ]
-      }, 
-      {
+      }, {
         "title": "Absolute Motivation",
         "provider": "youtube",
         "arguments": [
           "PLsixLV2OhyUxOBhjXsEncvx0j8rA5U-oA",
           "UCpmZQGTZXn9xd4nN59pbIWQ"
         ]
-      }
-      , {
+      }, {
         "title": "RedFrost",
         "provider": "youtube",
         "arguments": [
@@ -153,8 +151,7 @@
           "PLAC463A2B6B2CEC7F",
           "UCAuUUnT6oDeKwE6v1NGQxug"
         ]
-      }
-      , {
+      }, {
         "title": "BigThink",
         "provider": "youtube",
         "arguments": [
@@ -198,24 +195,19 @@
       "arguments": [
         "64500246", "playlist"
       ]
-    },
-    {
+    }, {
       "title": "Fearless",
       "provider": "soundcloud",
       "arguments": [
         "131881637", "user"
       ]
-    },
-    {
+    }, {
       "title": "Success",
       "provider": "soundcloud",
       "arguments": [
         "64500246", "64256790"
       ]
-    },
-    
-    
-    ]
+    }]
   },
 
 
