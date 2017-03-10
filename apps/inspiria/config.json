@@ -270,12 +270,35 @@
     "submenu": "",
     "iap": false,
     "tabs": [{
-      "title": "Feed",
+      "title": "Pick The Brain",
       "provider": "rss",
       "arguments": [
-        "http://feeds.feedburner.com/AndroidPolice"
+        "https://www.pickthebrain.com/blog/feed"
       ]
-    }]
+    },
+    {
+      "title": "Tiny Buddha",
+      "provider": "rss",
+      "arguments": [
+        "http://feeds.feedburner.com/tinybuddha"
+      ]
+    },
+    {
+      "title": "Success",
+      "provider": "rss",
+      "arguments": [
+        "https://addicted2success.com/feed"
+      ]
+    }
+    ,
+    {
+      "title": "Invisible Mentor",
+      "provider": "rss",
+      "arguments": [
+        "http://theinvisiblementor.com/feed"
+      ]
+    }
+    ]
   },
 
   {
