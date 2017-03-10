@@ -1,6 +1,6 @@
 [{
     "title": "Quotes",
-    "drawable": "https://d30y9cdsu7xlg0.cloudfront.net/png/34133-200.png",
+    "drawable": "ic_quote",
     "submenu": "",
     "iap": false,
     "tabs": [{
@@ -85,8 +85,8 @@
   },
 
   {
-    "title": "Fb Inspiration",
-    "drawable": "",
+    "title": "Feed",
+    "drawable": "ic_fb",
     "submenu": "",
     "iap": false,
     "tabs": [{
@@ -127,7 +127,7 @@
 
   {
     "title": "Videos",
-    "drawable": "",
+    "drawable": "ic_video",
     "submenu": "",
     "iap": false,
     "tabs": [{
@@ -206,7 +206,7 @@
 
   {
     "title": "Movies",
-    "drawable": "https://d30y9cdsu7xlg0.cloudfront.net/png/10681-200.png",
+    "drawable": "ic_movie",
     "submenu": "",
     "iap": false,
     "tabs": [{
@@ -221,7 +221,7 @@
 
   {
     "title": "Speeches",
-    "drawable": "",
+    "drawable": "ic_speech",
     "submenu": "",
     "iap": false,
     "tabs": [{
@@ -253,7 +253,7 @@
 
   {
     "title": "Musics",
-    "drawable": "",
+    "drawable": "ic_headset",
     "submenu": "",
     "iap": false,
     "tabs": [{
@@ -301,7 +301,7 @@
 
   {
     "title": "Articles",
-    "drawable": "",
+    "drawable": "ic_article",
     "submenu": "",
     "iap": false,
     "tabs": [{
@@ -339,7 +339,7 @@
 
   {
     "title": "HD Wallpapers",
-    "drawable": "",
+    "drawable": "ic_wallpaper",
     "submenu": "",
     "iap": false,
     "tabs": [{
