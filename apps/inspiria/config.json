@@ -85,6 +85,47 @@
   },
 
   {
+    "title": "Fb Inspiration",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "IdeaSpot",
+        "provider": "facebook",
+        "arguments": [
+          "1578382845806916"
+        ]
+      }, {
+        "title": "Karen",
+        "provider": "facebook",
+        "arguments": [
+          "318094793706"
+        ]
+      }, {
+        "title": "The Light",
+        "provider": "facebook",
+        "arguments": [
+          "1047563178589559"
+        ]
+      }, {
+        "title": "Simple Reminder",
+        "provider": "facebook",
+        "arguments": [
+          "115818088452122"
+        ]
+      }, {
+        "title": "Idealist",
+        "provider": "facebook",
+        "arguments": [
+          "212514318782022"
+        ]
+      }
+
+    ]
+  },
+
+
+  {
     "title": "Videos",
     "drawable": "",
     "submenu": "",
@@ -242,12 +283,6 @@
       }
 
       , {
-        "title": "Workout",
-        "provider": "soundcloud",
-        "arguments": [
-          "203727010", "playlist"
-        ]
-      }, {
         "title": "Ultimate",
         "provider": "soundcloud",
         "arguments": [
@@ -275,30 +310,31 @@
       "arguments": [
         "https://www.pickthebrain.com/blog/feed"
       ]
-    },
-    {
+    }, {
       "title": "Tiny Buddha",
       "provider": "rss",
       "arguments": [
         "http://feeds.feedburner.com/tinybuddha"
       ]
-    },
-    {
+    }, {
       "title": "Success",
       "provider": "rss",
       "arguments": [
         "https://addicted2success.com/feed"
       ]
-    }
-    ,
-    {
+    }, {
       "title": "Invisible Mentor",
       "provider": "rss",
       "arguments": [
         "http://theinvisiblementor.com/feed"
       ]
-    }
-    ]
+    }, {
+      "title": "Life Optimizer",
+      "provider": "rss",
+      "arguments": [
+        "http://feeds.feedburner.com/lifeoptimizer"
+      ]
+    }]
   },
 
   {
@@ -325,27 +361,5 @@
         "quotethattalk"
       ]
     }]
-  },
-
-  {
-    "title": "Fb Quotes",
-    "drawable": "",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-        "title": "Karen Motivation",
-        "provider": "facebook",
-        "arguments": [
-          "318094793706"
-        ]
-      }, {
-        "title": "The Light",
-        "provider": "facebook",
-        "arguments": [
-          "1047563178589559"
-        ]
-      }
-
-    ]
   }
 ]
