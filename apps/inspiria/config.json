@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "Feed",
     "drawable": "ic_fb",
     "submenu": "",
@@ -38,7 +37,7 @@
 
     ]
   },
-  
+
   {
     "title": "Quotes",
     "drawable": "ic_quote",
@@ -125,13 +124,27 @@
     }]
   },
 
-  
+
   {
     "title": "Videos",
     "drawable": "ic_video",
     "submenu": "",
     "iap": false,
     "tabs": [{
+        "title": "Absolute Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PLsixLV2OhyUxOBhjXsEncvx0j8rA5U-oA",
+          "UCpmZQGTZXn9xd4nN59pbIWQ"
+        ]
+      }, {
+        "title": "Fearless",
+        "provider": "youtube",
+        "arguments": [
+          "PLTFCM8gfGxuHBhndEzKpwLNbBn617cRft",
+          "UCf9_s9ii6BZ-klpgmtIi3WQ"
+        ]
+      }, {
         "title": "Fight Mediocrity",
         "provider": "youtube",
         "arguments": [
@@ -152,30 +165,12 @@
           "PL9XDPqN8lxBphPe-jqlu6cRejGpd54oqA",
           "UCaKZDEMDdQc8t6GzFj1_TDw"
         ]
-      }
-
-      , {
+      }, {
         "title": "Video Advice",
         "provider": "youtube",
         "arguments": [
           "PLMuukMLwizzLB6LrL1Hl3CyNsqeNybvGC",
           "UCAwylBbx8RiRD3VsaYdwNTw"
-        ]
-      }
-
-      , {
-        "title": "Fearless",
-        "provider": "youtube",
-        "arguments": [
-          "PLTFCM8gfGxuHBhndEzKpwLNbBn617cRft",
-          "UCf9_s9ii6BZ-klpgmtIi3WQ"
-        ]
-      }, {
-        "title": "Absolute Motivation",
-        "provider": "youtube",
-        "arguments": [
-          "PLsixLV2OhyUxOBhjXsEncvx0j8rA5U-oA",
-          "UCpmZQGTZXn9xd4nN59pbIWQ"
         ]
       }, {
         "title": "RedFrost",
@@ -184,9 +179,7 @@
           "PLkXex0-Sjz1taMMLgTbUI6jdeBA6tnd_g",
           "UCXD5aOFDPO1W264sJvYc85Q"
         ]
-      }
-
-      , {
+      }, {
         "title": "TED",
         "provider": "youtube",
         "arguments": [
@@ -338,7 +331,7 @@
     }]
   },
 
-{
+  {
     "title": "Stories",
     "drawable": "ic_article",
     "submenu": "",
@@ -351,7 +344,7 @@
       ]
     }]
   },
-  
+
   {
     "title": "HD Wallpapers",
     "drawable": "ic_wallpaper",
