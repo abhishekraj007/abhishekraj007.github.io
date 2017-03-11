@@ -1,10 +1,51 @@
-[{
+[
+  {
+    "title": "Feed",
+    "drawable": "ic_fb",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "IdeaSpot",
+        "provider": "facebook",
+        "arguments": [
+          "1578382845806916"
+        ]
+      }, {
+        "title": "Karen",
+        "provider": "facebook",
+        "arguments": [
+          "318094793706"
+        ]
+      }, {
+        "title": "The Light",
+        "provider": "facebook",
+        "arguments": [
+          "1047563178589559"
+        ]
+      }, {
+        "title": "Simple Reminder",
+        "provider": "facebook",
+        "arguments": [
+          "115818088452122"
+        ]
+      }, {
+        "title": "Idealist",
+        "provider": "facebook",
+        "arguments": [
+          "212514318782022"
+        ]
+      }
+
+    ]
+  },
+  
+  {
     "title": "Quotes",
     "drawable": "ic_quote",
     "submenu": "",
     "iap": false,
     "tabs": [{
-      "title": "Feed",
+      "title": "Latest",
       "provider": "pinterest",
       "arguments": [
         "61783894827016980"
@@ -84,47 +125,7 @@
     }]
   },
 
-  {
-    "title": "Feed",
-    "drawable": "ic_fb",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-        "title": "IdeaSpot",
-        "provider": "facebook",
-        "arguments": [
-          "1578382845806916"
-        ]
-      }, {
-        "title": "Karen",
-        "provider": "facebook",
-        "arguments": [
-          "318094793706"
-        ]
-      }, {
-        "title": "The Light",
-        "provider": "facebook",
-        "arguments": [
-          "1047563178589559"
-        ]
-      }, {
-        "title": "Simple Reminder",
-        "provider": "facebook",
-        "arguments": [
-          "115818088452122"
-        ]
-      }, {
-        "title": "Idealist",
-        "provider": "facebook",
-        "arguments": [
-          "212514318782022"
-        ]
-      }
-
-    ]
-  },
-
-
+  
   {
     "title": "Videos",
     "drawable": "ic_video",
