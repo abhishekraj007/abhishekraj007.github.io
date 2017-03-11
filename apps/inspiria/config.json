@@ -337,6 +337,20 @@
     }]
   },
 
+{
+    "title": "Stories",
+    "drawable": "ic_article",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Motivational Stories",
+      "provider": "rss",
+      "arguments": [
+        "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
+      ]
+    }]
+  },
+  
   {
     "title": "HD Wallpapers",
     "drawable": "ic_wallpaper",
