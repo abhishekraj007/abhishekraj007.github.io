@@ -231,12 +231,6 @@
         "64500246", "playlist"
       ]
     }, {
-      "title": "Fearless",
-      "provider": "soundcloud",
-      "arguments": [
-        "131881637", "user"
-      ]
-    }, {
       "title": "Success",
       "provider": "soundcloud",
       "arguments": [
@@ -262,23 +256,23 @@
         "arguments": [
           "27087959", "playlist"
         ]
-      },
-
+      }
+      ,
       {
         "title": "Mind Peace",
         "provider": "soundcloud",
         "arguments": [
           "22629013", "playlist"
         ]
-      }, {
+      }, 
+      
+      {
         "title": "Workout",
         "provider": "soundcloud",
         "arguments": [
           "203727010", "playlist"
         ]
-      }
-
-      , {
+      }, {
         "title": "Ultimate",
         "provider": "soundcloud",
         "arguments": [
