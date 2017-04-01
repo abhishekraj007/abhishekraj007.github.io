@@ -316,15 +316,21 @@
     "tabs":[
       
       {
-        "title":"Tumblr",
+        "title":"Void",
         "provider":"tumblr",
         "arguments":[
           "voidpapers"
         ]
       },
-      
       {
-        "title":"Tumblr",
+        "title":"Dream",
+        "provider":"tumblr",
+        "arguments":[
+          "psychedelicdreamweaver"
+        ]
+      },
+      {
+        "title":"Nature HD",
         "provider":"tumblr",
         "arguments":[
           "androidbackgrounds"
