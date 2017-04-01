@@ -171,7 +171,95 @@
         "64500246", "playlist"
       ]
     }]
+  },
+
+
+  {
+    "title": "Videos",
+    "drawable": "ic_video",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "Absolute Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PLsixLV2OhyUxOBhjXsEncvx0j8rA5U-oA",
+          "UCpmZQGTZXn9xd4nN59pbIWQ"
+        ]
+      }, {
+        "title": "Fearless",
+        "provider": "youtube",
+        "arguments": [
+          "PLTFCM8gfGxuHBhndEzKpwLNbBn617cRft",
+          "UCf9_s9ii6BZ-klpgmtIi3WQ"
+        ]
+      }, {
+        "title": "Fight Mediocrity",
+        "provider": "youtube",
+        "arguments": [
+          "PL-bTaZrTDhtbhxgS59t4HzwCnq2iIYMgV",
+          "UCXLesGEfmyhxqOjoAqhRwhA"
+        ]
+      }, {
+        "title": "Picasso Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PL2tBZjk6erj2gK3ut--MeiC0m-63cbCpe",
+          "UCORp0Fxa5lHFuZfLHxfeLuQ"
+        ]
+      }, {
+        "title": "Be Inspired",
+        "provider": "youtube",
+        "arguments": [
+          "PL9XDPqN8lxBphPe-jqlu6cRejGpd54oqA",
+          "UCaKZDEMDdQc8t6GzFj1_TDw"
+        ]
+      }, {
+        "title": "Video Advice",
+        "provider": "youtube",
+        "arguments": [
+          "PLMuukMLwizzLB6LrL1Hl3CyNsqeNybvGC",
+          "UCAwylBbx8RiRD3VsaYdwNTw"
+        ]
+      }, {
+        "title": "RedFrost",
+        "provider": "youtube",
+        "arguments": [
+          "PLkXex0-Sjz1taMMLgTbUI6jdeBA6tnd_g",
+          "UCXD5aOFDPO1W264sJvYc85Q"
+        ]
+      }, {
+        "title": "TED",
+        "provider": "youtube",
+        "arguments": [
+          "PLAC463A2B6B2CEC7F",
+          "UCAuUUnT6oDeKwE6v1NGQxug"
+        ]
+      }, {
+        "title": "BigThink",
+        "provider": "youtube",
+        "arguments": [
+          "PL5uULy4b0kV7ptjEsuMwvBAHENZ0aiGcy",
+          "UCvQECJukTDE2i6aCoMnS-Vg"
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Movies",
+    "drawable": "ic_movie",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Inspiring Movies",
+      "provider": "youtube",
+      "arguments": [
+        "PLgfAA0wvcX0oiMmyWmS3D0KyQTPK1yDq1",
+        "UCnFpBpIRRn7FzXZcEJ8bxEA"
+      ]
+    }]
   }
-  
 
 ]
