@@ -260,6 +260,77 @@
         "64500246", "playlist"
       ]
     }]
+  },
+
+  {
+    "title": "Musics",
+    "drawable": "ic_headset",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "Study Focus",
+        "provider": "soundcloud",
+        "arguments": [
+          "59174100", "playlist"
+        ]
+      }, {
+        "title": "Study Grind",
+        "provider": "soundcloud",
+        "arguments": [
+          "27087959", "playlist"
+        ]
+      }, {
+        "title": "Relax",
+        "provider": "soundcloud",
+        "arguments": [
+          "266375639", "playlist"
+        ]
+      }, {
+        "title": "Workout",
+        "provider": "soundcloud",
+        "arguments": [
+          "203727010", "playlist"
+        ]
+      }
+
+      , {
+        "title": "Ultimate",
+        "provider": "soundcloud",
+        "arguments": [
+          "86572871", "playlist"
+        ]
+      }, {
+        "title": "Passion",
+        "provider": "soundcloud",
+        "arguments": [
+          "60125241", "playlist"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"HD Wallpapers",
+    "drawable":"ic_wallpaper",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      
+      {
+        "title":"Tumblr",
+        "provider":"tumblr",
+        "arguments":[
+          "voidpapers"
+        ]
+      },
+      
+      {
+        "title":"Tumblr",
+        "provider":"tumblr",
+        "arguments":[
+          "androidbackgrounds"
+        ]
+      }
+    ]
   }
 
 ]
