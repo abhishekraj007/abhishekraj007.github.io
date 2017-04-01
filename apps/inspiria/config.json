@@ -1,6 +1,47 @@
 [
 
   {
+    "title": "Feed",
+    "drawable": "ic_fb",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "IdeaSpot",
+        "provider": "facebook",
+        "arguments": [
+          "1578382845806916"
+        ]
+      }, {
+        "title": "Karen",
+        "provider": "facebook",
+        "arguments": [
+          "318094793706"
+        ]
+      }, {
+        "title": "The Light",
+        "provider": "facebook",
+        "arguments": [
+          "1047563178589559"
+        ]
+      }, {
+        "title": "Simple Reminder",
+        "provider": "facebook",
+        "arguments": [
+          "115818088452122"
+        ]
+      }, {
+        "title": "Idealist",
+        "provider": "facebook",
+        "arguments": [
+          "212514318782022"
+        ]
+      }
+
+    ]
+  },
+
+
+  {
     "title": "Quotes",
     "drawable": "ic_quote",
     "submenu": "",
@@ -84,7 +125,56 @@
         "540432092723694944"
       ]
     }]
-  }
+  },
+
+  {
+    "title": "Speeches",
+    "drawable": "ic_speech",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Ultimate",
+      "provider": "soundcloud",
+      "arguments": [
+        "150128207", "playlist"
+      ]
+    }, {
+      "title": "Ambitious",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "playlist"
+      ]
+    }, {
+      "title": "Fearless",
+      "provider": "soundcloud",
+      "arguments": [
+        "131881637", "user"
+      ]
+    }, {
+      "title": "Success",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "playlist"
+      ]
+    }]
+  },
+
+
+  {
+    "title": "Stories",
+    "drawable": "ic_article",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Motivational Stories",
+      "provider": "rss",
+      "arguments": [
+        "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
+      ]
+    }]
+  },
+  
+  
 
 
 ]
