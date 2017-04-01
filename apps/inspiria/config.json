@@ -141,38 +141,6 @@
     }]
   },
 
-  {
-    "title": "Speeches",
-    "drawable": "ic_speech",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-      "title": "Ultimate",
-      "provider": "soundcloud",
-      "arguments": [
-        "150128207", "playlist"
-      ]
-    }, {
-      "title": "Ambitious",
-      "provider": "soundcloud",
-      "arguments": [
-        "64500246", "playlist"
-      ]
-    }, {
-      "title": "Fearless",
-      "provider": "soundcloud",
-      "arguments": [
-        "131881637", "user"
-      ]
-    }, {
-      "title": "Success",
-      "provider": "soundcloud",
-      "arguments": [
-        "64500246", "playlist"
-      ]
-    }]
-  },
-
 
   {
     "title": "Videos",
@@ -258,6 +226,38 @@
       "arguments": [
         "PLgfAA0wvcX0oiMmyWmS3D0KyQTPK1yDq1",
         "UCnFpBpIRRn7FzXZcEJ8bxEA"
+      ]
+    }]
+  },
+
+  {
+    "title": "Speeches",
+    "drawable": "ic_speech",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Ultimate",
+      "provider": "soundcloud",
+      "arguments": [
+        "150128207", "playlist"
+      ]
+    }, {
+      "title": "Ambitious",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "playlist"
+      ]
+    }, {
+      "title": "Fearless",
+      "provider": "soundcloud",
+      "arguments": [
+        "131881637", "user"
+      ]
+    }, {
+      "title": "Success",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "playlist"
       ]
     }]
   }
