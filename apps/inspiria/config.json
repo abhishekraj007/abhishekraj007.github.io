@@ -126,22 +126,6 @@
       ]
     }]
   },
-
-  {
-    "title": "Stories",
-    "drawable": "ic_article",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-      "title": "Motivational Stories",
-      "provider": "rss",
-      "arguments": [
-        "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
-      ]
-    }]
-  },
-
-
   {
     "title": "Videos",
     "drawable": "ic_video",
@@ -214,6 +198,19 @@
 
     ]
   },
+   {
+    "title": "Stories",
+    "drawable": "ic_article",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Motivational Stories",
+      "provider": "rss",
+      "arguments": [
+        "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
+      ]
+    }]
+  },
 
   {
     "title": "Movies",
@@ -268,6 +265,12 @@
     "submenu": "",
     "iap": false,
     "tabs": [{
+        "title": "Ultimate",
+        "provider": "soundcloud",
+        "arguments": [
+          "86572871", "playlist"
+        ]
+      }, {
         "title": "Study Focus",
         "provider": "soundcloud",
         "arguments": [
@@ -294,12 +297,6 @@
       }
 
       , {
-        "title": "Ultimate",
-        "provider": "soundcloud",
-        "arguments": [
-          "86572871", "playlist"
-        ]
-      }, {
         "title": "Passion",
         "provider": "soundcloud",
         "arguments": [
@@ -307,32 +304,29 @@
         ]
       }
     ]
-  },
-  {
-    "title":"HD Wallpapers",
-    "drawable":"ic_wallpaper",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      
+  }, {
+    "title": "HD Wallpapers",
+    "drawable": "ic_wallpaper",
+    "submenu": "",
+    "iap": false,
+    "tabs": [
+
       {
-        "title":"Void",
-        "provider":"tumblr",
-        "arguments":[
+        "title": "Void",
+        "provider": "tumblr",
+        "arguments": [
           "voidpapers"
         ]
-      },
-      {
-        "title":"Dream",
-        "provider":"tumblr",
-        "arguments":[
+      }, {
+        "title": "Dream",
+        "provider": "tumblr",
+        "arguments": [
           "psychedelicdreamweaver"
         ]
-      },
-      {
-        "title":"Nature HD",
-        "provider":"tumblr",
-        "arguments":[
+      }, {
+        "title": "Nature HD",
+        "provider": "tumblr",
+        "arguments": [
           "androidbackgrounds"
         ]
       }
