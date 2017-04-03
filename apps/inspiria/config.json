@@ -326,7 +326,7 @@
     "title": "HD Wallpapers",
     "drawable": "ic_wallpaper",
     "submenu": "",
-    "iap": false,
+    "iap": true,
     "tabs": [
 
       {
