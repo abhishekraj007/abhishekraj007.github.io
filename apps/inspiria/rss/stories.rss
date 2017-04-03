@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
     <channel>
         <title>Motivational Stories</title>
         <link>http://www.abhishekraj007.github.io</link>
         <description>Collection of motivational stories</description>
+
+
+        <item>
+            <title>Positive Thinking</title>
+            <link>http://academictips.org/blogs/positive-thinking/</link>
+            <pubDate>Wed, 25 Nov 2016</pubDate>
+            <description>
+
+                <![CDATA[
+                    <p>Jerry was the kind of guy you love to hate. He was always in a good mood and always had something positive to say. When someone would ask him how he was doing, he would reply, &ldquo;If I were any better, I would be twins!&rdquo;</p>
+<p>He was a unique manager because he had several waiters who had followed him around from restaurant to restaurant. The reason the waiters followed Jerry was because of his attitude. He was a natural motivator. If an employee was having a bad day, Jerry was there telling the employee how to look on the positive side of the situation.</p>
+<p>Seeing this style really made me curious, so one day I went up to Jerry and asked him, &ldquo;I don&rsquo;t get it! You can&rsquo;t be a positive person all of the time. How do you do it?&rdquo; Jerry replied, &ldquo;Each morning I wake up and say to myself, Jerry, you have two choices today. You can choose to be in a good mood or you can choose to be in a bad mood.&rsquo; I choose to be in a good mood. Each time something bad happens, I can choose to be a victim or I can choose to learn from it. I choose to learn from it. Every time someone comes to me complaining, I can choose to accept their complaining or I can point out the positive side of life. I choose the positive side of life.&rdquo;</p>
+<p>&ldquo;Yeah, right, it&rsquo;s not that easy,&rdquo; I protested.</p>
+<p>&ldquo;Yes it is,&rdquo; Jerry said. &ldquo;Life is all about choices. When you cut away all the junk, every situation is a choice. You choose how you react to situations. You choose how people will affect your mood. You choose to be in a good mood or bad mood. The bottom line: It&rsquo;s your choice how you live life.&rdquo;</p>
+<p>I reflected on what Jerry said. Soon thereafter, I left the restaurant industry to start my own business. We lost touch, but often thought about him when I made a choice about life instead of reacting to it. Several years later, I heard that Jerry did something you are never supposed to do in a restaurant business: he left the back door open one morning and was held up at gunpoint by three armed robbers. While trying to open the safe, his hand, shaking from nervousness, slipped off the combination. The robbers panicked and shot him. Luckily, Jerry was found relatively quickly and rushed to the local trauma center. After 18 hours of surgery and weeks of intensive care, Jerry was released from the hospital with fragments of the bullets still in his body. I saw Jerry about six months after the accident. When I asked him how he was, he replied, &ldquo;If I were any better, I&rsquo;d be twins. Wanna see my scars?&rdquo;</p>
+<p>I declined to see his wounds, but did ask him what had gone through his mind as the robbery took place. &ldquo;The first thing that went through my mind was that I should have locked the back door,&rdquo; Jerry replied. &ldquo;Then, as I lay on the floor, I remembered that I had two choices: I could choose to live, or I could choose to die. I chose to live.&rdquo;</p>
+<p>&ldquo;Weren&rsquo;t you scared? Did you lose consciousness?&rdquo; I asked. Jerry continued, &ldquo;The paramedics were great. They kept telling me I was going to be fine. But when they wheeled me into the emergency room and I saw the expressions on the faces of the doctors and nurses, I got really scared. In their eyes, I read, &lsquo;He&rsquo;s a dead man.&rsquo; I knew I needed to take action.&rdquo;</p>
+<p>&ldquo;What did you do?&rdquo; I asked.</p>
+<p>&ldquo;Well, there was a big, burly nurse shouting questions at me,&rdquo; said Jerry. &ldquo;She asked if I was allergic to anything. &lsquo;Yes,&rsquo; I replied. The doctors and nurses stopped working as they waited for my reply&hellip; I took a deep breath and yelled, &lsquo;Bullets!&rsquo; Over their laughter, I told them, &lsquo;I am choosing to live. Operate on me as if I am alive, not dead.&rdquo;</p>
+<p>Jerry lived thanks to the skill of his doctors, but also because of his amazing attitude. I learned from him that every day we have the choice to live fully. Attitude, after all, is everything.</p>
+<p><em>By Francie Baltazar-Schwartz</em></p>
+                    ]]>
+
+            </description>
+        </item>
+
+
+
+
+
+
+
+
         <item>
             <title>The important things in life</title>
             <link>http://academictips.org/blogs/moral-tale-the-important-things-in-life/</link>
@@ -62,7 +96,7 @@
 
             </description>
         </item>
-        
+
         <item>
             <title>The last cab ride</title>
             <link>http://academictips.org/blogs/the-last-cab-ride/</link>
@@ -102,8 +136,8 @@
 
             </description>
         </item>
-        
-        
+
+
         <item>
             <title>The Little Boy</title>
             <link>http://academictips.org/blogs/moral-tale-the-little-boy/</link>
@@ -131,7 +165,7 @@
 
             </description>
         </item>
-        
+
         <item>
             <title>Hospital window</title>
             <link>http://academictips.org/blogs/moral-tale-hospital-window/</link>
@@ -159,7 +193,7 @@
 
             </description>
         </item>
-        
+
         <item>
             <title>The story of a blind girl</title>
             <link>http://academictips.org/blogs/moral-tale-the-story-of-a-blind-girl/</link>
@@ -191,8 +225,8 @@
 
             </description>
         </item>
-        
-        
+
+
         <item>
             <title>A glass of Milk, paid in Full</title>
             <link>http://academictips.org/blogs/a-glass-of-milk-paid-in-full/</link>
@@ -218,6 +252,6 @@
 
             </description>
         </item>
-        
+
     </channel>
 </rss>
