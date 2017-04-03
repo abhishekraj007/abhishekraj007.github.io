@@ -320,15 +320,12 @@
       ]
     }]
   },
-  
-  
   {
     "title": "HD Wallpapers",
     "drawable": "ic_wallpaper",
     "submenu": "",
-    "iap": true,
+    "iap": false,
     "tabs": [
-
       {
         "title": "Void",
         "provider": "tumblr",
