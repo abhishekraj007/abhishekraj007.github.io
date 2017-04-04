@@ -327,13 +327,20 @@
     "iap": false,
     "tabs": [
       {
-        "title": "Void",
+        "title": "Lock Screen",
+        "provider": "tumblr",
+        "arguments": [
+          "ehlockscreenstwo"
+        ]
+      },
+      {
+        "title": "Magic",
         "provider": "tumblr",
         "arguments": [
           "voidpapers"
         ]
       }, {
-        "title": "Dream",
+        "title": "Dreamer",
         "provider": "tumblr",
         "arguments": [
           "psychedelicdreamweaver"
@@ -343,6 +350,13 @@
         "provider": "tumblr",
         "arguments": [
           "androidbackgrounds"
+        ]
+      },
+      {
+        "title": "Desktop",
+        "provider": "tumblr",
+        "arguments": [
+          "wallpaperaday"
         ]
       }
     ]
