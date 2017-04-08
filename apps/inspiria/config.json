@@ -258,13 +258,29 @@
       ]
     }]
   },
-
+  
   {
     "title": "Musics",
     "drawable": "ic_headset",
     "submenu": "",
     "iap": false,
-    "tabs": [{
+    "tabs": [
+      
+      {
+        "title": "Code",
+        "provider": "soundcloud",
+        "arguments": [
+          "313658650", "playlist"
+        ]
+      },
+       {
+        "title": "Nonstop",
+        "provider": "soundcloud",
+        "arguments": [
+          "27087959", "playlist"
+        ]
+      },
+      {
         "title": "Ultimate",
         "provider": "soundcloud",
         "arguments": [
@@ -275,12 +291,6 @@
         "provider": "soundcloud",
         "arguments": [
           "59174100", "playlist"
-        ]
-      }, {
-        "title": "Study Grind",
-        "provider": "soundcloud",
-        "arguments": [
-          "27087959", "playlist"
         ]
       }, {
         "title": "Relax",
