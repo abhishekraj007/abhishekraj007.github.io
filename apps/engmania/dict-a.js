@@ -15,17 +15,17 @@
 	},
 	{
 		"id": 2,
-		"word":"A sense of pride",
-		"type": "[Noun + Noun]",
-		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
-		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+		"word":"A streaming cold",
+		"type": "[Adjective + Noun]",
+		"meaning": "a heavy cold.",
+		"example": "He’s got a streaming cold.<br> She has caught a streaming cold.<br> She has been in bed with a streaming cold."
 	},
 	{
 		"id": 3,
-		"word":"A sense of pride",
-		"type": "[Noun + Noun]",
-		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
-		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+		"word":"A massive heart attack",
+		"type": "[Adjective + Noun]",
+		"meaning": "A very serious heart attack.",
+		"example": "She died of a massive heart attack last year.</br> No one would like to suffer from a massive heart attack."
 	},
 	{
 		"id": 4,
