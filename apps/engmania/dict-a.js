@@ -12,6 +12,139 @@
 		"type": "[Noun + Noun]",
 		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
 		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 2,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 3,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 4,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 5,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 6,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 7,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 8,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 9,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 10,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 11,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 12,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 13,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 14,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 15,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 16,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 17,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 18,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 19,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
+	},
+	{
+		"id": 20,
+		"word":"A sense of pride",
+		"type": "[Noun + Noun]",
+		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
+		"example": "She felt a sense of pride after she had finished the assignment.<br> Doing well in school gives students a sense of pride.<br> We have a sense of pride in our community."
 	}
 
 ]
