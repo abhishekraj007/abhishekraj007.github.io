@@ -103,6 +103,6 @@
 		"type": "[Verb + Noun]",
 		"meaning": "to say 'yes' after getting an invitation/to agree to spend time with someone socially or to come to a social event after getting an invitation.",
 		"example": "Most of the people we invited to the party have accepted their invitation already.<br>Tom accepted an invitation to the party."
-	},
+	}
 
 ]
