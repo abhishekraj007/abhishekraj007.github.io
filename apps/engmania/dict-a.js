@@ -95,14 +95,14 @@
 		"word":"Accept (an) apology",
 		"type": "[Verb + Noun]",
 		"meaning": "to forgive someone who says they're sorry for doing something wrong or for causing a problem.",
-		"example": "My mistake was serious, but luckily the boss accepted my apology.<br>She refused to accept her husband's apology and said she wanted a divorce.<br>Paul refused to accept his wife's apology and said he wanted a divorce."
+		"example": "<p>My mistake was serious, but luckily the boss accepted my apology.</p><p>She refused to accept her husband's apology and said she wanted a divorce.</p><p>Paul refused to accept his wife's apology and said he wanted a divorce.</p>"
 	},
 	{
 		"id": 14,
 		"word":"Accept an invitation",
 		"type": "[Verb + Noun]",
 		"meaning": "to say 'yes' after getting an invitation/to agree to spend time with someone socially or to come to a social event after getting an invitation.",
-		"example": "Most of the people we invited to the party have accepted their invitation already.<br>Tom accepted an invitation to the party."
+		"example": "<p>Most of the people we invited to the party have accepted their invitation already.</p><p>Tom accepted an invitation to the party.</p>"
 	}
 
 ]
