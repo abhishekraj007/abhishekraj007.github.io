@@ -192,5 +192,11 @@
 		"type": "[Verb + Noun]",
 		"meaning": "to ask someone about what you should do or how you should act in a particular situation.",
 		"example": "<p>Don't be afraid to ask your teacher for advice on how to prepare for the exam.</p><p>Why don't ask your brother for some advice? He knows all about English.</p><p><strong>Note:</strong> related collocations include 'ask for help' and 'ask for suggestions'</p>"
+	},{
+		"id": 29,
+		"word":"Not anymore/any longer",
+		"type": "[Adverb + Adverb]",
+		"meaning": "to say that a situation has ended or someone has stopped doing something",
+		"example": "<p>I couldn't wait any longer</p><p>She doesn't want to see me anymore.</p><p>We don't live there anymore. We've moved to a new place.</p>"
 	}
 ]

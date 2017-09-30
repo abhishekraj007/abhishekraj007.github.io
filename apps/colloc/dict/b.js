@@ -1,17 +1,17 @@
 [
 	{
 		"id": 0,
-		"word":"A surge of anger",
-		"type": "[Noun + Noun]",
-		"meaning": "a powerful rush of an emotion or feeling of anger.",
-		"example": "<p>Susan felt a surge of anger.</p><p> Lucy felt a surge of anger as she watched her ex-husband enter the room with his new girlfriend.</p>"
+		"word":"Back pay",
+		"type": "[Adjective + Noun]",
+		"meaning": "money a worker earned in the past but hasn't been paid yet/money that is owed to an employee in the past but that has not been paid yet.",
+		"example": "<p>How much back pay does the company still owe you?</p><p>The company still owe those workers a total of approximately $90,000 in back pay.</p>"
 	},
 	{
 		"id": 1,
-		"word":"A sense of pride",
-		"type": "[Noun + Noun]",
-		"meaning": "a feeling of pleasure and satisfaction that you get when you, or someone connected with you, have done or achieved something good.",
-		"example": "<p>She felt a sense of pride after she had finished the assignment.</p><p> Doing well in school gives students a sense of pride.</p><p> We have a sense of pride in our community.</p><p>When people trust you, you will naturally feel a sense of confidence that will spur your sense of pride at work.</p>"
+		"word":"Back road",
+		"type": "[Adjective + Noun]",
+		"meaning": "a small country road/a small road that is away from any main roads and does not have much traffic on it.",
+		"example": "<p>We could take the highway, or we could go on the back roads instead.</p><p>Those back roads don't have signs, so you'll get lost if you don't know where you're going.</p><p>There was too much traffic on the highway, so we used a back road instead.</p><p>If they are taking that back road they will probably get lost if they don't have a map.</p>"
 	},
 	{
 		"id": 2,
