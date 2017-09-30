@@ -103,6 +103,91 @@
 		"type": "[Verb + Noun]",
 		"meaning": "to say 'yes' after getting an invitation/to agree to spend time with someone socially or to come to a social event after getting an invitation.",
 		"example": "<p>Most of the people we invited to the party have accepted their invitation already.</p><p>Tom accepted an invitation to the party.</p>"
-	}
+	},	
+	{
+		"id": 15,
+		"word":"Accept responsibity",
+		"type": "[Verb + Noun]",
+		"meaning": "to take the blame when something goes wrong",
+		"example": "<p>The bank is refusing to accept responsibility for the mistake.</p><p>The manager has accepted full responsibility for the company's problems.</p><p>He refuses to accept responsibility for the mistake.</p><p>Mark accepted responsibility for the failure of the deal.</p>"
+	},
+	{
+		"id": 16,
+		"word":"Aches and pains",
+		"type": "[Noun + Noun]",
+		"meaning": "minor pains that continuous and unpleasant due to physical work or old age, but usually not very serious",
+		"example": "<p>Grandma's complaining about all her aches and pains again.</p><p>After carrying sacks of rice all day, I felt all the usual aches and pains in my back and shoulders.</p><p>He refuses to accept responsibility for the mistake.</p><p>His grandma complains about all her aches and pains in her back and shoulders usually.</p><p>Tom is tired of hearing about all her grandma's aches and pains.</p><p>You might have all sorts of aches and pains when you get older.</p>"
+	},
+	{
+		"id": 17,
+		"word":"Act suspiciously",
+		"type": "[Verb + Adverb]",
+		"meaning": "to behave in a way that makes people suspicious",
+		"example": "<p>Stop acting so suspiciously! Do you want to get caught?</p><p>He was seen acting suspiciously outside the bank, so someone called the police.</p>"
+	},
+{
+		"id": 18,
+		"word":"Active ingredient",
+		"type": "[Adjective + Noun]",
+		"meaning": "the chemically active part of a drug, medicine or pesticide that makes it work.",
+		"example": "<p>What's the active ingredient in this cough mixture?</p><p>Do you know what the active ingredient in aspirin is?</p><p>He refuses to accept responsibility for the mistake.</p><p>The active ingredient in many over-the-counter pain medications is acetaminophen.</p>"
+	},{
+		"id": 19,
+		"word":"Actively involved",
+		"type": "[Adverb + Adjective]",
+		"meaning": "playing an active role.",
+		"example": "<p>More young people should become actively involved in the politics.</p><p>My mother wasn't actively involved in the women's mo<vement, but she believed in equal pay.</p>"
+	},{
+		"id": 20,
+		"word":"An awful lot",
+		"type": "[Adjective + Noun]",
+		"meaning": "A very large amount.",
+		"example": "<p>His wife has spent an awful lot of money on clothes these days.</p><p>Brian is a famous lawyer. He gets an awful lot of clients.</p>"
+	},{
+		"id": 21,
+		"word":"A slave to fashion",
+		"type": "[Noun + Noun]",
+		"meaning": "someone who is influenced too much ny fashion.",
+		"example": "<p>Unlike most young people, I'm not a slave to fahion.</p><p>Are you a slave to fashion</p>"
+	},{
+		"id": 22,
+		"word":"Adoring fans",
+		"type": "[Adjective + Noun]",
+		"meaning": "fans who show much love to a particular band or singer.",
+		"example": "<p>The movie star is mobbed by adoring fans wherever he goes.</p><p>The band used to be worshiped by adoring fans all over the world.</p>"
+	},{
+		"id": 23,
+		"word":"Act within the law",
+		"type": "[Verb + Noun]",
+		"meaning": "not do illegal things.",
+		"example": "<p>The police officers must act within the law.</p><p>Doctors and lawyers must act within the law.</p>"
+	},{
+		"id": 24,
+		"word":"Ask a favor",
+		"type": "[Verb + Noun]",
+		"meaning": "to ask somebody to do something for you because you need help, support or approval of something.",
+		"example": "<p>Can/Could/May I ask a favor?</p><p>I would like to ask a favor of you.</p><p>You've done Bob lots of favors, so ask him a favor for a change.</p>"
+	},{
+		"id": 25,
+		"word":"A tough choice",
+		"type": "[Adjective + Noun]",
+		"meaning": "a difficult choice",
+		"example": "<p>It was a touch choice for him between two firms he really enjoyed.</p><p>This was tough choice for her to make on her own, even if she was already twenty-five.</p><p>It was a tough choice for her to choose between the two universities, and at last she chose Harvard.</p>"
+	},
+{
+		"id": 26,
+		"word":"All along",
+		"type": "[Adverb + Adverb]",
+		"meaning": "all the time, from the very beginning/continuously from when something begins",
+		"example": "<p>I thought he'd gone out, but he was in his room all along.</p><p>I pretended not to know who it was, but I knew it was you all along.</p><p>I think she's been cheating us all along</p><p>He realized it was in his pocket all along</p>"
+	},{
+		"id": 27,
+		"word":"Answer the door",
+		"type": "[Verb + Noun]",
+		"meaning": "to go to the door and open it after someone knocks or rings the doorbell",
+		"example": "<p>As soon as she heard him knock, Alison jumped up and answered the door.</p><p>As soon as she heard him knock, Alison jumped up and answered the door.</p><p>No-one answered the door although he rang the doorbell many times.</p>"
+	},
+
+	
 
 ]
