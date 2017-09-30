@@ -186,7 +186,13 @@
 		"type": "[Verb + Noun]",
 		"meaning": "to go to the door and open it after someone knocks or rings the doorbell",
 		"example": "<p>As soon as she heard him knock, Alison jumped up and answered the door.</p><p>As soon as she heard him knock, Alison jumped up and answered the door.</p><p>No-one answered the door although he rang the doorbell many times.</p>"
-	},
+	},{
+		"id": 28,
+		"word":"Ask for advice",
+		"type": "[Verb + Noun]",
+		"meaning": "to ask someone about what you should do or how you should act in a particular situation.",
+		"example": "<p>Don't be afraid to ask your teacher for advice on how to prepare for the exam.</p><p>Why don't ask your brother for some advice? He knows all about English.</p><p><strong>Note:</strong> related collocations include 'ask for help' and 'ask for suggestions'</p>"
+	}
 
 	
 
