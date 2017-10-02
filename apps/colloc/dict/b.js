@@ -15,182 +15,114 @@
 	},
 	{
 		"id": 2,
-		"word":"A streaming cold",
+		"word":"Back taxes",
 		"type": "[Adjective + Noun]",
-		"meaning": "a heavy cold.",
-		"example": "<p>He’s got a streaming cold.</p><p>She has caught a streaming cold.</p><p>She has been in bed with a streaming cold.</p>"
+		"meaning": "taxes that haven't been paid when they were due",
+		"example": "<p>Do you still own any back taxes? </p><p>You'll have to pay all your back taxes and a fine for paying them late.</p><p>Bro you owes more than $90,000 in back taxes.</p>"
 	},
 	{
 		"id": 3,
-		"word":"A massive heart attack",
+		"word":"Bad breath",
 		"type": "[Adjective + Noun]",
-		"meaning": "A very serious heart attack.",
-		"example": "<p>She died of a massive heart attack last year.</p><p>No one would like to suffer from a massive heart attack.</p>"
+		"meaning": "breath that smells unpleasant.",
+		"example": "<p>The worst thing about my new girlfriend is her bad breath.</p><p>If you don't want your breath to be so bad, you should clean your teeth more often.</p>"
 	},
 	{
 		"id": 4,
-		"word":"Absolutely/utterly ridiculous",
-		"type": "[Adverb + Adjective]",
-		"meaning": "Very silly or completely unreasonable.",
-		"example": "<p>He looked utterly ridiculous when he dressed like a teenager. </p><p>She looks absolutely ridiculous in that yellow hat.</p>"
+		"word":"Bad diet",
+		"type": "[Adjective + Noun]",
+		"meaning": "Unhealthy diet/food.",
+		"example": "<p>A bad diet can cause serious illness like heart disease, diebetes and cancer. </p><p>Thanks to the processed food industry, our diets are much worse now than they used to.</p>"
 	},
 	{
 		"id": 5,
-		"word":"A decline in demand",
-		"type": "[Noun + Noun]",
-		"meaning": "A fall in demand.",
-		"example": "<p>There was a decline in demand for female services in some occupations. </p><p>An increase in automobile prices may lead to a decline in demand for gas.</p>"
+		"word":"Bad loser",
+		"type": "[Adjective + Noun]",
+		"meaning": "someone who gets angry or upset when they lose/someone who behaves badly when they lose.",
+		"example": "<p>Brian is a bad loser. Nobody likes him.</p><p>Nobody likes a bad loser.</p><p>He's the worst loser ever. He blamed the weather, the golf course and even his own golf clubs.</p>"
 	},
 	{
 		"id": 6,
-		"word":"Absolutely/utterly stupid",
-		"type": "[Adverb + Adjective]",
-		"meaning": "Very silly.",
-		"example": "<p>Jack was utterly stupid to quit his job like that. </p><p>That guys behavior was absolutely stupid.</p>"
+		"word":"Bad temper",
+		"type": "[Adjective + Noun]",
+		"meaning": "a tendency to become angry quickly and easily.",
+		"example": "<p>Brian has got a really bad temper, if I were you I wouldn't marry him. </p><p>Dad had a bad temper, he would beat mom and us when he got really mad.</p><p>WTF Bill can't you control your bad temper even before boss?</p>"
 	},
 	{
 		"id": 7,
-		"word":"Absolutely/utterly impossible",
-		"type": "[Adverb + Adjective]",
-		"meaning": "Very badly.",
-		"example": "<p>Jack was utterly stupid to quit his job like that. </p><p>That guy's behavior was absolutely stupid.</p>"
+		"word":"Bright child",
+		"type": "[Adjective + Noun]",
+		"meaning": "an intelligent or clever child.",
+		"example": "<p>A bright child is usually curious about life.</p><p>Brian's child seems to a bright child.</p>"
 	},
 	{
 		"id": 8,
-		"word":"Absolutely necessary",
-		"type": "[Adverb + Adjective]",
-		"meaning": "Totally or completely essential or needed to do something, provide something, or make something happen.",
-		"example": "<p>Are you sure the operation is absolutely necessary?</p><p>The operation is absolutely necessary for him at the moment.</p><p>If it wasn't absolutely necessary, we wouldn't be doing it.</p><p> He doesn't want to be disturbed unless something is absolutely necessary.</p>"
+		"word":"Broach a subject",
+		"type": "[Verb + Noun]",
+		"meaning": "to start talking about a sensitive subject.",
+		"example": "<p>Brian decided to broach the subject of pay rise with his HR</p><p>Molie was afraid to broach the subject of divrose to her abusive husband.</p><p>How could you broach such a subject at this moment?</p><p>Is there a tactful way to broach the subject?</p><p>How can I broach the topic without hurting his feelings?</p>"
 	},
 	{
 		"id": 9,
-		"word":"Abuse drugs",
+		"word":"Break an agreement",
 		"type": "[Verb + Noun]",
-		"meaning": "to use drugs in a way that is harmful to yourself or others.",
-		"example": "<p>Mario abused drugs for many years, but luckily he got some help and stopped.</p><p>Prescription drugs that relieve pain are being abused a lot these days.</p><p>He died early due to abusing drugs for many years. </p><p>Bill has abused drugs for over 5 years.</p>"
+		"meaning": "to not do what someone has to do according to an agreement",
+		"example": "<p>Brian was worried that she might be breaking the agreement.</p><p>Molie broke the agreement made between her and Brian.</p>"
 	},
 	{
 		"id": 10,
-		"word":"Abuse of power",
-		"type": "[Noun + Noun]",
-		"meaning": "harmful, unethical or improper use of power by someone who has that authority",
-		"example": "<p>The president was accused of abusing his power after ordering soldiers to shoot at protesters. </p><p> He was charged with abuse of power to keep prices artificially high. </p><p>Police directives about what can and can't be photographed are an abuse of power and should be ignored, Liberty Victoria says.</p><p> It is dangerous for citizens to complain about corruption or abuse of power by public officials. </p><p>Toxic leadership is all about the abuse of power and its destructiveness.</p><p>The president was charged with abuse of power after ordering soldiers to shoot at protesters.</p>"
+		"word":"Bear in mind",
+		"type": "[Phrase]",
+		"meaning": "to remember",
+		"example": "<p>Bear in mind that I can't run as fast as you.</p><p>We should bear in mind that time is money</p><p>Bear in mind that your family need you most.</p>"
 	},
 	{
 		"id": 11,
-		"word":"Accept (a) defeat",
+		"word":"Broden/expand/widen somebody's horizon",
 		"type": "[Verb + Noun]",
-		"meaning": "to accept the fact that you cannot succeed in doing something and stop trying to do it.",
+		"meaning": "to increase the ragne of interest, activties, and knowlefeel",
 		"example": "<p>Talent and refusal to accept defeat was written on your face and your body in every game you played.</p><p>There are times when you have to accept defeat because of the resilience your enemy has shown even against best of your damage spells.</p><p>He finally had to accept a defeat</p><p>Tom thought he couldn't win the game, so he had to accept a defeat.</p>"
 	},
 	{
 		"id": 12,
-		"word":"Accept (a) challenge",
-		"type": "[Verb + Noun]",
-		"meaning": "to agree to do something difficult or dangerous.",
-		"example": "<p>Being captain of the team won't be easy, but I'm sure David will accept the challenge.</p><p>This really big guy challenged me to a fight, but instead accepting I ran away as fast as I could.</p>"
+		"word":"Be overburdened with something",
+		"type": "[Phrase]",
+		"meaning": "to give somebody/something too much work to deal with",
+		"example": "<p>He is often overburdened with work.</p><p>She has been overburdened with troubles recently.</p><p>The state police are too overburdened with other matters to have time for an old woman's haverings.</p>"
 	},
 	{
 		"id": 13,
-		"word":"Accept (an) apology",
-		"type": "[Verb + Noun]",
-		"meaning": "to forgive someone who says they're sorry for doing something wrong or for causing a problem.",
-		"example": "<p>My mistake was serious, but luckily the boss accepted my apology.</p><p>She refused to accept her husband's apology and said she wanted a divorce.</p><p>Paul refused to accept his wife's apology and said he wanted a divorce.</p>"
+		"word":"Bitterly cold",
+		"type": "[Adverb + Adjective]",
+		"meaning": "extremely and unpleasant cold/extremely cold, of weather, wind, rain, etc.",
+		"example": "<p>Winters in London tend to be bitterly oold.</p><p>Winters in Russia can be bitterly cold.</p><p>A bitterly cold wind was blowing as we climbed the mountain.</p>"
 	},
 	{
 		"id": 14,
-		"word":"Accept an invitation",
-		"type": "[Verb + Noun]",
-		"meaning": "to say 'yes' after getting an invitation/to agree to spend time with someone socially or to come to a social event after getting an invitation.",
-		"example": "<p>Most of the people we invited to the party have accepted their invitation already.</p><p>Tom accepted an invitation to the party.</p>"
+		"word":"Blissfully unaware",
+		"type": "[Adverb + Adjective]",
+		"meaning": "a state in which you do not know or realize that something unpleasant or worrying is happening or that something exists.",
+		"example": "<p>Brian was blissfully unaware of the danger.</p><p>Mona parents remained blissfully unaware of her plans to run away with her boyfriend.</p>"
 	},	
 	{
 		"id": 15,
-		"word":"Accept responsibity",
-		"type": "[Verb + Noun]",
-		"meaning": "to take the blame when something goes wrong",
-		"example": "<p>The bank is refusing to accept responsibility for the mistake.</p><p>The manager has accepted full responsibility for the company's problems.</p><p>He refuses to accept responsibility for the mistake.</p><p>Mark accepted responsibility for the failure of the deal.</p>"
+		"word":"Badly need",
+		"type": "[Adverb + Verb]",
+		"meaning": "need something very much",
+		"example": "<p>Tom badly needed the money he lost</p><p>She badly needs to clean her room.</p>"
 	},
 	{
 		"id": 16,
-		"word":"Aches and pains",
-		"type": "[Noun + Noun]",
-		"meaning": "minor pains that continuous and unpleasant due to physical work or old age, but usually not very serious",
-		"example": "<p>Grandma's complaining about all her aches and pains again.</p><p>After carrying sacks of rice all day, I felt all the usual aches and pains in my back and shoulders.</p><p>He refuses to accept responsibility for the mistake.</p><p>His grandma complains about all her aches and pains in her back and shoulders usually.</p><p>Tom is tired of hearing about all her grandma's aches and pains.</p><p>You might have all sorts of aches and pains when you get older.</p>"
+		"word":"Bittterly resent",
+		"type": "[Adverb + Verb]",
+		"meaning": "to feel extremely angry about something, especially because you have been forced to accept it.",
+		"example": "<p>Molie bitterly resented the new woman in her father's life</p><p>She bitterly resents being treated like a maid.</p>"
 	},
 	{
 		"id": 17,
-		"word":"Act suspiciously",
-		"type": "[Verb + Adverb]",
-		"meaning": "to behave in a way that makes people suspicious",
-		"example": "<p>Stop acting so suspiciously! Do you want to get caught?</p><p>He was seen acting suspiciously outside the bank, so someone called the police.</p>"
-	},
-{
-		"id": 18,
-		"word":"Active ingredient",
-		"type": "[Adjective + Noun]",
-		"meaning": "the chemically active part of a drug, medicine or pesticide that makes it work.",
-		"example": "<p>What's the active ingredient in this cough mixture?</p><p>Do you know what the active ingredient in aspirin is?</p><p>He refuses to accept responsibility for the mistake.</p><p>The active ingredient in many over-the-counter pain medications is acetaminophen.</p>"
-	},{
-		"id": 19,
-		"word":"Actively involved",
-		"type": "[Adverb + Adjective]",
-		"meaning": "playing an active role.",
-		"example": "<p>More young people should become actively involved in the politics.</p><p>My mother wasn't actively involved in the women's mo<vement, but she believed in equal pay.</p>"
-	},{
-		"id": 20,
-		"word":"An awful lot",
-		"type": "[Adjective + Noun]",
-		"meaning": "A very large amount.",
-		"example": "<p>His wife has spent an awful lot of money on clothes these days.</p><p>Brian is a famous lawyer. He gets an awful lot of clients.</p>"
-	},{
-		"id": 21,
-		"word":"A slave to fashion",
-		"type": "[Noun + Noun]",
-		"meaning": "someone who is influenced too much ny fashion.",
-		"example": "<p>Unlike most young people, I'm not a slave to fahion.</p><p>Are you a slave to fashion</p>"
-	},{
-		"id": 22,
-		"word":"Adoring fans",
-		"type": "[Adjective + Noun]",
-		"meaning": "fans who show much love to a particular band or singer.",
-		"example": "<p>The movie star is mobbed by adoring fans wherever he goes.</p><p>The band used to be worshiped by adoring fans all over the world.</p>"
-	},{
-		"id": 23,
-		"word":"Act within the law",
-		"type": "[Verb + Noun]",
-		"meaning": "not do illegal things.",
-		"example": "<p>The police officers must act within the law.</p><p>Doctors and lawyers must act within the law.</p>"
-	},{
-		"id": 24,
-		"word":"Ask a favor",
-		"type": "[Verb + Noun]",
-		"meaning": "to ask somebody to do something for you because you need help, support or approval of something.",
-		"example": "<p>Can/Could/May I ask a favor?</p><p>I would like to ask a favor of you.</p><p>You've done Bob lots of favors, so ask him a favor for a change.</p>"
-	},{
-		"id": 25,
-		"word":"A tough choice",
-		"type": "[Adjective + Noun]",
-		"meaning": "a difficult choice",
-		"example": "<p>It was a touch choice for him between two firms he really enjoyed.</p><p>This was tough choice for her to make on her own, even if she was already twenty-five.</p><p>It was a tough choice for her to choose between the two universities, and at last she chose Harvard.</p>"
-	},
-{
-		"id": 26,
-		"word":"All along",
-		"type": "[Adverb + Adverb]",
-		"meaning": "all the time, from the very beginning/continuously from when something begins",
-		"example": "<p>I thought he'd gone out, but he was in his room all along.</p><p>I pretended not to know who it was, but I knew it was you all along.</p><p>I think she's been cheating us all along</p><p>He realized it was in his pocket all along</p>"
-	},{
-		"id": 27,
-		"word":"Answer the door",
-		"type": "[Verb + Noun]",
-		"meaning": "to go to the door and open it after someone knocks or rings the doorbell",
-		"example": "<p>As soon as she heard him knock, Alison jumped up and answered the door.</p><p>As soon as she heard him knock, Alison jumped up and answered the door.</p><p>No-one answered the door although he rang the doorbell many times.</p>"
-	},{
-		"id": 28,
-		"word":"Ask for advice",
-		"type": "[Verb + Noun]",
-		"meaning": "to ask someone about what you should do or how you should act in a particular situation.",
-		"example": "<p>Don't be afraid to ask your teacher for advice on how to prepare for the exam.</p><p>Why don't ask your brother for some advice? He knows all about English.</p><p><strong>Note:</strong> related collocations include 'ask for help' and 'ask for suggestions'</p>"
+		"word":"Bittterly criticize",
+		"type": "[Adverb + Verb]",
+		"meaning": "to express that you strongly disapprove of something/somebody; to express your extreme disapproval of someone or something",
+		"example": "<p>His decision of leaving job for self-startup business was bitterly criticized by his parents.</p><p>Current government has been bitterly criticized for not taking any action against corrupt people.</p>"
 	}
 ]
