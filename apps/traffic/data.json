@@ -2476,13 +2476,14 @@
     "previous": null
   },
   "trafficFineCategories": [
-    {
-      "id": 1,
-      "name": "Accidents"
-    },
+    
     {
       "id": 5,
       "name": "Public Transport"
+    },
+    {
+      "id": 1,
+      "name": "Accidents"
     },
     {
       "id": 4,
