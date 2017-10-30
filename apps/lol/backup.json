@@ -8,6 +8,18 @@
     "iap":false,
     "tabs":[
       {
+        "title":"mjo",
+        "provider":"facebook",
+        "arguments":[
+          "makejokeof"
+        ]
+      },{
+        "title":"mog",
+        "provider":"facebook",
+        "arguments":[
+          "memesofgame"
+        ]
+      },{
         "title":"fnd",
         "provider":"facebook",
         "arguments":[
