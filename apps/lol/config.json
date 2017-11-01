@@ -8,6 +8,20 @@
     "iap":false,
     "tabs":[
       {
+        "title":"LOL",
+        "provider":"facebook",
+        "arguments":[
+          "LOL4NR"
+        ]
+      },
+      {
+        "title":"fnd",
+        "provider":"facebook",
+        "arguments":[
+          "funnyordie"
+        ]
+      },
+      {
         "title":"mog",
         "provider":"facebook",
         "arguments":[
@@ -20,21 +34,7 @@
         "arguments":[
           "makejokeof"
         ]
-      },{
-        "title":"fnd",
-        "provider":"facebook",
-        "arguments":[
-          "funnyordie"
-        ]
-      },
-
-      {
-        "title":"LOL",
-        "provider":"facebook",
-        "arguments":[
-          "LOL4NR"
-        ]
-      },
+      },      
       {
         "title":"Boar",
         "provider":"pinterest",
