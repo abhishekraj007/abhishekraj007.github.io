@@ -185,6 +185,24 @@
         "arguments": [
           "313658650", "playlist"
         ]
+      },{
+        "title": "Freedom",
+        "provider": "soundcloud",
+        "arguments": [
+          "215553522", "playlist"
+        ]
+      },{
+        "title": "Breadbeat",
+        "provider": "soundcloud",
+        "arguments": [
+          "110542000", "playlist"
+        ]
+      },{
+        "title": "Beyond Silence",
+        "provider": "soundcloud",
+        "arguments": [
+          "12964808", "playlist"
+        ]
       },
        {
         "title": "Nonstop",
