@@ -115,7 +115,13 @@
     "submenu":"Other Apps",
     "iap":false,
     "tabs":[
-          "market://details?id=com.akrj.lol","url"
+      {
+        "title":"Inspirre",
+        "provider":"custom",
+        "arguments":[
+          "market://details?id=com.akrj.lol"
+        ]
+      }
     ]
   }
 ]
