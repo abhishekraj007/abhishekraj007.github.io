@@ -119,7 +119,7 @@
         "title":"Inspirre",
         "provider":"custom",
         "arguments":[
-          "market://details?id=com.akrj.lol", "url"
+          "market://details?id=com.akrj.app.inspiria", "url"
         ]
       }
     ]
