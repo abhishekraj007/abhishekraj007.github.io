@@ -65,6 +65,13 @@
     "iap":false,
     "tabs":[
       {
+        "title":"BB",
+        "provider":"facebook",
+        "arguments":[
+          "Backchodbilli"
+        ]
+      },
+      {
         "title":"BG",
         "provider":"pinterest",
         "arguments":[
