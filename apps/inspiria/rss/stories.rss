@@ -14,7 +14,7 @@
             <description>
 
                 <![CDATA[
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2P6QU9VZAJw?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2P6QU9VZAJw?ecver=1" frameborder="0" gesture="media" allowfullscreen controls="1" fs="1"></iframe>
                    <p>I have a friend named Monty Roberts who owns a horse ranch in San Ysidro. He has let me use his house to put on fund-raising events to raise money for youth at risk programs.</p>
                     <p>The last time I was there he introduced me by saying:</p>
                     <p>&ldquo;I want to tell you why I let Jack use my horse. It all goes back to a story about a young man who was the son of an itinerant horse trainer who would go from stable to stable, race track to race track, farm to farm and ranch to ranch, training horses. As a result, the boy&rsquo;s high school career was continually interrupted. When he was a senior, he was asked to write a paper about what he wanted to be and do when he grew up.&rdquo;</p>
