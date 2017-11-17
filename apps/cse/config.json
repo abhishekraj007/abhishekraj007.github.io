@@ -1,0 +1,16 @@
+[  
+  {
+    "title": "Data Structure",
+    "drawable": "ic_d",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Motivational Stories",
+      "provider": "rss",
+      "arguments": [
+        "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
+      ]
+    }]
+  }
+
+]
