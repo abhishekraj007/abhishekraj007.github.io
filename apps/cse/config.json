@@ -8,7 +8,7 @@
       "title": "Motivational Stories",
       "provider": "rss",
       "arguments": [
-        "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
+        "https://abhishekraj007.github.io/apps/cse/res/all.xml"
       ]
     }]
   }
