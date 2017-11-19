@@ -8,6 +8,13 @@
     "iap":false,
     "tabs":[
       {
+        "title":"Footy",
+        "provider":"twitter",
+        "arguments":[
+          "Footy_Jokes"
+        ]
+      },
+      {
         "title":"LOL",
         "provider":"facebook",
         "arguments":[
@@ -54,6 +61,21 @@
         "provider":"pinterest",
         "arguments":[
           "309622611821111321"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Footy Jokes",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Footy Jokes",
+        "provider":"twitter",
+        "arguments":[
+          "Footy_Jokes"
         ]
       }
     ]

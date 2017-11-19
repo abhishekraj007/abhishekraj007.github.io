@@ -11,5 +11,20 @@
         "https://abhishekraj007.github.io/apps/cse/res/all.xml"
       ]
     }]
+  },
+  {
+    "title":"Twitter",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Twitter",
+        "provider":"twitter",
+        "arguments":[
+          "Footy_Jokes"
+        ]
+      }
+    ]
   }
 ]
