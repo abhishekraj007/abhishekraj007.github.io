@@ -11,6 +11,22 @@
         "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
       ]
     }]
+  },
+  {
+    "title":"WebView",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"webview",
+        "arguments":[
+          "https://www.altnews.in/fake-video-raid-tt-law-firm-made-viral-money-found-congress-minister-dk-shivkumars-home"
+        ]
+      }
+    ]
+
   }
 
 ]
