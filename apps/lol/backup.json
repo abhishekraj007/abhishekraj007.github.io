@@ -8,6 +8,27 @@
     "iap":false,
     "tabs":[
       {
+        "title":"Footy",
+        "provider":"twitter",
+        "arguments":[
+          "Footy_Jokes"
+        ]
+      },
+      {
+        "title":"LOL",
+        "provider":"facebook",
+        "arguments":[
+          "LOL4NR"
+        ]
+      },
+      {
+        "title":"fnd",
+        "provider":"facebook",
+        "arguments":[
+          "funnyordie"
+        ]
+      },
+      {
         "title":"mog",
         "provider":"facebook",
         "arguments":[
@@ -20,21 +41,7 @@
         "arguments":[
           "makejokeof"
         ]
-      },{
-        "title":"fnd",
-        "provider":"facebook",
-        "arguments":[
-          "funnyordie"
-        ]
-      },
-
-      {
-        "title":"LOL",
-        "provider":"facebook",
-        "arguments":[
-          "LOL4NR"
-        ]
-      },
+      },      
       {
         "title":"Boar",
         "provider":"pinterest",
@@ -59,11 +66,33 @@
     ]
   },
   {
+    "title":"Footy Jokes",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Footy Jokes",
+        "provider":"twitter",
+        "arguments":[
+          "Footy_Jokes"
+        ]
+      }
+    ]
+  },
+  {
     "title":"Hindi",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
+      {
+        "title":"BB",
+        "provider":"facebook",
+        "arguments":[
+          "Backchodbilli"
+        ]
+      },
       {
         "title":"BG",
         "provider":"pinterest",
@@ -107,6 +136,21 @@
         ]
       }
 
+    ]
+  },
+  {
+    "title":"Inspirre",
+    "drawable":"",
+    "submenu":"Other Apps",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Inspirre",
+        "provider":"custom",
+        "arguments":[
+          "market://details?id=com.akrj.app.inspiria", "url"
+        ]
+      }
     ]
   }
 ]
