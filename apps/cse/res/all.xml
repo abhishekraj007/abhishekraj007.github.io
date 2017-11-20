@@ -56,12 +56,21 @@
 						<li>Sorting</li>
 						<li>Merging</li>
 						</ul>
-						<h4>Compile and Execute</h4><p>(you can copy code and try in editor )</p><pre class="prettyprint notranslate tryit prettyprinted" style="font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; padding: 5px; margin-top: 15px; margin-bottom: 10px; border-radius: 0px; width: 604px; line-height: 16px; border: 1px solid rgb(214, 214, 214); font-size: 13px; min-height: 37px; color: rgb(49, 49, 49); cursor: default; background: url(&quot;data_structures_algorithms/images/try-it.jpg&quot;) right top no-repeat rgb(238, 238, 238) !important;"><span class="com" style="color: rgb(136, 0, 0);">#include</span><span class="pln"> </span><span class="str" style="color: rgb(0, 136, 0);">&lt;stdio.h&gt;</span><span class="pln">
-						</span><span class="kwd" style="color: rgb(0, 0, 136);">int</span><span class="pln"> main</span><span class="pun" style="color: rgb(102, 102, 0);">(){</span><span class="pln">
-							 </span><span class="com" style="color: rgb(136, 0, 0);">/* My first program in C */</span><span class="pln">
-							 printf</span><span class="pun" style="color: rgb(102, 102, 0);">(</span><span class="str" style="color: rgb(0, 136, 0);">"Hello, World! \n"</span><span class="pun" style="color: rgb(102, 102, 0);">);</span><span class="pln">               
-							 </span><span class="kwd" style="color: rgb(0, 0, 136);">return</span><span class="pln"> </span><span class="lit" style="color: rgb(0, 102, 102);">0</span><span class="pun" style="color: rgb(102, 102, 0);">;</span><span class="pln">
-						</span><span class="pun" style="color: rgb(102, 102, 0);">}</span></pre><p><a href="https://www.jdoodle.com/c-online-compiler">Open C Editor</a><br></p><ul class="list">
+						<h4>Compile and Execute</h4><p>(you can copy code and try in editor )</p>
+						div
+						<div style="background: #ddd; padding: 10px;">
+							<pre class="prettyprint notranslate tryit">#include &lt;stdio.h&gt;
+
+							int main(){
+								 /* My first program in C */
+								 printf("Hello, World! \n");
+
+								 return 0;
+							}
+							</pre>
+						</div>
+
+						<p><a href="https://www.jdoodle.com/c-online-compiler">Open C Editor</a><br></p><ul class="list">
 						</ul>
 					]]>
 					</description>
