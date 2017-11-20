@@ -27,6 +27,27 @@
 					]]>
 					</description>
 				</item>
+				<item>
+					<title>Data Intro</title>
+					<link>https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm</link>
+					<pubDate></pubDate>
+					<description>
+					<![CDATA[
+					<h3>Videos</h3>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/shs0KM3wKv8?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/DuDz6B4cqVc?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						<a href="https://www.youtube.com/watch?v=92S4zgXN17o"></a>
+						<h3>Reading Material</h3>
+						 https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm
+						 <p><a href="http://www.studytonight.com/data-structures/introduction-to-data-structures">Basics of Data Structure (Studytonight)</a><br></p>
+						 <p><a href="https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm">Basics of Data Structure (Tutorialspoint)</a><br></p>
+						<h3>Animation</h3>
+						 <a href="https://www.cs.usfca.edu/~galles/visualization/StackArray.html">Animation</a>
+
+						<p><a href="https://www.jdoodle.com/c-online-compiler">Open C Editor</a><br></p><ul class="list">
+					]]>
+					</description>
+				</item>
 
 		</channel>
 </rss>
