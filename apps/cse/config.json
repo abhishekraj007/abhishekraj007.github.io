@@ -1,30 +1,15 @@
-[  
-  {
-    "title": "CSE",
-    "drawable": "ic_dsa",
-    "submenu": "",
-    "iap": false,
-    "tabs": [{
-      "title": "Motivational Stories",
-      "provider": "rss",
-      "arguments": [
-        "https://abhishekraj007.github.io/apps/cse/res/all.xml"
-      ]
-    }]
-  },
-  {
-    "title":"Twitter",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Twitter",
-        "provider":"twitter",
-        "arguments":[
-          "Footy_Jokes"
-        ]
-      }
-    ]
-  }
+[
+	{
+		"title": "CSE",
+		"drawable": "ic_dsa",
+		"submenu": "",
+		"iap": false,
+		"tabs": [{
+			"title": "Motivational Stories",
+			"provider": "rss",
+			"arguments": [
+				"https://abhishekraj007.github.io/apps/cse/res/all.xml"
+			]
+		}]
+	}
 ]
