@@ -57,7 +57,6 @@
 						<li>Merging</li>
 						</ul>
 						<h4>Compile and Execute</h4><p>(you can copy code and try in editor )</p>
-						div
 						<div style="background: #ddd; padding: 10px;">
 							<pre class="prettyprint notranslate tryit">#include &lt;stdio.h&gt;
 
