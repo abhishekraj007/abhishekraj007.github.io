@@ -12,14 +12,6 @@
 			]
 		},
 		{
-        "title": "Video-L1",
-        "provider": "youtube",
-        "arguments": [
-          "PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P",
-          "UClEEsT7DkdVO_fkrBw0OTrA"          
-        ]
-     },
-		{
         "title": "Video-L2",
         "provider": "youtube",
         "arguments": [
