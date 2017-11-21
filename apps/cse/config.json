@@ -5,12 +5,20 @@
 		"submenu": "",
 		"iap": false,
 		"tabs": [{
-			"title": "Reading",
+			"title": "Read",
 			"provider": "rss",
 			"arguments": [
 				"https://abhishekraj007.github.io/apps/cse/res/all.xml"
 			]
 		},
+		{
+        "title": "Video-L1",
+        "provider": "youtube",
+        "arguments": [
+          "PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P",
+          "UClEEsT7DkdVO_fkrBw0OTrA"          
+        ]
+     },
 		{
         "title": "Video-L2",
         "provider": "youtube",
