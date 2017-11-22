@@ -35,7 +35,7 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="https://i.ytimg.com/vi/tJQC0HCv8yg/maxresdefault.jpg" alt="DSA"/></p>
+						<p><img src="https://i.ytimg.com/vi/2OhJKXTulU4/maxresdefault.jpg" alt="DSA"/></p>
 						<p>
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm">Introduction to Array (Tutorialspoint)</a>
 						</p>
@@ -46,6 +46,50 @@
 							<a href="https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/">1-D/Multi-dimentional Array(Hackerearth)</a>
 						</p>
 						<p></p>
+
+					]]>
+					</description>
+				</item>
+				<item>
+					<title>LinkedList - Data Structure</title>
+					<link>https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm</link>
+					<pubDate>20 Nov 2017</pubDate>
+					<description>
+					<![CDATA[
+						<p><img src="https://i.pinimg.com/originals/66/88/57/668857f1e46e4afc04dca56f20f07317.jpg" alt="DSA"/></p>
+
+					]]>
+					</description>
+				</item>
+				<item>
+					<title>Stack and Queue - Data Structure</title>
+					<link>https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm</link>
+					<pubDate>20 Nov 2017</pubDate>
+					<description>
+					<![CDATA[
+						<p><img src="http://www.penguinprogrammer.co.uk/images/data-structures/stack.png" alt="DSA"/></p>
+
+					]]>
+					</description>
+				</item>
+				<item>
+					<title>Tree - Data Structure</title>
+					<link>https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm</link>
+					<pubDate>20 Nov 2017</pubDate>
+					<description>
+					<![CDATA[
+						<p><img src="http://www.i-programmer.info/images/stories/BabBag/trees/Tree2a.jpg" alt="DSA"/></p>
+
+					]]>
+					</description>
+				</item>
+				<item>
+					<title>Graph - Data Structure</title>
+					<link>https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm</link>
+					<pubDate>20 Nov 2017</pubDate>
+					<description>
+					<![CDATA[
+						<p><img src="https://i.stack.imgur.com/w3LhO.png" alt="DSA"/></p>
 
 					]]>
 					</description>
