@@ -10,55 +10,7 @@
 			"arguments": [
 				"https://abhishekraj007.github.io/apps/cse/res/dsa.xml"
 			]
-		},
-		{
-				"title": "Video-L1",
-				"provider": "youtube",
-				"arguments": [
-					"PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P",
-					"playlist"
-				]
-		 },
-		{
-				"title": "Video-L2",
-				"provider": "youtube",
-				"arguments": [
-					"PLsFNQxKNzefJNztGGoQC-59UhSwIaiIW3",
-					"playlist"
-				]
-		 },
-		{
-				"title": "Video-L3",
-				"provider": "youtube",
-				"arguments": [
-					"PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0",
-					"playlist"
-				]
-		 },
-		{
-				"title": "Video-L4(MIT)",
-				"provider": "youtube",
-				"arguments": [
-					"PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
-					"playlist"
-				]
-		 },
-		{
-				"title": "Video-L5",
-				"provider": "youtube",
-				"arguments": [
-					"PLsFENPUZBqipuTJXgm7xAOR0UnY_8OY07",
-					"playlist"
-				]
-		 },
-		{
-				"title": "Video-L6(NPTEL)",
-				"provider": "youtube",
-				"arguments": [
-					"PLBF3763AF2E1C572F",
-					"playlist"
-				]
-		 }
+		}
 		]
 	}
 ]
