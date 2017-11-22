@@ -1,11 +1,11 @@
 [
 	{
-		"title": "CSE",
+		"title": "DSA",
 		"drawable": "ic_dsa",
 		"submenu": "",
 		"iap": false,
 		"tabs": [{
-			"title": "Read",
+			"title": "Reading",
 			"provider": "rss",
 			"arguments": [
 				"https://abhishekraj007.github.io/apps/cse/res/all.xml"
