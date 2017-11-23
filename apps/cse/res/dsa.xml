@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<style type = "text/css">
+	p{
+		border: #dddddd;
+		background: #ffffff;
+		padding: 8px 4px;
+	}
+</style>
+
+
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 		xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
 		<channel>
@@ -45,18 +55,35 @@
 						<p>
 							<a href="https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/">1-D/Multi-dimentional Array(Hackerearth)</a>
 						</p>
-						<p></p>
 
 					]]>
 					</description>
 				</item>
 				<item>
 					<title>LinkedList - Data Structure</title>
-					<link>https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm</link>
+					<link>#</link>
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
 						<p><img src="https://i.pinimg.com/originals/66/88/57/668857f1e46e4afc04dca56f20f07317.jpg" alt="DSA"/></p>
+						<p>
+							<a href="https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm">Linked List Basics (Tutorialspoint)</a>
+						</p>
+						<p>
+							<a href="https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_algorithm.htm">Doubly Linked List (Tutorialspoint)</a>
+						</p>
+						<p>
+							<a href="https://www.tutorialspoint.com/data_structures_algorithms/circular_linked_list_algorithm.htm">Circular Linked List (Tutorialspoint)</a>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/pBrz9HmjFOs?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ge8iG7JecR4?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/njTh_OwMljA?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>
 
 					]]>
 					</description>
