@@ -115,6 +115,15 @@
 					<description>
 					<![CDATA[
 						<p><img src="http://www.i-programmer.info/images/stories/BabBag/trees/Tree2a.jpg" alt="DSA"/></p>
+						<p>
+							<a href="https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm">Tree Data Structure (Tutorialspoint)</a>
+						</p>
+						<p>
+							<a href="http://www.geeksforgeeks.org/binary-tree-set-1-introduction">Binary Tree Data Structure (GeeksForGeeks)</a>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/oSWTXtMglKE?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>
 
 					]]>
 					</description>
@@ -126,6 +135,18 @@
 					<description>
 					<![CDATA[
 						<p><img src="https://i.stack.imgur.com/w3LhO.png" alt="DSA"/></p>
+						<p>
+							<a href="https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm">Graph Data Structure (Tutorialspoint)</a>
+						</p>
+						<p>
+							<a href="http://www.geeksforgeeks.org/graph-and-its-representations">Graph and its representations (GeeksForGeeks)</a>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/zaBhtODEL0w?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/bIA8HEEUxZI?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>
 
 					]]>
 					</description>
