@@ -13,17 +13,17 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="https://i.ytimg.com/vi/tJQC0HCv8yg/maxresdefault.jpg" alt="DSA"/></p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff"><img src="https://i.ytimg.com/vi/tJQC0HCv8yg/maxresdefault.jpg" alt="DSA"/></p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm">Basics of Data Structure (Tutorialspoint)</a>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<a href="http://www.studytonight.com/data-structures/introduction-to-data-structures">Into to Data Structure (Studytonight)</a>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/shs0KM3wKv8?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/DuDz6B4cqVc?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
 
@@ -36,14 +36,14 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="https://i.ytimg.com/vi/2OhJKXTulU4/maxresdefault.jpg" alt="DSA"/></p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff"><img src="https://i.ytimg.com/vi/2OhJKXTulU4/maxresdefault.jpg" alt="DSA"/></p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm">Introduction to Array (Tutorialspoint)</a>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<a href="http://www.geeksforgeeks.org/introduction-to-arrays/">Into to Data Structure (Geeksforgeeks)</a>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<a href="https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/">1-D/Multi-dimentional Array(Hackerearth)</a>
 						</p>
 
@@ -56,23 +56,23 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="https://i.pinimg.com/originals/66/88/57/668857f1e46e4afc04dca56f20f07317.jpg" alt="DSA"/></p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff"><img src="https://i.pinimg.com/originals/66/88/57/668857f1e46e4afc04dca56f20f07317.jpg" alt="DSA"/></p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm">Linked List Basics (Tutorialspoint)</a>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_algorithm.htm">Doubly Linked List (Tutorialspoint)</a>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/circular_linked_list_algorithm.htm">Circular Linked List (Tutorialspoint)</a>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/pBrz9HmjFOs?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/ge8iG7JecR4?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
-						<p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/njTh_OwMljA?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
 
@@ -85,7 +85,7 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="http://www.penguinprogrammer.co.uk/images/data-structures/stack.png" alt="DSA"/></p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff"><img src="http://www.penguinprogrammer.co.uk/images/data-structures/stack.png" alt="DSA"/></p>
 
 					]]>
 					</description>
@@ -96,7 +96,7 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="http://www.i-programmer.info/images/stories/BabBag/trees/Tree2a.jpg" alt="DSA"/></p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff"><img src="http://www.i-programmer.info/images/stories/BabBag/trees/Tree2a.jpg" alt="DSA"/></p>
 
 					]]>
 					</description>
@@ -107,7 +107,7 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="https://i.stack.imgur.com/w3LhO.png" alt="DSA"/></p>
+						<p style="box-shadow: 0px 0px 3px 0px #ddd; padding: 8px 4px; background: #ffffff"><img src="https://i.stack.imgur.com/w3LhO.png" alt="DSA"/></p>
 
 					]]>
 					</description>
