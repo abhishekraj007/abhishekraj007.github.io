@@ -86,6 +86,24 @@
 					<description>
 					<![CDATA[
 						<p><img src="http://www.penguinprogrammer.co.uk/images/data-structures/stack.png" alt="DSA"/></p>
+						<p>
+							<a href="https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm">Intro to Stack (Tutorialspoint)</a>
+						</p>
+						<p>
+							<a href="https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm">Intro to Queue (Tutorialspoint)</a>
+						</p>
+						<p>
+							<a href="http://www.geeksforgeeks.org/stack-data-structure-introduction-program">Stack Data Structure (GeeksForGeeks)</a>
+						</p>
+						<p>
+							<a href="http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation">Queue Data Structure and Array implementation (GeeksForGeeks)</a>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/JvGZh_BdF-8?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/wjI1WNcIntg?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>
 
 					]]>
 					</description>
