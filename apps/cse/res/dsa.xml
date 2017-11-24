@@ -15,6 +15,9 @@
 					<![CDATA[
 						<p><img src="https://i.ytimg.com/vi/tJQC0HCv8yg/maxresdefault.jpg" alt="DSA"/></p>
 						<p>
+							<a href="http://btechsmartclass.com/DS/U1_T1.html">What is an Algorithm? (ShortNote) (BTechSmartClass)</a>
+						</p>
+						<p>
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm">Basics of Data Structure (Tutorialspoint)</a>
 						</p>
 						<p>
@@ -36,7 +39,10 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="https://i.ytimg.com/vi/2OhJKXTulU4/maxresdefault.jpg" alt="DSA"/></p>
+						<p><img src="https://i.ytimg.com/vi/2OhJKXTulU4/maxresdefault.jpg" alt="Array"/></p>
+						<p>
+							<a href="http://btechsmartclass.com/DS/U1_T13.html">What is an Array?(ShortNote) (BTechSmartClass)</a>
+						</p>
 						<p>
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm">Introduction to Array (Tutorialspoint)</a>
 						</p>
@@ -45,6 +51,12 @@
 						</p>
 						<p>
 							<a href="https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/">1-D/Multi-dimentional Array(Hackerearth)</a>
+						</p>
+						<p>
+							<a href="http://www.geeksforgeeks.org/array-data-structure">In-depth/Problems/Technical Questions on Array(GeeksForGeeks)</a>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/DuDz6B4cqVc?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
 
 					]]>
@@ -56,7 +68,10 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="https://i.pinimg.com/originals/66/88/57/668857f1e46e4afc04dca56f20f07317.jpg" alt="DSA"/></p>
+						<p><img src="https://i.pinimg.com/originals/66/88/57/668857f1e46e4afc04dca56f20f07317.jpg" alt="LinkedList"/></p>
+						<p>
+							<a href="http://btechsmartclass.com/DS/U1_T10.html">What is Linked List?(ShortNote) (BTechSmartClass)</a>
+						</p>
 						<p>
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm">Linked List Basics (Tutorialspoint)</a>
 						</p>
@@ -85,7 +100,13 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="http://www.penguinprogrammer.co.uk/images/data-structures/stack.png" alt="DSA"/></p>
+						<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/391px-Data_stack.svg.png" alt="Stack"/></p>
+						<p>
+							<a href="http://btechsmartclass.com/DS/U2_T1.html">What is Stack?(ShortNote) (BTechSmartClass)</a>
+						</p>
+						<p>
+							<a href="http://btechsmartclass.com/DS/U2_T7.html">What is Queue?(ShortNote) (BTechSmartClass)</a>
+						</p>
 						<p>
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm">Intro to Stack (Tutorialspoint)</a>
 						</p>
@@ -94,6 +115,9 @@
 						</p>
 						<p>
 							<a href="http://www.geeksforgeeks.org/stack-data-structure-introduction-program">Stack Data Structure (GeeksForGeeks)</a>
+						</p>
+						<p>
+							<a href="http://www.geeksforgeeks.org/stack-data-structure-introduction-program">Priority Queue (BTechSmartClass)</a>
 						</p>
 						<p>
 							<a href="http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation">Queue Data Structure and Array implementation (GeeksForGeeks)</a>
@@ -114,7 +138,13 @@
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
-						<p><img src="http://www.i-programmer.info/images/stories/BabBag/trees/Tree2a.jpg" alt="DSA"/></p>
+						<p><img src="http://www.i-programmer.info/images/stories/BabBag/trees/Tree2a.jpg" alt="Tree"/></p>
+						<p>
+							<a href="http://btechsmartclass.com/DS/U3_T1.html">Tree Terminology (ShortNotes) (BTechSmartClass)</a>
+						</p>
+						<p>
+							<a href="http://btechsmartclass.com/DS/U3_T3.html">Binary Tree (ShortNotes) (BTechSmartClass)</a>
+						</p>
 						<p>
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm">Tree Data Structure (Tutorialspoint)</a>
 						</p>
@@ -136,9 +166,13 @@
 					<![CDATA[
 						<p><img src="https://i.stack.imgur.com/w3LhO.png" alt="DSA"/></p>
 						<p>
+							<a href="http://btechsmartclass.com/DS/U3_T8.html">Introduction to Graphs (ShortNote) (BTechSmartClass)</a>
+						</p>
+						<p>
 							<a href="https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm">Graph Data Structure (Tutorialspoint)</a>
 						</p>
 						<p>
+
 							<a href="http://www.geeksforgeeks.org/graph-and-its-representations">Graph and its representations (GeeksForGeeks)</a>
 						</p>
 						<p>
