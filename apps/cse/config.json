@@ -2,7 +2,7 @@
 	{
 		"title": "Data Structure & Algo",
 		"drawable": "ic_dsa",
-		"submenu": "",
+		"submenu": "Intro to Computer Science",
 		"iap": false,
 		"tabs": [{
 			"title": "Reading",
