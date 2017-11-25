@@ -5,7 +5,7 @@
 		"submenu": "Intro to Computer Science",
 		"iap": false,
 		"tabs": [{
-			"title": "Reading Material",
+			"title": "Reading/Notes",
 			"provider": "rss",
 			"arguments": [
 				"https://abhishekraj007.github.io/apps/cse/res/dsa.xml"
@@ -41,12 +41,12 @@
 		"iap": false,
 		"tabs": [
 		{
-				"title": "Course 1",
-				"provider": "youtube",
-				"arguments": [
-					"PL081AC329706B2953",
-					"playlist"
-				]
+			"title": "Course 1",
+			"provider": "youtube",
+			"arguments": [
+				"PL081AC329706B2953",
+				"playlist"
+			]
 		 }
 		]
 	},
@@ -55,39 +55,13 @@
 		"drawable": "ic_web",
 		"submenu": "Web Technologies",
 		"iap": false,
-		"tabs": [
-		{
-				"title": "VList-1-LCA",
-				"provider": "youtube",
-				"arguments": [
-					"PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b",
-					"playlist"
-				]
-		 },
-		{
-				"title": "VList-2-Boston",
-				"provider": "youtube",
-				"arguments": [
-					"PL6gx4Cwl9DGBuKtLgPR_zWYnrwv-JllpA",
-					"playlist"
-				]
-		 },
-		{
-				"title": "VList-3-AM",
-				"provider": "youtube",
-				"arguments": [
-					"PL55RiY5tL51oyA8euSROLjMFZbXaV7skS",
-					"playlist"
-				]
-		 },
-		{
-				"title": "VList-4-TM",
-				"provider": "youtube",
-				"arguments": [
-					"PLillGF-RfqbbKWfm3Y_RF57dNGsHnkYqO",
-					"playlist"
-				]
-		 }
+		"tabs": [{
+			"title": "Video Courses",
+			"provider": "overview",
+			"arguments": [
+				"https://abhishekraj007.github.io/apps/cse/web/web.json",
+			]
+		}
 		]
 	}
 ]
