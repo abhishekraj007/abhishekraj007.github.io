@@ -8,16 +8,38 @@
 			"title": "Reading/Notes",
 			"provider": "rss",
 			"arguments": [
-				"https://abhishekraj007.github.io/apps/cse/res/dsa/dsa.xml"
+				"https://abhishekraj007.github.io/apps/cse/res/xml/dsa.xml"
 			]
 		},
 		{
 			"title": "Video Courses",
 			"provider": "overview",
 			"arguments": [
-				"https://abhishekraj007.github.io/apps/cse/res/dsa/dsa.json"
+				"https://abhishekraj007.github.io/apps/cse/res/json/dsa.json"
 			]
 		}]
+	},
+	{
+		"title":"Database Management",
+		"drawable":"ic_cn",
+		"submenu":"Intro to Computer Science",
+		"iap":false,
+		"tabs":[
+			{
+				"title":"Reading/Notes",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/xml/dbms.xml"
+				]
+			},
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/dbms.json"
+				]
+			}
+		]
 	},
 	{
 		"title":"Computer Network",
@@ -29,7 +51,7 @@
 				"title":"Video Courses",
 				"provider":"overview",
 				"arguments":[
-					"https://abhishekraj007.github.io/apps/cse/res/cn/cn.json"
+					"https://abhishekraj007.github.io/apps/cse/res/json/cn.json"
 				]
 			}
 		]
@@ -59,7 +81,7 @@
 				"title": "Video Courses",
 				"provider": "overview",
 				"arguments": [
-					"https://abhishekraj007.github.io/apps/cse/res/web/react/react.json"
+					"https://abhishekraj007.github.io/apps/cse/res/json/react.json"
 				]
 			}
 		]

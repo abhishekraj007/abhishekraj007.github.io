@@ -1,0 +1,58 @@
+[
+	{
+		"title":"thenewboston",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PL32BC9C878BA72085", "playlist"
+		]
+	},
+	{
+		"title":"Bart Baesens",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLdQddgMBv5zF1MzrwY3KnD0t1WQTWOv9X", "playlist"
+		]
+	},
+	{
+		"title":"Ravindrababu",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLEbnTDJUr_Ic_9b4PcKmlae41cyxEefot", "playlist"
+		]
+	},
+	{
+		"title":"Techtud",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PLx5CT0AzDJCnO9k98RsrPY9WGAXj8yeKL","playlist"
+		]
+	},
+	{
+		"title":"Gate UGC Lecture",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLS8ACsmFCpmRpPKf6gvd2QqdEZ26EdUjU","playlist"
+		]
+	},
+	{
+		"title":"Knowledge Gate(Hindi+Eng)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV", "playlist"
+		]
+	},
+	{
+		"title":"University Academy(Hindi+Eng)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLG9aCp4uE-s0j5aFXp15gRJzAFzkRVnwC", "playlist"
+		]
+	}
+]

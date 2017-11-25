@@ -16,9 +16,17 @@
 		]
 	},
 	{
-		"title":"CSE",
+		"title":"University of Washington",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PL8TB7YKFiAkGvSXkJywdtckc2rAyp6S7r", "playlist"
+		]
+	},
+	{
+		"title":"CSE",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
 		"arguments": [
 			"PLayxKQoyjT38M1ixyMKkinmaymhuBF4XG", "playlist"
 		]
@@ -26,7 +34,7 @@
 	{
 		"title":"Techtud",
 		"provider":"youtube",
-		"image":"https://unsplash.it/720/480?image=635",
+		"image":"https://unsplash.it/720/480?image=1073",
 		"arguments": [
 			"PLx5CT0AzDJCnxcudBsfZlB5joMjEBSOKi","playlist"
 		]
@@ -34,7 +42,7 @@
 	{
 		"title":"University CSE/IT",
 		"provider":"youtube",
-		"image":"https://unsplash.it/720/480?image=1073",
+		"image":"https://unsplash.it/720/480?image=998",
 		"arguments": [
 			"PLG9aCp4uE-s325FSHTzzD51k2Kl6vt4fT","playlist"
 		]
