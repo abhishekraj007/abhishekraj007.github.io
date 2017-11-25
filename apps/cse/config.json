@@ -8,7 +8,7 @@
 			"title": "Reading/Notes",
 			"provider": "rss",
 			"arguments": [
-				"https://abhishekraj007.github.io/apps/cse/res/dsa.xml"
+				"https://abhishekraj007.github.io/apps/cse/res/dsa/dsa.xml"
 			]
 		},
 		{
@@ -29,7 +29,7 @@
 				"title":"Video Courses",
 				"provider":"overview",
 				"arguments":[
-					"https://abhishekraj007.github.io/apps/cse/cn/cn.json"
+					"https://abhishekraj007.github.io/apps/cse/res/cn/cn.json"
 				]
 			}
 		]
@@ -40,7 +40,7 @@
 		"submenu": "Web Technologies",
 		"iap": false,
 		"tabs": [
-		{
+			{
 			"title": "Course 1",
 			"provider": "youtube",
 			"arguments": [
@@ -59,7 +59,7 @@
 			"title": "Video Courses",
 			"provider": "overview",
 			"arguments": [
-				"https://abhishekraj007.github.io/apps/cse/web/web.json",
+				"https://abhishekraj007.github.io/apps/cse/res/web/web.json",
 			]
 		}
 		]
