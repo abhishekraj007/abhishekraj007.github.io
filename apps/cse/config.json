@@ -12,7 +12,15 @@
 			]
 		},
 		{
-				"title": "Video-L1",
+			"title": "VCourse 1",
+			"provider": "youtube",
+			"arguments": [
+				"PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt",
+				"playlist"
+			]
+		},
+		{
+				"title": "VCourse 2",
 				"provider": "youtube",
 				"arguments": [
 					"PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P",
@@ -20,7 +28,7 @@
 				]
 		 },
 		{
-				"title": "Video-L2",
+				"title": "VCourse 3",
 				"provider": "youtube",
 				"arguments": [
 					"PLsFNQxKNzefJNztGGoQC-59UhSwIaiIW3",
@@ -28,7 +36,7 @@
 				]
 		 },
 		{
-				"title": "Video-L3",
+				"title": "VCourse 4",
 				"provider": "youtube",
 				"arguments": [
 					"PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0",
@@ -36,7 +44,7 @@
 				]
 		 },
 		{
-				"title": "Video-L4(MIT)",
+				"title": "VCourse 5(MIT)",
 				"provider": "youtube",
 				"arguments": [
 					"PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
@@ -44,7 +52,7 @@
 				]
 		 },
 		{
-				"title": "Video-L5",
+				"title": "VCourse 6",
 				"provider": "youtube",
 				"arguments": [
 					"PLsFENPUZBqipuTJXgm7xAOR0UnY_8OY07",
@@ -52,7 +60,7 @@
 				]
 		 },
 		{
-				"title": "Video-L6(NPTEL)",
+				"title": "VCourse 7(NPTEL)",
 				"provider": "youtube",
 				"arguments": [
 					"PLBF3763AF2E1C572F",
