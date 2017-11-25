@@ -66,6 +66,92 @@
 					"PLBF3763AF2E1C572F",
 					"playlist"
 				]
+		 },
+		{
+				"title": "VCourse 8(In One Video)",
+				"provider": "youtube",
+				"arguments": [
+					"PLYsKWjcnp5DI69Z8WmTcuHdfpowZDYnBZ",
+					"playlist"
+				]
+		 },
+		{
+				"title": "VCourse 9(Hindi+English)",
+				"provider": "youtube",
+				"arguments": [
+					"PLG9aCp4uE-s0W16umpGQZO686g8LgqsBe",
+					"playlist"
+				]
+		 }
+		]
+	},
+	{
+		"title":"Computer Network",
+		"drawable":"ic_cn",
+		"submenu":"Intro to Computer Science",
+		"iap":false,
+		"tabs":[
+			{
+				"title":"Video Courses",
+				"provider":"rss",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/dsa.xml"
+				]
+			},
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/cn.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Computer Network",
+		"drawable": "ic_html5",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+		{
+				"title": "Course 1",
+				"provider": "youtube",
+				"arguments": [
+					"PL6gx4Cwl9DGBpuvPW0aHa7mKdn_k9SPKO",
+					"playlist"
+				]
+		},
+		{
+				"title": "Course 2",
+				"provider": "youtube",
+				"arguments": [
+					"PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j",
+					"playlist"
+				]
+		 },
+		{
+				"title": "Course 3",
+				"provider": "youtube",
+				"arguments": [
+					"PLayxKQoyjT38M1ixyMKkinmaymhuBF4XG",
+					"playlist"
+				]
+		 },
+		{
+				"title": "Course 4",
+				"provider": "youtube",
+				"arguments": [
+					"PLx5CT0AzDJCnxcudBsfZlB5joMjEBSOKi",
+					"playlist"
+				]
+		 },
+		{
+				"title": "Course 5(Hindi)",
+				"provider": "youtube",
+				"arguments": [
+					"PLG9aCp4uE-s325FSHTzzD51k2Kl6vt4fT",
+					"playlist"
+				]
 		 }
 		]
 	},
@@ -76,7 +162,7 @@
 		"iap": false,
 		"tabs": [
 		{
-				"title": "Video-L1",
+				"title": "Course 1",
 				"provider": "youtube",
 				"arguments": [
 					"PL081AC329706B2953",
