@@ -44,8 +44,7 @@
 			"title": "Course 1",
 			"provider": "youtube",
 			"arguments": [
-				"PL081AC329706B2953",
-				"playlist"
+				"PL081AC329706B2953","playlist"
 			]
 		 }
 		]
@@ -55,13 +54,14 @@
 		"drawable": "ic_web",
 		"submenu": "Web Technologies",
 		"iap": false,
-		"tabs": [{
-			"title": "Video Courses",
-			"provider": "overview",
-			"arguments": [
-				"https://abhishekraj007.github.io/apps/cse/res/web/web.json",
-			]
-		}
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/web/react/react.json"
+				]
+			}
 		]
 	}
 ]
