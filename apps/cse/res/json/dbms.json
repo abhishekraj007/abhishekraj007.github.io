@@ -1,5 +1,13 @@
 [
 	{
+		"title":"Crash Courses",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLgfAA0wvcX0rYKHUIJtJJA3HgKKD38uOf", "playlist"
+		]
+	},
+	{
 		"title":"thenewboston",
 		"provider":"youtube",
 		"image": "https://unsplash.it/720/480?image=1073",
