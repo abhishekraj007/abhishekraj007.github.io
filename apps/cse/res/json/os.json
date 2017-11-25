@@ -1,0 +1,82 @@
+[
+	{
+		"title":"Crash Courses",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLgfAA0wvcX0rYKHUIJtJJA3HgKKD38uOf", "playlist"
+		]
+	},
+	{
+		"title":"Mike Murphy",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PL56B156F5D73BBD77", "playlist"
+		]
+	},
+	{
+		"title":"Tami Sorgente",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLgre7dUq8DGKbtnlMuJPvPYlvLdXOC9uh", "playlist"
+		]
+	},
+	{
+		"title":"Georgia Tech (Advanced OS)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLAwxTw4SYaPkKfusBLVfklgfdcB3BNpwX", "playlist"
+		]
+	},
+	{
+		"title":"Ravindrababu",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLEbnTDJUr_If_BnzJkkN_J0Tl3iXTL8vq", "playlist"
+		]
+	},
+	{
+		"title":"Techtud",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PLx5CT0AzDJCnO9k98RsrPY9WGAXj8yeKL","playlist"
+		]
+	},
+	{
+		"title":"Bilkent University",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLhwVAYxlh5dsX6aOfVMZXS8MwKwBmwVM6","playlist"
+		]
+	},
+	{
+		"title":"Gate UGC Lecture",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLS8ACsmFCpmQmDFmTjcfUTruigzs9N4Kf","playlist"
+		]
+	},
+	{
+		"title":"Gate Lectures(Hindi+Eng)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PLLcrDBoL-7rLmMsmP-2AFBxq0ZJEHZS1U", "playlist"
+		]
+	},
+	{
+		"title":"Knowledge Gate(Hindi+Eng)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PLmXKhU9FNesSFvj6gASuWmQd23Ul5omtD", "playlist"
+		]
+	}
+]

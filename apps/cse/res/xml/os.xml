@@ -3,9 +3,9 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 		xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
 		<channel>
-				<title>Database Management System</title>
+				<title>OS</title>
 				<link>https://abhishekraj007.github.com</link>
-				<description>Collection of Computer Science resources</description>
+				<description>Collection of OS resources</description>
 
 				<item>
 					<title>DBMS Crash Courses - Beginner to Intermediate(Video)</title>
@@ -14,16 +14,16 @@
 					<description>
 					<![CDATA[
 						<p><img src="http://blog.globalizationpartners.com/media/61876/gpi_database_1_350x245.jpg" alt="DSA"/></p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/9Pzj7Aj25lw?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/nWeW3sCmD2k?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-ROlcSr0Ns?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/BQ5xYJMyplw?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
 						</p>
 
@@ -37,16 +37,16 @@
 					<description>
 					<![CDATA[
 						<p><img src="http://blog.globalizationpartners.com/media/61876/gpi_database_1_350x245.jpg" alt="DSA"/></p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<a href="https://www.tutorialspoint.com/dbms">Learn DBMS on Tutorialspoint</a>
 						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<a href="http://www.studytonight.com/dbms/overview-of-dbms.php">Learn DBMS on Studytonight</a>
 						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<a href="http://www.tutorialology.com/dbms/database-overview">Learn DBMS on Tutorialology</a>
 						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<a href="http://www.geeksforgeeks.org/dbms">In-depth DBMS on GeeksForGeeks</a>
 						</p>
 

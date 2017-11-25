@@ -57,6 +57,21 @@
 		]
 	},
 	{
+		"title":"Operating System",
+		"drawable":"ic_cn",
+		"submenu":"Intro to Computer Science",
+		"iap":false,
+		"tabs":[
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/os.json"
+				]
+			}
+		]
+	},
+	{
 		"title": "HTML",
 		"drawable": "ic_html5",
 		"submenu": "Web Technologies",
