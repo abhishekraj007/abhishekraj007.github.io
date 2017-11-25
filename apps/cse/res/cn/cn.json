@@ -1,6 +1,6 @@
 [
 	{
-		"title":"Video Course 1",
+		"title":"Course by thenewboston",
 		"provider":"youtube",
 		"image": "https://unsplash.it/720/480?image=1073",
 		"arguments": [
@@ -8,7 +8,7 @@
 		]
 	},
 	{
-		"title":"Video Course 2",
+		"title":"Course by Ravindrababu",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=998",
 		"arguments": [
@@ -16,25 +16,25 @@
 		]
 	},
 	{
-		"title":"Video Course 3",
+		"title":"Course by CSE",
 		"provider":"youtube",
-		"image":"https://unsplash.it/720/480?image=856",
+		"image":"https://unsplash.it/720/480?image=885",
 		"arguments": [
 			"PLayxKQoyjT38M1ixyMKkinmaymhuBF4XG", "playlist"
 		]
 	},
 	{
-		"title":"Video Course 4",
+		"title":"Course by Techtud",
 		"provider":"youtube",
-		"image":"https://unsplash.it/720/480?image=96",
+		"image":"https://unsplash.it/720/480?image=635",
 		"arguments": [
 			"PLx5CT0AzDJCnxcudBsfZlB5joMjEBSOKi","playlist"
 		]
 	},
 	{
-		"title":"Video Course 5",
+		"title":"Course by University CSE/IT",
 		"provider":"youtube",
-		"image":"https://unsplash.it/720/480?image=967",
+		"image":"https://unsplash.it/720/480?image=1073",
 		"arguments": [
 			"PLG9aCp4uE-s325FSHTzzD51k2Kl6vt4fT","playlist"
 		]

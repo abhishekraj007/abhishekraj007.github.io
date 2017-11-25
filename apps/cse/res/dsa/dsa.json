@@ -1,0 +1,74 @@
+[
+	{
+		"title":"Course by Hackerrank",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt", "playlist"
+		]
+	},
+	{
+		"title":"Course by MyCodeSchool",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P", "playlist"
+		]
+	},
+	{
+		"title":"Course by Ravindrababu",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0", "playlist"
+		]
+	},
+	{
+		"title":"Course by MIT",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb","playlist"
+		]
+	},
+	{
+		"title":"Course by Saurabh Shukla",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLsFNQxKNzefJNztGGoQC-59UhSwIaiIW3","playlist"
+		]
+	},
+	{
+		"title":"Course by Gatebook",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLsFENPUZBqipuTJXgm7xAOR0UnY_8OY07","playlist"
+		]
+	},
+	{
+		"title":"Course by NPTEL",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PLBF3763AF2E1C572F","playlist"
+		]
+	},
+	{
+		"title":"Course by EducationForAll",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLYsKWjcnp5DI69Z8WmTcuHdfpowZDYnBZ","playlist"
+		]
+	},
+	{
+		"title":"Course by University CSE/IT",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLG9aCp4uE-s0W16umpGQZO686g8LgqsBe","playlist"
+		]
+	}
+]
