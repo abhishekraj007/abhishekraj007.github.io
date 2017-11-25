@@ -1,0 +1,42 @@
+[
+	{
+		"title":"Stanford University",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLFB9EC7B8FE963EB8", "playlist"
+		]
+	},
+	{
+		"title":"Oresoft",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLDAE55AEE0731D729", "playlist"
+		]
+	},
+	{
+		"title":"Georgia Tech (Advanced OS)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLAwxTw4SYaPkKfusBLVfklgfdcB3BNpwX", "playlist"
+		]
+	},
+	{
+		"title":"Ravindrababu",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLEbnTDJUr_IcPtUXFy2b1sGRPsLFMghhS", "playlist"
+		]
+	},
+	{
+		"title":"University Academy(Hindi+Eng)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1093",
+		"arguments": [
+			"PLlsTlj1oQF4ZIeCaTvGpACw5HX14yLwi0", "playlist"
+		]
+	}
+]

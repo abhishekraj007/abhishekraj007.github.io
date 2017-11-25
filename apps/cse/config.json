@@ -42,6 +42,28 @@
 		]
 	},
 	{
+		"title":"Operating System",
+		"drawable":"ic_cn",
+		"submenu":"Intro to Computer Science",
+		"iap":false,
+		"tabs":[
+			{
+				"title":"Reading/Notes",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/xml/os.xml"
+				]
+			},
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/os.json"
+				]
+			}
+		]
+	},
+	{
 		"title":"Computer Network",
 		"drawable":"ic_cn",
 		"submenu":"Intro to Computer Science",
@@ -57,7 +79,7 @@
 		]
 	},
 	{
-		"title":"Operating System",
+		"title":"Compiler Design",
 		"drawable":"ic_cn",
 		"submenu":"Intro to Computer Science",
 		"iap":false,
@@ -66,7 +88,37 @@
 				"title":"Video Courses",
 				"provider":"overview",
 				"arguments":[
-					"https://abhishekraj007.github.io/apps/cse/res/json/os.json"
+					"https://abhishekraj007.github.io/apps/cse/res/json/compiler.json"
+				]
+			}
+		]
+	},
+	{
+		"title":"Theory of Computation",
+		"drawable":"ic_cn",
+		"submenu":"Intro to Computer Science",
+		"iap":false,
+		"tabs":[
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/toc.json"
+				]
+			}
+		]
+	},
+	{
+		"title":"Digital Electronics",
+		"drawable":"ic_cn",
+		"submenu":"Intro to Computer Science",
+		"iap":false,
+		"tabs":[
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/digital.json"
 				]
 			}
 		]

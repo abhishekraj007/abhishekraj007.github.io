@@ -8,6 +8,29 @@
 				<description>Collection of Computer Science resources</description>
 
 				<item>
+					<title>Learn DBMS (Web/Notes)</title>
+					<link>#</link>
+					<pubDate>20 Nov 2017</pubDate>
+					<description>
+						<![CDATA[
+						<p><img src="https://www.datapipe.com/blog/wp-content/uploads/2015/11/MultiDatabase.jpg" alt="DSA"/></p>
+						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+							<a href="https://www.tutorialspoint.com/dbms">Learn DBMS on Tutorialspoint</a>
+						</p>
+						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+							<a href="http://www.studytonight.com/dbms/overview-of-dbms.php">Learn DBMS on Studytonight</a>
+						</p>
+						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+							<a href="http://www.tutorialology.com/dbms/database-overview">Learn DBMS on Tutorialology</a>
+						</p>
+						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
+							<a href="http://www.geeksforgeeks.org/dbms">In-depth DBMS on GeeksForGeeks</a>
+						</p>
+
+						]]>
+					</description>
+				</item>
+				<item>
 					<title>DBMS Crash Courses - Beginner to Intermediate(Video)</title>
 					<link>#</link>
 					<pubDate>20 Nov 2017</pubDate>
@@ -25,29 +48,6 @@
 						</p>
 						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/BQ5xYJMyplw?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
-						</p>
-
-					]]>
-					</description>
-				</item>
-				<item>
-					<title>Learn DBMS (Web/Notes)</title>
-					<link>#</link>
-					<pubDate>20 Nov 2017</pubDate>
-					<description>
-					<![CDATA[
-						<p><img src="http://blog.globalizationpartners.com/media/61876/gpi_database_1_350x245.jpg" alt="DSA"/></p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
-							<a href="https://www.tutorialspoint.com/dbms">Learn DBMS on Tutorialspoint</a>
-						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
-							<a href="http://www.studytonight.com/dbms/overview-of-dbms.php">Learn DBMS on Studytonight</a>
-						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
-							<a href="http://www.tutorialology.com/dbms/database-overview">Learn DBMS on Tutorialology</a>
-						</p>
-						<p style="box-shadow: 0px 2px 6px 0px #ddd; border-radius: 4px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
-							<a href="http://www.geeksforgeeks.org/dbms">In-depth DBMS on GeeksForGeeks</a>
 						</p>
 
 					]]>

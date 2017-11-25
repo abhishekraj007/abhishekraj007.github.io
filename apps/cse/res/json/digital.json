@@ -1,0 +1,66 @@
+[
+	{
+		"title":"MovieHQ",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLiivzYNnIS6FIUtKiG5-R3L8Sbx_jRv6B", "playlist"
+		]
+	},
+	{
+		"title":"Neso Academy",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm", "playlist"
+		]
+	},
+	{
+		"title":"Ravindrababu",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLEbnTDJUr_Ica5kK6UypsWpf95Ut2sK3o", "playlist"
+		]
+	},
+	{
+		"title":"UCDavis",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLslgisHe5tBM8UTCt1f66oMkpmjCblzkt", "playlist"
+		]
+	},
+	{
+		"title":"IIT Madras",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PL4E5FF21EC31A4F41", "playlist"
+		]
+	},
+	{
+		"title":"Deeba kannan",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLm5OVvSq7SrxwjbCdCA6LbkRzyLN_rWYJ", "playlist"
+		]
+	},
+	{
+		"title":"Columbia Gorge",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1093",
+		"arguments": [
+			"PLX7ZPgPJWZNc6zRvIGjDFOr6CYKz9DZa3", "playlist"
+		]
+	},
+	{
+		"title":"Flyhigh Tutorials(Hindi)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1093",
+		"arguments": [
+			"PLyHNqAaJ5m-vpBCgE_o3dYPZGNPfnbrMH", "playlist"
+		]
+	}
+]
