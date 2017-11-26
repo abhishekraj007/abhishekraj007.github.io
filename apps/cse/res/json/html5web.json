@@ -22,5 +22,13 @@
 		"arguments": [
 			"https://learn.shayhowe.com/"
 		]
+	},
+	{
+		"title":"CSS-Tricks(Web)",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"https://css-tricks.com"
+		]
 	}
 ]

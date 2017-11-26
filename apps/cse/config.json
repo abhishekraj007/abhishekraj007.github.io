@@ -116,7 +116,7 @@
 		"tabs":[
 			{
 				"title":"Reading/Notes",
-				"provider":"overview",
+				"provider":"rss",
 				"arguments":[
 					"https://abhishekraj007.github.io/apps/cse/res/xml/computer_architecture.xml"
 				]

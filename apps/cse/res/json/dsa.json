@@ -2,7 +2,7 @@
 	{
 		"title":"Hackerrank",
 		"provider":"youtube",
-		"image": "https://unsplash.it/720/480?image=1073",
+		"image": "bg_1",
 		"arguments": [
 			"PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt", "playlist"
 		]
@@ -10,7 +10,7 @@
 	{
 		"title":"MyCodeSchool",
 		"provider":"youtube",
-		"image":"https://unsplash.it/720/480?image=998",
+		"image":"bg_2",
 		"arguments": [
 			"PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P", "playlist"
 		]
@@ -18,7 +18,7 @@
 	{
 		"title":"Ravindrababu",
 		"provider":"youtube",
-		"image":"https://unsplash.it/720/480?image=885",
+		"image":"bg_3",
 		"arguments": [
 			"PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0", "playlist"
 		]
@@ -26,7 +26,7 @@
 	{
 		"title":"MIT",
 		"provider":"youtube",
-		"image":"https://unsplash.it/720/480?image=635",
+		"image":"bg_4",
 		"arguments": [
 			"PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb","playlist"
 		]
