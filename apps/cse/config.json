@@ -4,20 +4,22 @@
 		"drawable": "ic_stack",
 		"submenu": "Intro to Computer Science",
 		"iap": false,
-		"tabs": [{
-			"title": "Reading/Notes",
-			"provider": "rss",
-			"arguments": [
-				"https://abhishekraj007.github.io/apps/cse/res/xml/dsa.xml"
-			]
-		},
-		{
-			"title": "Video Courses",
-			"provider": "overview",
-			"arguments": [
-				"https://abhishekraj007.github.io/apps/cse/res/json/dsa.json"
-			]
-		}]
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/dsa.json"
+				]
+			},
+			{
+				"title": "Reading/Notes",
+				"provider": "rss",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/xml/dsa.xml"
+				]
+			}
+		]
 	},
 	{
 		"title":"Database Management",
@@ -26,17 +28,17 @@
 		"iap":false,
 		"tabs":[
 			{
-				"title":"Reading/Notes",
-				"provider":"rss",
-				"arguments":[
-					"https://abhishekraj007.github.io/apps/cse/res/xml/dbms.xml"
-				]
-			},
-			{
 				"title":"Video Courses",
 				"provider":"overview",
 				"arguments":[
 					"https://abhishekraj007.github.io/apps/cse/res/json/dbms.json"
+				]
+			},
+			{
+				"title":"Reading/Notes",
+				"provider":"rss",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/xml/dbms.xml"
 				]
 			}
 		]
@@ -48,17 +50,17 @@
 		"iap":false,
 		"tabs":[
 			{
-				"title":"Reading/Notes",
-				"provider":"rss",
-				"arguments":[
-					"https://abhishekraj007.github.io/apps/cse/res/xml/os.xml"
-				]
-			},
-			{
 				"title":"Video Courses",
 				"provider":"overview",
 				"arguments":[
 					"https://abhishekraj007.github.io/apps/cse/res/json/os.json"
+				]
+			},
+			{
+				"title":"Reading/Notes",
+				"provider":"rss",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/xml/os.xml"
 				]
 			}
 		]
@@ -115,17 +117,17 @@
 		"iap":false,
 		"tabs":[
 			{
-				"title":"Reading/Notes",
-				"provider":"rss",
-				"arguments":[
-					"https://abhishekraj007.github.io/apps/cse/res/xml/computer_architecture.xml"
-				]
-			},
-			{
 				"title":"Video Courses",
 				"provider":"overview",
 				"arguments":[
 					"https://abhishekraj007.github.io/apps/cse/res/json/computer_architecture.json"
+				]
+			},
+			{
+				"title":"Reading/Notes",
+				"provider":"rss",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/xml/computer_architecture.xml"
 				]
 			}
 		]
