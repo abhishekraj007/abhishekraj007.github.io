@@ -1,5 +1,5 @@
-[,
-	{,
+[
+	{
 		"title": "Data Structure & Algo",
 		"drawable": "ic_stack",
 		"submenu": "Intro to Computer Science",
@@ -21,7 +21,7 @@
 	},
 	{
 		"title":"Database Management",
-		"drawable":"ic_cn",
+		"drawable":"ic_dbms",
 		"submenu":"Intro to Computer Science",
 		"iap":false,
 		"tabs":[
@@ -43,7 +43,7 @@
 	},
 	{
 		"title":"Operating System",
-		"drawable":"ic_cn",
+		"drawable":"ic_os",
 		"submenu":"Intro to Computer Science",
 		"iap":false,
 		"tabs":[
@@ -80,7 +80,7 @@
 	},
 	{
 		"title":"Compiler Design",
-		"drawable":"ic_cn",
+		"drawable":"ic_compiler",
 		"submenu":"Intro to Computer Science",
 		"iap":false,
 		"tabs":[
@@ -95,7 +95,7 @@
 	},
 	{
 		"title":"Theory of Computation",
-		"drawable":"ic_cn",
+		"drawable":"ic_computation",
 		"submenu":"Intro to Computer Science",
 		"iap":false,
 		"tabs":[
@@ -110,7 +110,7 @@
 	},
 	{
 		"title":"Computer Architecture",
-		"drawable":"ic_cn",
+		"drawable":"ic_ca",
 		"submenu":"Intro to Computer Science",
 		"iap":false,
 		"tabs":[
@@ -132,7 +132,7 @@
 	},
 	{
 		"title":"Digital Electronics",
-		"drawable":"ic_cn",
+		"drawable":"ic_digital",
 		"submenu":"Intro to Computer Science",
 		"iap":false,
 		"tabs":[
@@ -169,7 +169,7 @@
 	},
 	{
 		"title": "Javascript",
-		"drawable": "ic_html5",
+		"drawable": "ic_javascript",
 		"submenu": "Web Technologies",
 		"iap": false,
 		"tabs": [
@@ -191,7 +191,7 @@
 	},
 	{
 		"title": "React",
-		"drawable": "ic_web",
+		"drawable": "ic_react",
 		"submenu": "Web Technologies",
 		"iap": false,
 		"tabs": [
