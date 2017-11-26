@@ -109,6 +109,28 @@
 		]
 	},
 	{
+		"title":"Computer Architecture",
+		"drawable":"ic_cn",
+		"submenu":"Intro to Computer Science",
+		"iap":false,
+		"tabs":[
+			{
+				"title":"Reading/Notes",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/xml/computer_architecture.xml"
+				]
+			},
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/computer_architecture.json"
+				]
+			}
+		]
+	},
+	{
 		"title":"Digital Electronics",
 		"drawable":"ic_cn",
 		"submenu":"Intro to Computer Science",

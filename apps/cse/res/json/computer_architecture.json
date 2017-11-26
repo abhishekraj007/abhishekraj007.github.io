@@ -1,0 +1,66 @@
+[
+	{
+		"title":"Semesters Simplified",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLgBlB7BVKQmg__8dTZOkHBSj4WDRgZ4vX", "playlist"
+		]
+	},
+	{
+		"title":"Ravindrababu",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLEbnTDJUr_IdI9QZ7bkrhMX2ZpNW0dZUo", "playlist"
+		]
+	},
+	{
+		"title":"MIT",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PLWokBk9W7kzGqZYZz6BiaqtsrHQK_22u7", "playlist"
+		]
+	},
+	{
+		"title":"Georgia Tech",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLAwxTw4SYaPmqpjgrmf4-DGlaeV0om4iP", "playlist"
+		]
+	},
+	{
+		"title":"Professor Messer(CompaTIA A+)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLG49S3nxzAnmlC1ZsppuM7yleDuYCMHrvP", "playlist"
+		]
+	},
+	{
+		"title":"Satish Kashyap",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PL0E131A78ABFBFDD0", "playlist"
+		]
+	},
+	{
+		"title":"Let's Learn",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PL5W956MdrieCnA5Si34EkSmtvr970IXHq","playlist"
+		]
+	},
+	{
+		"title":"Advanced Computer Architecture",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PL07FAB55C669A6CF0","playlist"
+		]
+	}
+]
