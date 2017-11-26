@@ -146,18 +146,25 @@
 		]
 	},
 	{
-		"title": "HTML",
+		"title": "HTML5/CSS3",
 		"drawable": "ic_html5",
 		"submenu": "Web Technologies",
 		"iap": false,
 		"tabs": [
 			{
-			"title": "Course 1",
-			"provider": "youtube",
-			"arguments": [
-				"PL081AC329706B2953","playlist"
-			]
-		 }
+				"title":"Web Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/html5web.json"
+				]
+			},
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/html5.json"
+				]
+			}
 		]
 	},
 	{

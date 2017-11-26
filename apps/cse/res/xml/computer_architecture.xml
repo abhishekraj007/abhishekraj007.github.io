@@ -3,25 +3,25 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 		xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
 		<channel>
-				<title>OS</title>
+				<title>CA</title>
 				<link>https://abhishekraj007.github.com</link>
-				<description>Collection of OS resources</description>
+				<description>Collection of CA resources</description>
 
 				<item>
-					<title>Learn Operating System (Web/Notes)</title>
+					<title>Computer Architecture and Organisation (Web/Notes)</title>
 					<link>#</link>
 					<pubDate>20 Nov 2017</pubDate>
 					<description>
 					<![CDATA[
 						<p><img src="https://i.ytimg.com/vi/5AjReRMoG3Y/maxresdefault.jpg" alt="DSA"/></p>
 						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
-							<a href="https://www.tutorialspoint.com/operating_system/os_overview.htm">Learn Operating System on Tutorialspoint</a>
+							<a href="http://www.studytonight.com/computer-architecture/introduction-to-history-of-computing">Computer Architecture on Studytonight</a>
 						</p>
 						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
-							<a href="http://www.geeksforgeeks.org/operating-systems">Learn Operating System on GeeksForGeeks</a>
+							<a href="http://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials">Comuter Architecture on GeeksForGeeks</a>
 						</p>
 						<p style="box-shadow: 0px 2px 5px 0px #ddd; border-radius: 2px; padding: 18px 10px; background: #ffffff; margin: 10px 2px">
-							<a href="http://www.studytonight.com/operating-system/introduction-operating-systems">Learn Operating System on Studytonight</a>
+							<a href="https://www.tutorialspoint.com/computer_organization/co_getting_started.asp"> Computer Architecture on Tutorialspoint</a>
 						</p>
 
 					]]>
