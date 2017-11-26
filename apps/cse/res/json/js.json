@@ -1,18 +1,26 @@
 [
 	{
-		"title":"Envato Tuts+",
+		"title":"FreeCodeCamp (Javascript)",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=998",
 		"arguments": [
-			"PLgGbWId6zgaWZkPFI4Sc9QXDmmOWa1v5F", "playlist"
+			"PLWKjhJtqVAbmoiNlqLJg1gxEjEuKHHcn_", "playlist"
 		]
 	},
 	{
-		"title":"Quentin Watt Tutorials",
+		"title":"FreeCodeCamp (JQuery)",
 		"provider":"youtube",
 		"image": "https://unsplash.it/720/480?image=1073",
 		"arguments": [
-			"PL41lfR-6DnOq3BebucTNMSVDojCIiv_en", "playlist"
+			"PLWKjhJtqVAbkyK9woUZUtunToLtNGoQHB", "playlist"
+		]
+	},
+	{
+		"title":"FreeCodeCamp (ES6)",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLWKjhJtqVAbljtmmeS0c-CEl2LdE-eR_F", "playlist"
 		]
 	},
 	{
@@ -20,47 +28,47 @@
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=885",
 		"arguments": [
-			"PL081AC329706B2953", "playlist"
+			"PL46F0A159EC02DF82", "playlist"
 		]
 	},
 	{
-		"title":"Eduonix Learning",
+		"title":"Kudvenkat",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=635",
 		"arguments": [
-			"PLDmvslp_VR0yi1C20O_CyG5VM4otTQ-lC", "playlist"
+			"PL6n9fhu94yhUA99nOsJkKXBqokT3MBK0b", "playlist"
 		]
 	},
 	{
-		"title":"1stWebDesigner (Build A Website)",
+		"title":"Techsith (Advanced JS)",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=998",
 		"arguments": [
-			"PL4fJKBgOm4xotbCtyt5MUGbzLc8ZyOcXt", "playlist"
+			"PL7pEw9n3GkoW5bYOhVAtmJlak3ZK7SaDf", "playlist"
 		]
 	},
 	{
-		"title":"Eduonix Learning(By Building Projects)",
+		"title":"Quentin Watt Tutorials",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=998",
 		"arguments": [
-			"PLDmvslp_VR0wkiclky6vj6SSDx-N2QE9z", "playlist"
+			"PL41lfR-6DnOrwYi5d824q9-Y6z3JdSgQa", "playlist"
 		]
 	},
 	{
-		"title":"Traversy Media",
+		"title":"Traversy Media(Learn By Building)",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=1073",
 		"arguments": [
-			"PLillGF-RfqbbKWfm3Y_RF57dNGsHnkYqO","playlist"
+			"PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX","playlist"
 		]
 	},
 	{
-		"title":"DevTips(Channel)",
+		"title":"Traversy Media(ES6)",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=1073",
 		"arguments": [
-			"UCyIe-61Y8C4_o-zZCtO4ETQ","channel"
+			"PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv","playlist"
 		]
 	}
 ]

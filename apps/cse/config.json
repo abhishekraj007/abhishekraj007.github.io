@@ -1,7 +1,7 @@
-[
-	{
+[,
+	{,
 		"title": "Data Structure & Algo",
-		"drawable": "ic_dsa",
+		"drawable": "ic_stack",
 		"submenu": "Intro to Computer Science",
 		"iap": false,
 		"tabs": [{
@@ -163,6 +163,28 @@
 				"provider":"overview",
 				"arguments":[
 					"https://abhishekraj007.github.io/apps/cse/res/json/html5.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Javascript",
+		"drawable": "ic_html5",
+		"submenu": "Web Technologies",
+		"iap": false,
+		"tabs": [
+			{
+				"title":"Web Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/html5web.json"
+				]
+			},
+			{
+				"title":"Video Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/js.json"
 				]
 			}
 		]

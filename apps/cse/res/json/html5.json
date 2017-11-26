@@ -56,11 +56,11 @@
 		]
 	},
 	{
-		"title":"DevTips(Channel)",
+		"title":"DevTips",
 		"provider":"youtube",
 		"image":"https://unsplash.it/720/480?image=1073",
 		"arguments": [
-			"UCyIe-61Y8C4_o-zZCtO4ETQ","channel"
+			"PLqGj3iMvMa4KeBN2krBtcO3U90_7SOl-A","playlist"
 		]
 	}
 ]
