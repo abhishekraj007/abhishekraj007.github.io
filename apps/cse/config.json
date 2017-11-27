@@ -176,17 +176,17 @@
 		"iap": false,
 		"tabs": [
 			{
-				"title":"Web Courses",
-				"provider":"overview",
-				"arguments":[
-					"https://abhishekraj007.github.io/apps/cse/res/json/html5web.json"
-				]
-			},
-			{
 				"title":"Video Courses",
 				"provider":"overview",
 				"arguments":[
 					"https://abhishekraj007.github.io/apps/cse/res/json/js.json"
+				]
+			},
+			{
+				"title":"Books/Web Courses",
+				"provider":"overview",
+				"arguments":[
+					"https://abhishekraj007.github.io/apps/cse/res/json/jsWeb.json"
 				]
 			}
 		]

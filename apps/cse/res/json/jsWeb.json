@@ -1,0 +1,42 @@
+[
+	{
+		"title":"You Don't Know Js",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"https://maximdenisov.gitbooks.io/you-don-t-know-js/content"
+		]
+	},
+	{
+		"title":"Intro to Js",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"https://www.khanacademy.org/computing/computer-programming/programming"
+		]
+	},
+	{
+		"title":"Making Web Pages Interactive",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"https://www.khanacademy.org/computing/computer-programming/html-css-js"
+		]
+	},
+	{
+		"title":"Modern Javascript",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"https://javascript.info"
+		]
+	},
+	{
+		"title":"Ecmascript 6",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"http://exploringjs.com/es6/ch_about-es6.html"
+		]
+	}
+]
