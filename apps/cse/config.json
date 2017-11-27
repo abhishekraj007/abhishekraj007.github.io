@@ -203,6 +203,13 @@
 				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/react.json"
 				]
+			},
+			{
+				"title": "Books/Web Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/reactWeb.json"
+				]
 			}
 		]
 	}
