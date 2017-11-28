@@ -143,7 +143,7 @@
 	}, {
 		"title": "HTML5/CSS3",
 		"drawable": "ic_html5",
-		"submenu": "Web Technologies",
+		"submenu": "Web Technology",
 		"iap": false,
 		"tabs": [{
 			"title": "Web Courses",
@@ -161,7 +161,7 @@
 	}, {
 		"title": "Javascript",
 		"drawable": "ic_javascript",
-		"submenu": "Web Technologies",
+		"submenu": "Web Technology",
 		"iap": false,
 		"tabs": [{
 			"title": "Video Courses",
@@ -196,7 +196,7 @@
 		}]
 	}, {
 		"title": "Programming Crash Courses",
-		"drawable": "ic_react",
+		"drawable": "ic_cn",
 		"submenu": "Crash Course",
 		"iap": false,
 		"tabs": [{
