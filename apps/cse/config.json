@@ -59,6 +59,36 @@
 		]
 	},
 	{
+		"title": "Java Programming",
+		"drawable": "ic_ca",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/java.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "C/C++ Programming",
+		"drawable": "ic_stack",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/cLang.json"
+				]
+			}
+		]
+	},
+	{
 		"title": "Operating System",
 		"drawable": "ic_os",
 		"submenu": "Intro to Computer Science",
@@ -69,13 +99,6 @@
 				"provider": "overview",
 				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/os.json"
-				]
-			},
-			{
-				"title": "Reading/Notes",
-				"provider": "rss",
-				"arguments": [
-					"https://abhishekraj007.github.io/apps/cse/res/xml/os.xml"
 				]
 			}
 		]
@@ -165,7 +188,7 @@
 	{
 		"title": "HTML5/CSS3",
 		"drawable": "ic_html5",
-		"submenu": "Web Technologies",
+		"submenu": "Web Technology",
 		"iap": false,
 		"tabs": [
 			{
@@ -187,7 +210,7 @@
 	{
 		"title": "Javascript",
 		"drawable": "ic_javascript",
-		"submenu": "Web Technologies",
+		"submenu": "Web Technology",
 		"iap": false,
 		"tabs": [
 			{
@@ -209,11 +232,12 @@
 	{
 		"title": "React",
 		"drawable": "ic_react",
-		"submenu": "Web Technologies",
+		"submenu": "Web Technology",
 		"iap": false,
 		"tabs": [
 			{
-				"title": "Video Courses",al"provider": "overview",
+				"title": "Video Courses",
+				"provider": "overview",
 				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/react.json"
 				]
@@ -223,6 +247,21 @@
 				"provider": "overview",
 				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/reactWeb.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Programming Crash Courses",
+		"drawable": "ic_cn",
+		"submenu": "Crash Course",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/crash_course.json"
 				]
 			}
 		]
