@@ -1,5 +1,20 @@
 [
 	{
+		"title": "Latest in CS",
+		"drawable": "ic_stack",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Latest",
+				"provider": "rss",
+				"arguments": [
+					"http://export.arxiv.org/rss/cs"
+				]
+			}
+		]
+	},
+	{
 		"title": "Data Structure & Algo",
 		"drawable": "ic_stack",
 		"submenu": "Intro to Computer Science",
@@ -22,126 +37,126 @@
 		]
 	},
 	{
-		"title":"Database Management",
-		"drawable":"ic_dbms",
-		"submenu":"Intro to Computer Science",
-		"iap":false,
-		"tabs":[
+		"title": "Database Management",
+		"drawable": "ic_dbms",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/dbms.json"
 				]
 			},
 			{
-				"title":"Reading/Notes",
-				"provider":"rss",
-				"arguments":[
+				"title": "Reading/Notes",
+				"provider": "rss",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/xml/dbms.xml"
 				]
 			}
 		]
 	},
 	{
-		"title":"Operating System",
-		"drawable":"ic_os",
-		"submenu":"Intro to Computer Science",
-		"iap":false,
-		"tabs":[
+		"title": "Operating System",
+		"drawable": "ic_os",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/os.json"
 				]
 			},
 			{
-				"title":"Reading/Notes",
-				"provider":"rss",
-				"arguments":[
+				"title": "Reading/Notes",
+				"provider": "rss",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/xml/os.xml"
 				]
 			}
 		]
 	},
 	{
-		"title":"Computer Network",
-		"drawable":"ic_cn",
-		"submenu":"Intro to Computer Science",
-		"iap":false,
-		"tabs":[
+		"title": "Computer Network",
+		"drawable": "ic_cn",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/cn.json"
 				]
 			}
 		]
 	},
 	{
-		"title":"Compiler Design",
-		"drawable":"ic_compiler",
-		"submenu":"Intro to Computer Science",
-		"iap":false,
-		"tabs":[
+		"title": "Compiler Design",
+		"drawable": "ic_compiler",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/compiler.json"
 				]
 			}
 		]
 	},
 	{
-		"title":"Theory of Computation",
-		"drawable":"ic_computation",
-		"submenu":"Intro to Computer Science",
-		"iap":false,
-		"tabs":[
+		"title": "Theory of Computation",
+		"drawable": "ic_computation",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/toc.json"
 				]
 			}
 		]
 	},
 	{
-		"title":"Computer Architecture",
-		"drawable":"ic_ca",
-		"submenu":"Intro to Computer Science",
-		"iap":false,
-		"tabs":[
+		"title": "Computer Architecture",
+		"drawable": "ic_ca",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/computer_architecture.json"
 				]
 			},
 			{
-				"title":"Reading/Notes",
-				"provider":"rss",
-				"arguments":[
+				"title": "Reading/Notes",
+				"provider": "rss",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/xml/computer_architecture.xml"
 				]
 			}
 		]
 	},
 	{
-		"title":"Digital Electronics",
-		"drawable":"ic_digital",
-		"submenu":"Intro to Computer Science",
-		"iap":false,
-		"tabs":[
+		"title": "Digital Electronics",
+		"drawable": "ic_digital",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/digital.json"
 				]
 			}
@@ -154,16 +169,16 @@
 		"iap": false,
 		"tabs": [
 			{
-				"title":"Web Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Web Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/html5web.json"
 				]
 			},
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/html5.json"
 				]
 			}
@@ -176,16 +191,16 @@
 		"iap": false,
 		"tabs": [
 			{
-				"title":"Video Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/js.json"
 				]
 			},
 			{
-				"title":"Books/Web Courses",
-				"provider":"overview",
-				"arguments":[
+				"title": "Books/Web Courses",
+				"provider": "overview",
+				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/jsWeb.json"
 				]
 			}
@@ -198,8 +213,7 @@
 		"iap": false,
 		"tabs": [
 			{
-				"title": "Video Courses",
-				"provider": "overview",
+				"title": "Video Courses",al"provider": "overview",
 				"arguments": [
 					"https://abhishekraj007.github.io/apps/cse/res/json/react.json"
 				]
