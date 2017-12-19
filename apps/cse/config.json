@@ -9,7 +9,7 @@
 				"title": "Latest",
 				"provider": "rss",
 				"arguments": [
-					"http://export.arxiv.org/rss/cs"
+					"https://www.reddit.com/r/computerscience.rss"
 				]
 			}
 		]
