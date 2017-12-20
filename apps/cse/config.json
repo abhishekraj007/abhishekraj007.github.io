@@ -6,6 +6,13 @@
 		"iap": false,
 		"tabs": [
 			{
+				"title": "HN Latest",
+				"provider": "rss",
+				"arguments": [
+					"https://hnrss.org/newest"
+				]
+			},
+			{
 				"title": "Hacker News",
 				"provider": "rss",
 				"arguments": [
@@ -13,17 +20,10 @@
 				]
 			},
 			{
-				"title": "Reddit",
+				"title": "CS Reddit",
 				"provider": "rss",
 				"arguments": [
 					"https://www.reddit.com/r/computerscience.rss"
-				]
-			},
-			{
-				"title": "Latest",
-				"provider": "rss",
-				"arguments": [
-					"https://hnrss.org/newest"
 				]
 			}
 		]
