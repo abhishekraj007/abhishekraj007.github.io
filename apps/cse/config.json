@@ -20,10 +20,10 @@
 				]
 			},
 			{
-				"title": "CS Reddit",
+				"title": "CSS Tricks",
 				"provider": "rss",
 				"arguments": [
-					"https://www.reddit.com/r/computerscience.rss"
+					"https://css-tricks.com/feed"
 				]
 			}
 		]
