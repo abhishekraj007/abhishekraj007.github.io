@@ -6,10 +6,10 @@
 		"iap": false,
 		"tabs": [
 			{
-				"title": "HN Latest",
+				"title": "Geeks Corner",
 				"provider": "rss",
 				"arguments": [
-					"https://hnrss.org/newest"
+					"https://www.geeksforgeeks.org/feed"
 				]
 			},
 			{
