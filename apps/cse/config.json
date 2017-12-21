@@ -6,6 +6,13 @@
 		"iap": false,
 		"tabs": [
 			{
+				"title": "CSS Tricks",
+				"provider": "rss",
+				"arguments": [
+					"https://css-tricks.com/feed"
+				]
+			},
+			{
 				"title": "Geeks Corner",
 				"provider": "rss",
 				"arguments": [
@@ -17,13 +24,6 @@
 				"provider": "rss",
 				"arguments": [
 					"https://hnrss.org/frontpage"
-				]
-			},
-			{
-				"title": "CSS Tricks",
-				"provider": "rss",
-				"arguments": [
-					"https://css-tricks.com/feed"
 				]
 			}
 		]
