@@ -20,6 +20,20 @@
 				]
 			},
 			{
+				"title": "JS-Git",
+				"provider": "rss",
+				"arguments": [
+					"http://github-trends.ryotarai.info/rss/github_trends_javascript_daily.rss"
+				]
+			},
+			{
+				"title": "All-Git",
+				"provider": "rss",
+				"arguments": [
+					"http://github-trends.ryotarai.info/rss/github_trends_all_daily.rss"
+				]
+			},
+			{
 				"title": "Hacker News",
 				"provider": "rss",
 				"arguments": [
