@@ -6,10 +6,10 @@
 		"iap": false,
 		"tabs": [
 			{
-				"title": "CSS Tricks",
+				"title": "CodeCamp",
 				"provider": "rss",
 				"arguments": [
-					"https://css-tricks.com/feed"
+					"https://medium.freecodecamp.org/feed"
 				]
 			},
 			{
@@ -17,20 +17,6 @@
 				"provider": "rss",
 				"arguments": [
 					"https://www.geeksforgeeks.org/feed"
-				]
-			},
-			{
-				"title": "JS-Git",
-				"provider": "rss",
-				"arguments": [
-					"http://github-trends.ryotarai.info/rss/github_trends_javascript_daily.rss"
-				]
-			},
-			{
-				"title": "All-Git",
-				"provider": "rss",
-				"arguments": [
-					"http://github-trends.ryotarai.info/rss/github_trends_all_daily.rss"
 				]
 			},
 			{
