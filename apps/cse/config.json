@@ -6,13 +6,6 @@
 		"iap": false,
 		"tabs": [
 			{
-				"title": "Programr",
-				"provider": "rss",
-				"arguments": [
-					"https://medium.com/feed/tag/programming"
-				]
-			},
-			{
 				"title": "CodeCamp",
 				"provider": "rss",
 				"arguments": [
@@ -23,7 +16,7 @@
 				"title": "Interview",
 				"provider": "rss",
 				"arguments": [
-					"https://medium.com/feed/tag/interview"
+					"https://medium.com/feed/tag/technical-interview"
 				]
 			},
 			{
@@ -34,10 +27,24 @@
 				]
 			},
 			{
+				"title": "Data Structure",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/feed/tag/data-structures"
+				]
+			},
+			{
 				"title": "Javascript",
 				"provider": "rss",
 				"arguments": [
 					"https://medium.com/tag/javascript"
+				]
+			},
+			{
+				"title": "Programr",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/feed/tag/programming"
 				]
 			},
 			{
