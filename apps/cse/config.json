@@ -1,10 +1,17 @@
 [
 	{
-		"title": "Latest in CS",
+		"title": "Latest 10 in CS",
 		"drawable": "ic_stack",
 		"submenu": "Intro to Computer Science",
 		"iap": false,
 		"tabs": [
+			{
+				"title": "Programr",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/feed/tag/programming"
+				]
+			},
 			{
 				"title": "CodeCamp",
 				"provider": "rss",
@@ -13,10 +20,24 @@
 				]
 			},
 			{
-				"title": "Geeks Corner",
+				"title": "Interview",
 				"provider": "rss",
 				"arguments": [
-					"https://www.geeksforgeeks.org/feed"
+					"https://medium.com/feed/tag/interview"
+				]
+			},
+			{
+				"title": "Algorithm",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/feed/tag/algorithms"
+				]
+			},
+			{
+				"title": "Javascript",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/tag/javascript"
 				]
 			},
 			{
