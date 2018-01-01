@@ -6,20 +6,6 @@
     "iap": false,
     "tabs": [
       {
-        "title": "WeRateDogs",
-        "provider": "twitter",
-        "arguments": [
-          "dog_rates"
-        ]
-      },
-      {
-        "title": "Dodo",
-        "provider": "twitter",
-        "arguments": [
-          "dodo"
-        ]
-      },
-      {
         "title": "Pet Collective",
         "provider": "facebook",
         "arguments": [
@@ -43,16 +29,32 @@
     ]
   },
   {
-    "title": "Inspirre",
+    "title": "Inspire",
     "drawable": "",
     "submenu": "Other Apps",
     "iap": false,
     "tabs": [
       {
-        "title": "Inspirre",
+        "title": "Inspire",
         "provider": "custom",
         "arguments": [
           "market://details?id=com.akrj.app.inspiria",
+          "url"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "LoL",
+    "drawable": "",
+    "submenu": "Other Apps",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "LoL",
+        "provider": "custom",
+        "arguments": [
+          "market://details?id=com.akrj.lol",
           "url"
         ]
       }
