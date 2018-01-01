@@ -1,0 +1,61 @@
+[
+  {
+    "title": "English",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "WeRateDogs",
+        "provider": "twitter",
+        "arguments": [
+          "dog_rates"
+        ]
+      },
+      {
+        "title": "Dodo",
+        "provider": "twitter",
+        "arguments": [
+          "dodo"
+        ]
+      },
+      {
+        "title": "Pet Collective",
+        "provider": "facebook",
+        "arguments": [
+          "thepetcollective"
+        ]
+      },
+      {
+        "title": "The dodo",
+        "provider": "facebook",
+        "arguments": [
+          "thedodosite"
+        ]
+      },
+      {
+        "title": "We Rate Dogs",
+        "provider": "facebook",
+        "arguments": [
+          "WeRateDogs"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Inspirre",
+    "drawable": "",
+    "submenu": "Other Apps",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Inspirre",
+        "provider": "custom",
+        "arguments": [
+          "market://details?id=com.akrj.app.inspiria",
+          "url"
+        ]
+      }
+    ]
+  }
+]
