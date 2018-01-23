@@ -31,8 +31,8 @@
         <nav class="navigation__nav">
           <ul class="navigation__list">
             <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+            <li class="navigation__item"><a href="latest-work.html" class="navigation__link">Latest Work</a></li>
             <li class="navigation__item"><a href="portfolio.html" class="navigation__link">Portfolio</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -52,13 +52,31 @@
         <nav><a class="tt-current"></a><a></a></nav>
       </section>
     </main>
+    <!--START: Chat-->
+    <div class="chat">
+      <div class="chat-container">
+        <div class="form-content">
+          <h2 class="chat-container__heading">Let's talk</h2>
+          <form id="chatForm" class="chat-form">
+            <input type="text" name="name" id="name" placeholder="Full Name" required class="chat-input">
+            <input type="email" name="email" id="email" placeholder="Email" required class="chat-input">
+            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone number" required class="chat-input">
+            <textarea name="message" id="message" placeholder="Your message" required class="chat-message"></textarea>
+            <input type="text" name="_gotcha" class="is-hidden">
+            <input type="hidden" name="_subject" value="Subject">
+            <input type="submit" value="Send" class="chat-send">
+          </form>
+        </div>
+        <div class="form-content thank-you">
+          <div><img src="./img/thank-you.png" alt="thank you" class="img-res"></div>
+          <p>I'll contact you shortly :)</p>
+        </div>
+      </div>
+      <div onclick="toggleChat()" class="chat-button"><img src="./img/chat-white.svg" alt="Chat" class="chat-icon"></div>
+    </div>
     <!--START: Footer-->
         <!--START: Scripts- Plugins-->
         <script src="js/jquery.js"></script>
-        <script src="js/anime.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/TweenMax.min.js"></script>
-        <script src="js/DrawSVGPlugin.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/classie.js"></script>
         <script src="js/portfolio.js"></script>

@@ -31,8 +31,8 @@
         <nav class="navigation__nav">
           <ul class="navigation__list">
             <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+            <li class="navigation__item"><a href="latest-work.html" class="navigation__link">Latest Work</a></li>
             <li class="navigation__item"><a href="portfolio.html" class="navigation__link">Portfolio</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -41,12 +41,12 @@
     <main>
       <!--Start: Banner-->
       <div class="content content--fixed content--nav">
-        <nav class="bike-nav"><span class="bike-nav__item coder bike-nav__item--current">coder</span><span class="bike-nav__item cyclist">cyclist</span><span class="bike-nav__item pet">pet lover</span><a href="http://github.com/abhishekraj007">> find me on github</a></nav>
+        <nav class="bike-nav"><span class="bike-nav__item coder bike-nav__item--current">coder</span><span class="bike-nav__item cyclist">cyclist</span><span class="bike-nav__item pet">pet lover</span><a href="portfolio.html" class="link">portfolio</a><a href="http://github.com/abhishekraj007" target="_blank" class="link">> find me on github</a></nav>
       </div>
       <div class="content pattern">
         <div class="home-slider">
           <div class="home-slider__item abs home-slider-1 active">
-            <div class="coder"><img src="img/coder.gif" alt="coder"></div>
+            <div class="coder"><img src="img/coder.gif" alt="coder" class="img-res"></div>
           </div>
           <div class="home-slider__item home-slider-2">
             <svg id="bike" viewbox="0 0 485.7 495.2">
@@ -449,7 +449,7 @@
             </svg>
           </div>
           <div class="home-slider__item abs home-slider-2">
-            <div class="pet-lover"><img src="img/pet-lover.gif" alt="Pet lover"></div>
+            <div class="pet-lover"><img src="img/pet-lover.gif" alt="Pet lover" class="img-res"></div>
           </div>
         </div>
       </div>
@@ -457,32 +457,40 @@
     <!--START: Chat-->
     <div class="chat">
       <div class="chat-container">
-        <form method="POST" action="https://formspree.io/abhishekrajinfo@gmail.com" class="chat-form">
-          <input type="email" name="email" placeholder="Your email" class="chat-input">
-          <textarea name="message" placeholder="Your message" class="chat-message"></textarea>
-          <button type="submit" class="chat-send">Send</button>
-        </form>
+        <div class="form-content">
+          <h2 class="chat-container__heading">Let's talk</h2>
+          <form id="chatForm" class="chat-form">
+            <input type="text" name="name" id="name" placeholder="Full Name" required class="chat-input">
+            <input type="email" name="email" id="email" placeholder="Email" required class="chat-input">
+            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone number" required class="chat-input">
+            <textarea name="message" id="message" placeholder="Your message" required class="chat-message"></textarea>
+            <input type="text" name="_gotcha" class="is-hidden">
+            <input type="hidden" name="_subject" value="Subject">
+            <input type="submit" value="Send" class="chat-send">
+          </form>
+        </div>
+        <div class="form-content thank-you">
+          <div><img src="./img/thank-you.png" alt="thank you" class="img-res"></div>
+          <p>I'll contact you shortly :)</p>
+        </div>
       </div>
       <div onclick="toggleChat()" class="chat-button"><img src="./img/chat-white.svg" alt="Chat" class="chat-icon"></div>
     </div>
     <!-- START: Latest card-->
-    <div class="latest-project">
-      <div onclick="toggleLatestWork()" class="latest-project__close"><span>close</span></div><a href="latest-work.html" class="latest-project__content">
-        <h3 class="latest-project__name">RunAdam</h3>
-        <div class="latest-project__img"><img src="./img/latest-work.jpg"></div></a>
+    <div class="latest-project hide">
+      <div onclick="toggleLatestWork()" class="latest-project__close"><span>Latest work</span></div><a href="latest-work.html" class="latest-project__content">
+        <h3 class="latest-project__title">Latest work</h3>
+        <div class="latest-project__img"><img src="./img/latest-work.jpg">
+          <h3 class="latest-project__name">Run Adam</h3>
+          <p class="latest-project__desc">Sport is life</p>
+        </div></a>
     </div>
     <!--START: Footer-->
         <!--START: Scripts- Plugins-->
         <script src="js/jquery.js"></script>
-        <script src="js/anime.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/main.js"></script>
         <script src="js/TweenMax.min.js"></script>
         <script src="js/DrawSVGPlugin.min.js"></script>
-        <script src="js/main.js"></script>
         <script src="js/cyclist.js"></script>
-        <script src="js/typed.js"></script>
-        <script src="js/prism.js"></script>
-        <script src="js/pretty.js"></script>
-        <script src="js/editor.js"></script>
   </body>
 </html>

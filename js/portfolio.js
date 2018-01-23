@@ -139,4 +139,11 @@
 
 	init();
 
+	$('.tt-grid li').on('mouseenter', 'a', function () {
+		$('.tt-grid li a').addClass('inactive');
+		$(this).addClass('active').removeClass('inactive');
+	}).on('mouseleave', 'a', function () {
+		$('.tt-grid li a').removeClass('inactive active');
+	});
+
 })();
