@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+      <title>Abhishek Raj - Latest Work</title>
+      <meta name="abhishek raj" content="Abhishek raj is a Front End Engineer, UI Developer, Full stack javascript developer">
+      <meta meta name="keywords" content="Abhishek raj, UI Developer, Designer">
+      <meta name="author" content="abhishek raj">
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700,800" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:300,400,500,700,900" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <script src="js/modernizr.js"></script>
+    </head>
+  <body class="latest">
+    <!--START: Header-->
+    <header><a href="index.html" class="logo">
+        <div class="avatar"><img src="./img/abhishekraj-profile.jpg"></div>
+        <div class="tagline">
+          <div>abhishek raj</div>
+          <div class="tagline__small">Front End Engineer</div>
+        </div></a>
+      <div class="navigation">
+        <input type="checkbox" id="nav-toggle" class="navigation__checkbox">
+        <label for="nav-toggle" class="navigation__button hamburger">
+          <div class="navigation__icon">&nbsp;</div>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+            <li class="navigation__item"><a href="portfolio.html" class="navigation__link">Portfolio</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--START: Main-->
+    <main>
+      <!--Start: Banner-->
+      <div class="slideshow">
+        <div class="slides slides--images">
+          <div class="slide slide--current">
+            <div style="background-image: url(img/run-adam.jpg)" class="slide__img"></div>
+          </div>
+          <div class="slide">
+            <div style="background-image: url(img/batch.jpg)" class="slide__img"></div>
+          </div>
+          <div class="slide">
+            <div style="background-image: url(img/ps-g.gif)" class="slide__img cover"></div>
+          </div>
+        </div>
+        <div class="slides slides--titles">
+          <div class="slide slide--current"><a href="http://projects.lollypop.biz/runadam" class="slide__link">RunAdam</a></div>
+          <div class="slide"><a href="http://batch.ly" class="slide__link">batch.ly</a></div>
+          <div class="slide"><a href="http://www.psgroup.in" class="slide__link">PS Group</a></div>
+        </div>
+        <nav class="slidenav">
+          <button class="slidenav__item slidenav__item--prev">&#10094;</button>
+          <button class="slidenav__item slidenav__item--next">&#10095;</button>
+        </nav><a href="portfolio.html" class="visit-all">All Projects</a>
+      </div>
+    </main>
+    <!--START: Chat-->
+    <div class="chat">
+      <div class="chat-container">
+        <form method="POST" action="https://formspree.io/abhishekrajinfo@gmail.com" class="chat-form">
+          <input type="email" name="email" placeholder="Your email" class="chat-input">
+          <textarea name="message" placeholder="Your message" class="chat-message"></textarea>
+          <button type="submit" class="chat-send">Send</button>
+        </form>
+      </div>
+      <div onclick="toggleChat()" class="chat-button"><img src="./img/chat-white.svg" alt="Chat" class="chat-icon"></div>
+    </div>
+    <!--START: Footer-->
+        <!--START: Scripts- Plugins-->
+        <script src="js/jquery.js"></script>
+        <script src="js/anime.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/TweenMax.min.js"></script>
+        <script src="js/DrawSVGPlugin.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/latest-work.js"></script>
+  </body>
+</html>
