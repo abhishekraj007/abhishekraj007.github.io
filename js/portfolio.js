@@ -5,19 +5,19 @@
 	// some dummy data to play with..
 	var allImages = {
 		page1: [
-			'<a href="#"><img src="img/portfolio/1.jpg" alt="img01"/></a>',
-			'<a href="#"><img src="img/portfolio/2.jpg" alt="img02"/></a>',
-			'<a href="#"><img src="img/portfolio/3.jpg" alt="img03"/></a>',
-			'<a href="#"><img src="img/portfolio/4.jpg" alt="img04"/></a>',
-			'<a href="#"><img src="img/portfolio/5.jpg" alt="img05"/></a>',
-			'<a href="#"><img src="img/portfolio/6.jpg" alt="img06"/></a>'],
+			'<a href="http://projects.lollypop.biz/runadam" target="_blank"><img src="img/portfolio/1.jpg" alt="img01"/></a>',
+			'<a href="http://www.psgroup.in" target="_blank"><img src="img/portfolio/2.jpg" alt="img02"/></a>',
+			'<a href="http://villasonrent.com" target="_blank"><img src="img/portfolio/3.jpg" alt="img03"/></a>',
+			'<a href="https://chunmun.in" target="_blank"><img src="img/portfolio/4.jpg" alt="img04"/></a>',
+			'<a href="https://upstox.com" target="_blank"><img src="img/portfolio/5.jpg" alt="img05"/></a>',
+			'<a href="http://factspan.com" target="_blank"><img src="img/portfolio/6.jpg" alt="img06"/></a>'],
 		page2: [
-			'<a href="#"><img src="img/portfolio/7.jpg" alt="img01"/></a>',
-			'<a href="#"><img src="img/portfolio/8.jpg" alt="img02"/></a>',
-			'<a href="#"><img src="img/portfolio/9.jpg" alt="img03"/></a>',
-			'<a href="#"><img src="img/portfolio/10.jpg" alt="img04"/></a>',
-			'<a href="#"><img src="img/portfolio/11.jpg" alt="img05"/></a>',
-			'<a href="#"><img src="img/portfolio/12.jpg" alt="img06"/></a>']
+			'<a href="https://www.cmpute.io" target="_blank"><img src="img/portfolio/7.jpg" alt="img01"/></a>',
+			'<a href="https://rollr.io" target="_blank""><img src="img/portfolio/8.jpg" alt="img02"/></a>',
+			'<a href="https://www.hubfly.com" target="_blank"><img src="img/portfolio/9.jpg" alt="img03"/></a>',
+			'<a href="http://bedifrent.com" target="_blank"><img src="img/portfolio/10.jpg" alt="img04"/></a>',
+			'<a href="https://play.google.com/store/apps/details?id=com.akrj.computersciece" target="_blank"><img src="img/portfolio/11.jpg" alt="img05"/></a>',
+			'<a href="https://play.google.com/store/apps/details?id=com.akrj.app.bbcenglish" target="_blank"><img src="img/portfolio/12.jpg" alt="img06"/></a>']
 	};
 
 	// http://coveroverflow.com/a/11381730/989439
