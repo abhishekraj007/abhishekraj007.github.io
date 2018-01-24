@@ -1,7 +1,26 @@
 
-{
-	setTimeout(() => document.body.classList.add('render'), 60);
+// {
+// 	setTimeout(() => document.body.classList.add('render'), 60);
+// }
 
+setTimeout(function () {
+	document.body.classList.add('render');
+}, 60);
+
+var userAgent, ieReg, ie;
+userAgent = window.navigator.userAgent;
+ieReg = /msie|Trident.*rv[ :]*11\./gi;
+ie = ieReg.test(userAgent);
+
+
+
+
+$(function () {
+
+	if (ie) {
+		console.log("this is IE my lord");
+		$('body').removeClass('js');
+	}
 
 	function toggleChat() {
 		var chatButton = document.querySelector('.chat-container');
@@ -16,10 +35,6 @@
 
 		latestProjectCard.classList.toggle('hide');
 	}
-
-}
-
-$(function () {
 
 	var $contactForm = $('#chatForm');
 	$contactForm.submit(function (e) {

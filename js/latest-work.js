@@ -1,13 +1,4 @@
-/**
- * demo2.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
+
 {
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
