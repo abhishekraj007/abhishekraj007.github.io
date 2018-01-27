@@ -167,11 +167,13 @@ $(function () {
           if (i < $CSSFrameworks.length) {
             setTimeout(function () {
               initCSSFrameworks(i + 1);
+              updateScroll();
             }, 10);
           } else {
             $('#css-frameworks').removeClass("cursor");
             setTimeout(function () {
               initBranding(0);
+              updateScroll();
             }, 1000);
           }
         }
@@ -185,6 +187,7 @@ $(function () {
             $('#branding').removeClass("cursor");
             setTimeout(function () {
               initHobby(0);
+              updateScroll();
             }, 1000);
           }
         }
@@ -199,6 +202,7 @@ $(function () {
           } else {
             $('#hobby').removeClass("cursor");
             setTimeout(function () {
+              updateScroll();
               initConversation(0);
             }, 1000);
           }
@@ -209,10 +213,11 @@ $(function () {
           if (i < $askName.length) {
             setTimeout(function () {
               initConversation(i + 1);
-            }, 35);
+            }, 50);
           } else {
             $('#askName').removeClass("cursor");
             $('#strangerIntro').show();
+            updateScroll();
           }
         }
       }
@@ -274,12 +279,12 @@ $(function () {
   }
   // Help command
   function help() {
-    terminal.append("<p>\n show-contact\n show-resume\n show-portfolio\n show-latestwork\n clear</p>\n");
+    terminal.append("<p>\nHere is the list of command: \n show-contact\n show-resume\n show-portfolio\n show-latestwork\n clear</p>\n");
   }
 
   // show contact command
   function showLoadedContact() {
-    terminal.append("\n<p>Phone Number: +91-7727826586</p><p>Email: abhishekrajinfo@gmail.</p>")
+    terminal.append("\n<p>Phone Number: +91-7727826586</p><p>Email: abhishekrajinfo@gmail\n\nYou can also send me message through that little bubble at right bottom of this window :) \n\n</p>")
   }
 
   var resumeContent = "\n<p><strong>Name:</strong> Abhishek Raj (aka: AKRJ)</p>" +
@@ -297,11 +302,11 @@ $(function () {
   }
   // show resume command
   function showPortfolio() {
-    var url = window.location.href + "portfolio.html"
+    var url = window.location.href.replace(window.location.pathname, "/portfolio.html")
     openInNewTab(url);
   }
   function showLatestWork() {
-    var url = window.location.href + "latest-work.html"
+    var url = window.location.href.replace(window.location.pathname, "/latest-work.html");
     openInNewTab(url);
   }
 
@@ -365,7 +370,7 @@ $(function () {
     if (!isValid) {
 
       if (isItName) {
-        terminal.append("Hi! " + command + ". It's nice to meet you..\nHere is the list of command that you can use: \n contact\n clear \n");
+        terminal.append("\nHi! " + command + ". It's nice to meet you..\n\nTry 'help' to see available command\n\n");
         isItName = false;
       } else {
         terminal.append('<p>"' + command + '" command not found</p>');
@@ -474,19 +479,12 @@ $(function () {
     }
   });
 
-  // Set the window title
-  // title.text("1. marc@mbp: ~ (zsh)");
-
-  // Get the date for our fake last-login
-  // var date = new Date().toString(); date = date.substr(0, date.indexOf("GMT") - 1);
-
-  // Display last-login and promt
-  // terminal.append("Last login: " + date + " on ttys000\n"); 
-
+  // Initialize prompt
   displayPrompt();
 
-
-
+  $('.terminal-prompt').onclick = function () {
+    var commant = prompt("");
+  }
 
   // End of document.ready
 });
