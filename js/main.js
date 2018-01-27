@@ -1,40 +1,43 @@
 
-// {
-// 	setTimeout(() => document.body.classList.add('render'), 60);
-// }
 
-setTimeout(function () {
-	document.body.classList.add('render');
-}, 60);
 
 var userAgent, ieReg, ie;
 userAgent = window.navigator.userAgent;
 ieReg = /msie|Trident.*rv[ :]*11\./gi;
 ie = ieReg.test(userAgent);
 
+if (ie) {
+	console.log("this is ie")
+}
+function toggleChat() {
+	var chatButton = document.querySelector('.chat-container');
+	chatButton.classList.toggle('active');
+}
 
+function toggleLatestWork() {
+	var latestProjectCard = document.querySelector('.latest-project');
+	var latestProjectCloseText = document.querySelector('.latest-project__close span');
+
+	latestProjectCloseText.innerText === "Latest work" ? latestProjectCloseText.innerText = "Close" : latestProjectCloseText.innerText = "Latest work";
+
+	latestProjectCard.classList.toggle('hide');
+}
 
 
 $(function () {
 
-	if (ie) {
-		console.log("this is IE my lord");
-		$('body').removeClass('js');
-	}
+	$('.portfolio .logo__img, .latest .logo__img').attr('src', "./img/logo-black.png");
 
-	function toggleChat() {
-		var chatButton = document.querySelector('.chat-container');
-		chatButton.classList.toggle('active');
-	}
+	$(window).on('load', function () {
+		console.log('hide loader');
+		$('.loader').fadeOut();
+		setTimeout(function () {
+			$('body').addClass('render');
+		}, 100)
+	});
 
-	function toggleLatestWork() {
-		var latestProjectCard = document.querySelector('.latest-project');
-		var latestProjectCloseText = document.querySelector('.latest-project__close span');
+	console.log("jquery loaded!")
 
-		latestProjectCloseText.innerText === "Latest work" ? latestProjectCloseText.innerText = "Close" : latestProjectCloseText.innerText = "Latest work";
-
-		latestProjectCard.classList.toggle('hide');
-	}
 
 	var $contactForm = $('#chatForm');
 	$contactForm.submit(function (e) {
@@ -77,6 +80,7 @@ $(function () {
 				$('.chat-send').attr('disabled', false);
 				$('.form-content').hide();
 				$('.thank-you').fadeIn();
+				$(".animate-success").attr("class", "animate-success path");
 			},
 			error: function (err) {
 				console.log("something went wrong");
@@ -86,5 +90,4 @@ $(function () {
 
 	});
 
-})
-
+});

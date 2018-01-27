@@ -1,50 +1,40 @@
-/**
- * demo1.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- *
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
-/* bike coming to center adjustment */
+
 
 /* start at page load */
-const entranceAnimationDuration = 1.5;//def(2) duration in seconds for the bike to get to the page center
-exitAnimationDuration = 0.7;//def(2) duration in seconds for the bike to get out of the page center
-exitAnimationDelay = 0.5;//def(1) delay before the bike start leaving screen when timelineExit.play() is called
-exitFrontWheelAnimationDelay = exitAnimationDelay;//def(exitAnimationDelay) Delay before front wheel start rotating
-wheelRotationSpeed = 0.5;//def(1) time for a full wheel rotation in seconds
-exitWheelRotationSpeed = 0.5;//def(0.5) time for a full wheel rotation in seconds during exit
-strokeAnimationSpeed = 0.5;//def(2) delay in second for a stroke to go from 0 40% of his lenth to 60% 100%
-fillAnimationSpeed = 2;//def(2) delay in second for the fill property to go from opacity 1 to 0 ( not really opacity but that's the effect we see )
-fillAnimationDelay = 0.5;//def(0.5) delay in second before the fill start to fill again ( stays transparent in the mean time )
+var entranceAnimationDuration = 1.5;//def(2) duration in seconds for the bike to get to the page center
+var exitAnimationDuration = 0.7;//def(2) duration in seconds for the bike to get out of the page center
+var exitAnimationDelay = 0.5;//def(1) delay before the bike start leaving screen when timelineExit.play() is called
+var exitFrontWheelAnimationDelay = exitAnimationDelay;//def(exitAnimationDelay) Delay before front wheel start rotating
+var wheelRotationSpeed = 0.5;//def(1) time for a full wheel rotation in seconds
+var exitWheelRotationSpeed = 0.5;//def(0.5) time for a full wheel rotation in seconds during exit
+var strokeAnimationSpeed = 0.5;//def(2) delay in second for a stroke to go from 0 40% of his lenth to 60% 100%
+var fillAnimationSpeed = 2;//def(2) delay in second for the fill property to go from opacity 1 to 0 ( not really opacity but that's the effect we see )
+var fillAnimationDelay = 0.5;//def(0.5) delay in second before the fill start to fill again ( stays transparent in the mean time )
 /* note that only half of the path fill get animated ("#mainpaths path:nth-child(odd)"), other half is always transparent */
 
 /* when entranceAnimationDuration is over , the bike "landed" at page center and we start the shaking with timelineShacking.play(); */
-delayBeforeAnimationSlow = 2000;//def(2000) delay in ms before we kill the main animation and we freeze / fill everything
+var delayBeforeAnimationSlow = 2000;//def(2000) delay in ms before we kill the main animation and we freeze / fill everything
 
 /* after delayBeforeAnimationSlow is over we stop the main animation with timelineMainAnimation.kill(); and we start the last timelines */
 // timelineToFullStrokes.play() the
-staggerStrokesDelay = 0.005; // this allow us to make the strokes start / end with a short delay between each of them
-speedStrokesToFull = .5;// def(1) How long in seconds does a stroke takes to go to 100% of his total length
+var staggerStrokesDelay = 0.005; // this allow us to make the strokes start / end with a short delay between each of them
+var speedStrokesToFull = .5;// def(1) How long in seconds does a stroke takes to go to 100% of his total length
 
 //below is the time it takes for all strokes to be fully drawed def (385 paths * 0.005 + 1 ) =  2.925 seconds
-timeForStrokesToBeFull = document.querySelectorAll('#mainpaths path').length * staggerStrokesDelay + speedStrokesToFull;
+var timeForStrokesToBeFull = document.querySelectorAll('#mainpaths path').length * staggerStrokesDelay + speedStrokesToFull;
 //we start to fill everything when all strokes are drawed , you can use below var to start before it ends or a bit after
-delayBeforeFillPaths = 0.5; //def (0) seconds minus x to start sooner
+var delayBeforeFillPaths = 0.5; //def (0) seconds minus x to start sooner
 //we start to fill everything
-timeForPathToFill = 1;//def (1) amount in seconds for a path to be filled ( colored and not transparent )  again
-staggerFillDelay = 0.04; //def(0.04) s this allow us to make the fill start / end with a short delay between each of them
+var timeForPathToFill = 1;//def (1) amount in seconds for a path to be filled ( colored and not transparent )  again
+var staggerFillDelay = 0.04; //def(0.04) s this allow us to make the fill start / end with a short delay between each of them
 
 /* NOTE : we consider the animation to be over after all path are filled so */
-timeUntilAnimationOver = timeForStrokesToBeFull + (document.querySelectorAll('#mainpaths path:nth-child(8n+1)').length * staggerFillDelay + timeForPathToFill); //in seconds
+var timeUntilAnimationOver = timeForStrokesToBeFull + (document.querySelectorAll('#mainpaths path:nth-child(8n+1)').length * staggerFillDelay + timeForPathToFill); //in seconds
 // we use timeUntilAnimationOver to know when the wheels / shaking should stop
 
 /* additionnal params */
-shakingRepetition = 3;//def (3) amount of time we want the shaking animation to repeat ( doesn't affect the duration of the whole animation, it'll just shake more frequently )
-slowShakingOverTime = false; //def (true) weither or not we want the shaking animation to slow down like the wheels
+var shakingRepetition = 3;//def (3) amount of time we want the shaking animation to repeat ( doesn't affect the duration of the whole animation, it'll just shake more frequently )
+var slowShakingOverTime = false; //def (true) weither or not we want the shaking animation to slow down like the wheels
 /* */
 
 var previousClass;
@@ -247,25 +237,7 @@ let slideShow = new Slideshow(document.querySelector('.bike-nav'));
 $(function () {
     $('.bike-nav__item').on('click', function () {
         $('.home-slider__item').removeClass('active');
-        // if ($(this).hasClass('coder')) {
-        //     $('body').addClass('coder');
-        //     $('body').removeClass('cyclist');
-        //     $('body').removeClass('pet');
-
-        // }
-        // else if ($(this).hasClass('pet')) {
-        //     $('body').addClass('pet');
-        //     $('body').removeClass('cyclist');
-        //     $('body').removeClass('coder');
-        // }
-        // else if ($(this).hasClass('cyclist')) {
-        //     $('body').addClass('cyclist');
-        //     $('body').removeClass('coder');
-        //     $('body').removeClass('pet');
-        // }
-
-        $('.home-slider__item').eq($(this).index()).addClass('active')
-
+        $('.home-slider__item').eq($(this).index()).addClass('active');
     })
 })
 

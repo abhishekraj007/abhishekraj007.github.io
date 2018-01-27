@@ -17,7 +17,9 @@
 			'<a href="https://www.hubfly.com" target="_blank"><img src="img/portfolio/9.jpg" alt="img03"/></a>',
 			'<a href="http://bedifrent.com" target="_blank"><img src="img/portfolio/10.jpg" alt="img04"/></a>',
 			'<a href="https://play.google.com/store/apps/details?id=com.akrj.computersciece" target="_blank"><img src="img/portfolio/11.jpg" alt="img05"/></a>',
-			'<a href="https://play.google.com/store/apps/details?id=com.akrj.app.bbcenglish" target="_blank"><img src="img/portfolio/12.jpg" alt="img06"/></a>']
+			'<a href="https://play.google.com/store/apps/details?id=com.akrj.app.bbcenglish" target="_blank"><img src="img/portfolio/12.jpg" alt="img06"/></a>'],
+		page3: [
+			'<a href="https://www.anildesign.com" target="_blank"><img src="img/portfolio/13.jpg" alt="img01"/></a>']
 	};
 
 	// http://coveroverflow.com/a/11381730/989439

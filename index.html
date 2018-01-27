@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="js">
+<html lang="en">
     <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,29 +10,29 @@
       <meta name="author" content="abhishek raj">
       <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
       <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700,800" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:300,400,500,700,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Oswald:300,400,600,700|Source+Code+Pro:300,400" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/main.css">
-      <script src="js/modernizr.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     </head>
   <body>
     <!--START: Header-->
-    <header><a href="index.html" class="logo">
-        <div class="avatar"><img src="./img/abhishekraj-profile.jpg"></div>
+    <header><a class="logo" href="index.html">
+        <div class="avatar"><img class="logo__img" src="./img/logo-white.png"></div>
         <div class="tagline">
           <div>abhishek raj</div>
           <div class="tagline__small">Front End Engineer</div>
         </div></a>
       <div class="navigation">
-        <input type="checkbox" id="nav-toggle" class="navigation__checkbox">
-        <label for="nav-toggle" class="navigation__button hamburger">
+        <input class="navigation__checkbox" type="checkbox" id="nav-toggle">
+        <label class="navigation__button hamburger" for="nav-toggle">
           <div class="navigation__icon">&nbsp;</div>
         </label>
         <div class="navigation__background">&nbsp;</div>
         <nav class="navigation__nav">
           <ul class="navigation__list">
-            <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
-            <li class="navigation__item"><a href="latest-work.html" class="navigation__link">Latest Work</a></li>
-            <li class="navigation__item"><a href="portfolio.html" class="navigation__link">Portfolio</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="index.html">Home</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="latest-work.html">Latest Work</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="portfolio.html">Portfolio</a></li>
           </ul>
         </nav>
       </div>
@@ -41,12 +41,84 @@
     <main>
       <!--Start: Banner-->
       <div class="content content--fixed content--nav">
-        <nav class="bike-nav"><span class="bike-nav__item coder bike-nav__item--current">coder</span><span class="bike-nav__item cyclist">cyclist</span><span class="bike-nav__item pet">pet lover</span><a href="portfolio.html" class="link">portfolio</a><a href="http://github.com/abhishekraj007" target="_blank" class="link">> find me on github</a></nav>
+        <nav class="bike-nav">
+          <div class="bike-nav__item side-link coder bike-nav__item--current"></div>
+          <div class="bike-nav__item side-link cyclist"></div>
+          <div class="side-link pet"></div><a class="side-link portfolio" href="portfolio.html"></a><a class="side-link github" href="http://github.com/abhishekraj007" target="_blank"></a>
+        </nav>
       </div>
-      <div class="content pattern">
+      <div class="content">
         <div class="home-slider">
           <div class="home-slider__item abs home-slider-1 active">
-            <div class="coder"><img src="img/coder.gif" alt="coder" class="img-res"></div>
+            <div class="banner">
+              <div class="terminal">
+                <div class="terminal__window">
+                  <div class="terminal__handle">
+                    <div class="terminal__buttons">
+                      <div class="button close"></div>
+                      <div class="button minimize"></div>
+                      <div class="button maximize"></div>
+                    </div><span class="terminal__title">stranger@abhishekraj.net ~ (akrj)</span>
+                  </div>
+                  <div class="terminal__main">
+                    <p class="sign default" id="loadingProtocol"> Running Identity Protocol<span id="loading">.</span></p>
+                    <div class="default" id="identity-results">
+                      <p id="greeting"></p>
+                      <p id="message"></p>
+                    </div>
+                    <p class="is-hidden" id="installingResume">Installing abhishek-resume.<span id="installer-loader"></span>.</p>
+                    <p class="is-hidden" id="loadingResume">Loading Abhishek's Resume.<span id="resume-loader"></span>.</p>
+                    <p class="default" id="showResume"></p>
+                    <div class="default" id="resume">
+                      <p id="name"></p>
+                      <p id="alias"></p>
+                      <p id="occupation"></p>
+                      <p id="front-end"></p>
+                      <p id="js-frameworks"></p>
+                      <p id="js-libs"></p>
+                      <p id="css-frameworks"></p>
+                      <p id="branding"></p>
+                      <p id="hobby"></p>
+                    </div>
+                    <p class="default" id="askName"></p>
+                    <div class="stranger-intro is-hidden" id="strangerIntro">
+                      <div class="terminal-prompt"></div>
+                      <div id="sayhi"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-container">
+                <div class="skill" id="skillCanvasContainer">
+                  <canvas class="skill__canvas" id="skillCanvas" width="300" height="300">
+                    <ul class="skill__li skill__itemst">
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">ReactJS</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">HTML5</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">CSS3</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">NodeJS</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">Javascript</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">MySQL</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">Git</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">Pug</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">MongoDB</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">Gulp</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">SCSS</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">ReactJS</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">HTML5</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">CSS3</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">NodeJS</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">Javascript</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">MySQL</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">Git</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">Pug</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">MongoDB</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">Gulp</a></li>
+                      <li class="skill__item"><a class="skill__link" href="javascript:void(0)">SCSS</a></li>
+                    </ul>
+                  </canvas>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="home-slider__item home-slider-2">
             <svg id="bike" viewbox="0 0 485.7 495.2">
@@ -317,7 +389,7 @@
                   <path d="M330,421c-10.9-23.8-6.8-51.7,10.4-71.5l1.7,1.5c-16.6,19-20.5,46-10,69L330,421z"></path>
                   <path d="M386.5,450.3c-22.9-0.3-43.6-13.6-53.4-34.3l2-0.9c9.4,19.9,29.4,32.8,51.4,33V450.3z"></path>
                   <path d="M405.8,460.7c-21.2,5.8-43.6,1.5-61.7-12c-18.5-13.7-29.1-34.5-29.3-57h2.1c0.1,21.8,10.5,42,28.4,55.3s40.3,17.5,61.1,11.3l0.6,2L405.8,460.7z"></path>
-                  <rect x="223.2" y="231.7" width="320" height="320" class="st0"></rect>
+                  <rect class="st0" x="223.2" y="231.7" width="320" height="320"></rect>
                 </g>
                 <path d="M367.9,385.8c4.5,7.2,12.2,11.9,20.7,12.6l-3.7-6.1c-5.2-1.4-9.6-4.7-12.5-9.3L367.9,385.8z"></path>
                 <path d="M383,308.1c4.3-8.1,10.3-15.1,16-21.8c2.8-3.3,5.8-6.7,8.5-10.3l1.6,1.2c-2.7,3.6-5.7,7-8.6,10.4c-5.9,6.9-11.5,13.4-15.7,21.4L383,308.1z"></path>
@@ -441,15 +513,12 @@
                   <path d="M136.8,176.3c17.2,14.4,24.7,37.4,19.3,59.2L154,235c5.3-21-1.9-43.1-18.5-57L136.8,176.3z"></path>
                   <path d="M155.7,235.4c-5.8,21.9-23.8,38.5-46.2,42.3l-0.3-1.6c21.7-3.7,39.3-19.8,44.9-41.1L155.7,235.4z"></path>
                   <path d="M128.6,156.5c19.7,8.7,34,25.9,39.4,47.4c5.5,21.9,0.7,44.3-13.1,61.4l-1.6-1.3c13.4-16.6,18.1-38.4,12.8-59.6s-19.7-38.3-39.3-46.5l0.8-1.9L128.6,156.5z"></path>
-                  <rect x="-47.5" y="72" width="300" height="300" class="st0"></rect>
+                  <rect class="st0" x="-47.5" y="72" width="300" height="300"></rect>
                 </g>
                 <path d="M151.5,237.3l3.3-5.3c8,7.1,16.6,14,24.9,20.8c10.1,8.2,22.8,16.5,32.3,25.2l-3,3.8c-9.3-8.5-22.2-15.4-32.2-23.4C168.4,251.6,159.8,244.6,151.5,237.3z"></path>
                 <path d="M106.3,231.4c8.1,9.2,18.2,20.9,28.7,33.1c18,20.8,36.8,42.6,50.7,58.1c11.8,13.2,32.9,18.2,46.4,6.4l-5.9-2.4c-10.5,9.1-24.3,5-33.2-3.5l-83.6-95.6l-2.3,2.4l0.3,0.4L106.3,231.4z"></path>
               </g>
             </svg>
-          </div>
-          <div class="home-slider__item abs home-slider-2">
-            <div class="pet-lover"><img src="img/pet-lover.gif" alt="Pet lover" class="img-res"></div>
           </div>
         </div>
       </div>
@@ -459,38 +528,69 @@
       <div class="chat-container">
         <div class="form-content">
           <h2 class="chat-container__heading">Let's talk</h2>
-          <form id="chatForm" class="chat-form">
-            <input type="text" name="name" id="name" placeholder="Full Name" required class="chat-input">
-            <input type="email" name="email" id="email" placeholder="Email" required class="chat-input">
-            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone number" required class="chat-input">
-            <textarea name="message" id="message" placeholder="Your message" required class="chat-message"></textarea>
-            <input type="text" name="_gotcha" class="is-hidden">
+          <form class="chat-form" id="chatForm">
+            <input class="chat-input" type="text" name="name" id="name" placeholder="Full Name" required>
+            <input class="chat-input" type="email" name="email" id="email" placeholder="Email" required>
+            <input class="chat-input" type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone number" required>
+            <textarea class="chat-message" name="message" id="message" placeholder="Your message" required></textarea>
+            <input class="is-hidden" type="text" name="_gotcha">
             <input type="hidden" name="_subject" value="Subject">
-            <input type="submit" value="Send" class="chat-send">
+            <input class="chat-send" type="submit" value="Send">
           </form>
         </div>
         <div class="form-content thank-you">
-          <div><img src="./img/thank-you.png" alt="thank you" class="img-res"></div>
+          <div class="checkmark">
+            <svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 161.2 161.2" enable-background="new 0 0 161.2 161.2" xml:space="preserve">
+              <path class="path" fill="none" stroke="#7DB0D5" stroke-miterlimit="10" d="M425.9,52.1L425.9,52.1c-2.2-2.6-6-2.6-8.3-0.1l-42.7,46.2l-14.3-16.4          c-2.3-2.7-6.2-2.7-8.6-0.1c-1.9,2.1-2,5.6-0.1,7.7l17.6,20.3c0.2,0.3,0.4,0.6,0.6,0.9c1.8,2,4.4,2.5,6.6,1.4c0.7-0.3,1.4-0.8,2-1.5          c0.3-0.3,0.5-0.6,0.7-0.9l46.3-50.1C427.7,57.5,427.7,54.2,425.9,52.1z"></path>
+              <circle class="animate-success" fill="none" stroke="#fa71cd;" stroke-width="4" stroke-miterlimit="10" cx="80.6" cy="80.6" r="62.1"></circle>
+              <polyline class="animate-success" fill="none" stroke="#fa71cd;" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="113,52.8           74.1,108.4 48.2,86.4 "></polyline>
+            </svg>
+          </div>
+          <h3>Thank You</h3>
           <p>I'll contact you shortly :)</p>
         </div>
       </div>
-      <div onclick="toggleChat()" class="chat-button"><img src="./img/chat-white.svg" alt="Chat" class="chat-icon"></div>
+      <div class="chat-button" onclick="toggleChat()"><img class="chat-icon" src="./img/chat-white.svg" alt="Chat"></div>
     </div>
     <!-- START: Latest card-->
     <div class="latest-project hide">
-      <div onclick="toggleLatestWork()" class="latest-project__close"><span>Latest work</span></div><a href="latest-work.html" class="latest-project__content">
+      <div class="latest-project__close" onclick="toggleLatestWork()"><span>Latest work</span></div><a class="latest-project__content" href="latest-work.html">
         <h3 class="latest-project__title">Latest work</h3>
         <div class="latest-project__img"><img src="./img/latest-work.jpg">
           <h3 class="latest-project__name">Run Adam</h3>
           <p class="latest-project__desc">Sport is life</p>
         </div></a>
     </div>
+    <!-- START: Latest card-->
+    <div class="modal" id="petModal">
+      <!-- Modal content-->
+      <div class="modal-content"><span class="close modal__close">×</span>
+        <div class="pet-lover item-center abs-center"><img class="img-res" src="img/pet-lover.gif" alt="Pet lover"></div>
+      </div>
+    </div>
+    <!-- START: Loader-->
+    <div class="loader">
+      <!-- Loader 5-->
+      <svg id="L5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+        <circle fill="#fff" stroke="none" cx="6" cy="50" r="6"></circle>
+        <animatetransform attributename="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatcount="indefinite" begin="0.1">
+          <circle fill="#fff" stroke="none" cx="30" cy="50" r="6"></circle>
+          <animatetransform attributename="transform" dur="1s" type="translate" values="0 10 ; 0 -10; 0 10" repeatcount="indefinite" begin="0.2">
+            <circle fill="#fff" stroke="none" cx="54" cy="50" r="6"></circle>
+            <animatetransform attributename="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatcount="indefinite" begin="0.3"></animatetransform>
+          </animatetransform>
+        </animatetransform>
+      </svg>
+    </div>
     <!--START: Footer-->
         <!--START: Scripts- Plugins-->
         <script src="js/jquery.js"></script>
-        <script src="js/main.js"></script>
         <script src="js/TweenMax.min.js"></script>
         <script src="js/DrawSVGPlugin.min.js"></script>
+        <script src="js/canvas.js"></script>
         <script src="js/cyclist.js"></script>
+        <script src="js/terminal.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/main.js"></script>
   </body>
 </html>

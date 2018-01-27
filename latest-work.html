@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
     <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,29 +10,29 @@
       <meta name="author" content="abhishek raj">
       <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
       <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700,800" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:300,400,500,700,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Oswald:300,400,600,700|Source+Code+Pro:300,400" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/main.css">
-      <script src="js/modernizr.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     </head>
   <body class="latest">
     <!--START: Header-->
-    <header><a href="index.html" class="logo">
-        <div class="avatar"><img src="./img/abhishekraj-profile.jpg"></div>
+    <header><a class="logo" href="index.html">
+        <div class="avatar"><img class="logo__img" src="./img/logo-white.png"></div>
         <div class="tagline">
           <div>abhishek raj</div>
           <div class="tagline__small">Front End Engineer</div>
         </div></a>
       <div class="navigation">
-        <input type="checkbox" id="nav-toggle" class="navigation__checkbox">
-        <label for="nav-toggle" class="navigation__button hamburger">
+        <input class="navigation__checkbox" type="checkbox" id="nav-toggle">
+        <label class="navigation__button hamburger" for="nav-toggle">
           <div class="navigation__icon">&nbsp;</div>
         </label>
         <div class="navigation__background">&nbsp;</div>
         <nav class="navigation__nav">
           <ul class="navigation__list">
-            <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
-            <li class="navigation__item"><a href="latest-work.html" class="navigation__link">Latest Work</a></li>
-            <li class="navigation__item"><a href="portfolio.html" class="navigation__link">Portfolio</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="index.html">Home</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="latest-work.html">Latest Work</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="portfolio.html">Portfolio</a></li>
           </ul>
         </nav>
       </div>
@@ -43,24 +43,24 @@
       <div class="slideshow">
         <div class="slides slides--images">
           <div class="slide slide--current">
-            <div style="background-image: url(img/run-adam.jpg)" class="slide__img"></div>
+            <div class="slide__img" style="background-image: url(img/run-adam.jpg);"></div>
           </div>
           <div class="slide">
-            <div style="background-image: url(img/batch.jpg)" class="slide__img"></div>
+            <div class="slide__img" style="background-image: url(img/batch.jpg);"></div>
           </div>
           <div class="slide">
-            <div style="background-image: url(img/ps-g.gif)" class="slide__img cover"></div>
+            <div class="slide__img cover" style="background-image: url(img/ps-g.gif);"></div>
           </div>
         </div>
         <div class="slides slides--titles">
-          <div class="slide slide--current"><a href="http://projects.lollypop.biz/runadam" target="_blank" class="slide__link">RunAdam</a></div>
-          <div class="slide"><a href="http://batch.ly" target="_blank" class="slide__link">batch.ly</a></div>
-          <div class="slide"><a href="http://www.psgroup.in" target="_blank" class="slide__link">PS Group</a></div>
+          <div class="slide slide--current"><a class="slide__link" href="http://projects.lollypop.biz/runadam" target="_blank">RunAdam</a></div>
+          <div class="slide"><a class="slide__link" href="http://batch.ly" target="_blank">batch.ly</a></div>
+          <div class="slide"><a class="slide__link" href="http://www.psgroup.in" target="_blank">PS Group</a></div>
         </div>
         <nav class="slidenav">
           <button class="slidenav__item slidenav__item--prev">&#10094;</button>
           <button class="slidenav__item slidenav__item--next">&#10095;</button>
-        </nav><a href="portfolio.html" class="visit-all">All Projects</a>
+        </nav><a class="visit-all" href="portfolio.html">All Projects</a>
       </div>
     </main>
     <!--START: Chat-->
@@ -68,29 +68,50 @@
       <div class="chat-container">
         <div class="form-content">
           <h2 class="chat-container__heading">Let's talk</h2>
-          <form id="chatForm" class="chat-form">
-            <input type="text" name="name" id="name" placeholder="Full Name" required class="chat-input">
-            <input type="email" name="email" id="email" placeholder="Email" required class="chat-input">
-            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone number" required class="chat-input">
-            <textarea name="message" id="message" placeholder="Your message" required class="chat-message"></textarea>
-            <input type="text" name="_gotcha" class="is-hidden">
+          <form class="chat-form" id="chatForm">
+            <input class="chat-input" type="text" name="name" id="name" placeholder="Full Name" required>
+            <input class="chat-input" type="email" name="email" id="email" placeholder="Email" required>
+            <input class="chat-input" type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone number" required>
+            <textarea class="chat-message" name="message" id="message" placeholder="Your message" required></textarea>
+            <input class="is-hidden" type="text" name="_gotcha">
             <input type="hidden" name="_subject" value="Subject">
-            <input type="submit" value="Send" class="chat-send">
+            <input class="chat-send" type="submit" value="Send">
           </form>
         </div>
         <div class="form-content thank-you">
-          <div><img src="./img/thank-you.png" alt="thank you" class="img-res"></div>
+          <div class="checkmark">
+            <svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 161.2 161.2" enable-background="new 0 0 161.2 161.2" xml:space="preserve">
+              <path class="path" fill="none" stroke="#7DB0D5" stroke-miterlimit="10" d="M425.9,52.1L425.9,52.1c-2.2-2.6-6-2.6-8.3-0.1l-42.7,46.2l-14.3-16.4          c-2.3-2.7-6.2-2.7-8.6-0.1c-1.9,2.1-2,5.6-0.1,7.7l17.6,20.3c0.2,0.3,0.4,0.6,0.6,0.9c1.8,2,4.4,2.5,6.6,1.4c0.7-0.3,1.4-0.8,2-1.5          c0.3-0.3,0.5-0.6,0.7-0.9l46.3-50.1C427.7,57.5,427.7,54.2,425.9,52.1z"></path>
+              <circle class="animate-success" fill="none" stroke="#fa71cd;" stroke-width="4" stroke-miterlimit="10" cx="80.6" cy="80.6" r="62.1"></circle>
+              <polyline class="animate-success" fill="none" stroke="#fa71cd;" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="113,52.8           74.1,108.4 48.2,86.4 "></polyline>
+            </svg>
+          </div>
+          <h3>Thank You</h3>
           <p>I'll contact you shortly :)</p>
         </div>
       </div>
-      <div onclick="toggleChat()" class="chat-button"><img src="./img/chat-white.svg" alt="Chat" class="chat-icon"></div>
+      <div class="chat-button" onclick="toggleChat()"><img class="chat-icon" src="./img/chat-white.svg" alt="Chat"></div>
+    </div>
+    <!--START: Loader-->
+    <div class="loader">
+      <!-- Loader 5-->
+      <svg id="L5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+        <circle fill="#fff" stroke="none" cx="6" cy="50" r="6"></circle>
+        <animatetransform attributename="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatcount="indefinite" begin="0.1">
+          <circle fill="#fff" stroke="none" cx="30" cy="50" r="6"></circle>
+          <animatetransform attributename="transform" dur="1s" type="translate" values="0 10 ; 0 -10; 0 10" repeatcount="indefinite" begin="0.2">
+            <circle fill="#fff" stroke="none" cx="54" cy="50" r="6"></circle>
+            <animatetransform attributename="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatcount="indefinite" begin="0.3"></animatetransform>
+          </animatetransform>
+        </animatetransform>
+      </svg>
     </div>
     <!--START: Footer-->
         <!--START: Scripts- Plugins-->
         <script src="js/jquery.js"></script>
-        <script src="js/main.js"></script>
         <script src="js/anime.min.js"></script>
-        <script src="js/latest-work.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/latest-work.js"></script>
+        <script src="js/main.js"></script>
   </body>
 </html>
