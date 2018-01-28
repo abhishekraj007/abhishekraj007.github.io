@@ -318,11 +318,11 @@ $(function () {
   }
   // show resume command
   function showPortfolio() {
-    var url = window.location.href.replace(window.location.pathname, "/portfolio.html")
+    var url = window.location.href.replace(".net" + window.location.pathname, ".net/portfolio.html")
     openInNewTab(url);
   }
   function showLatestWork() {
-    var url = window.location.href.replace(window.location.pathname, "/latest-work.html");
+    var url = window.location.href.replace(".net" + window.location.pathname, ".net/latest-work.html");
     openInNewTab(url);
   }
 
