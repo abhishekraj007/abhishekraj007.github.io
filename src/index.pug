@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+	
+	- var title = "Abhishek Raj - Personal Website"
+	- var page_name= "home"
+	
+	include pug/base/head
+	+header(title)
+	
+	body
+		//START: Header
+		include pug/base/nav-header
+		//START: Main
+		main
+			//Start: Banner
+			include pug/layouts/home/main
+
+		//START: Chat
+		include pug/components/chat
+		// START: Latest card
+		include pug/components/latest-work-card
+		// START: Latest card
+		include pug/layouts/pet-modal
+		// START: Loader
+		include pug/components/loader
+		//START: Footer
+		include pug/base/scripts
+		+script(page_name)
+

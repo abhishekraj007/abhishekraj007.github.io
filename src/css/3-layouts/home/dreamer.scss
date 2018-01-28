@@ -1,0 +1,157 @@
+.st5{fill:#ED6245;}
+.st5{
+	font-size: 2em;
+}
+.st6{fill:#0C5054;}
+.st7{opacity:0.1;fill:#231F20;}
+.st8{fill:#F6B344;}
+.st9{fill:#F1E4C4;}
+.st10{fill:#FFFFFF;}
+.st11{fill:#231F20;}
+.word{
+   
+	
+	&--1{ 
+		transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 0s linear forwards infinite;		
+	}
+	&--2{ 
+		transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s .5s linear forwards infinite;	
+	}
+	&--3{ 
+		transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 1s linear forwards infinite;
+	}
+	&--4{ 
+		 transfrm: translateY(300px);
+		opacity: 0;
+		animation:word 8s 1.5s linear forwards infinite;
+	}
+	&--5{ 
+		transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 2s linear backwards infinite;
+	}
+	&--6{ 
+		transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 2.5s linear forwards infinite;
+	}
+	&--7{
+		transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 3s linear forwards infinite;
+	}
+	&--8{
+		transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 3.5s linear forwards infinite;
+	}
+	&--9{
+		 transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 4.2s linear forwards infinite;
+	}
+	&--10{
+		transform: translateY(300px);
+    opacity: 0;
+    animation:word 8s 4.9s linear backwards infinite;
+	}
+	&--11{
+		transform: translateY(300px);
+    opacity: 0;
+    animation:word 8s 5.3s linear forwards infinite;
+	}
+	&--12{
+		transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 5.8s linear forwards infinite;
+	}
+	&--13{
+		 transform: translateY(300px);
+    opacity: 0;
+    animation:word 8s 6.4s linear forwards infinite;
+	}
+	&--14{
+		 transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 7.2s linear forwards infinite;
+	}
+	&--15{
+		 transform: translateY(300px);
+		opacity: 0;
+		animation:word 8s 8s linear backwards infinite;
+	}
+}
+
+
+
+@keyframes word{
+    0%{opacity: 0;}
+    10%{opacity: 1;}
+    100%{opacity: 1;transform: translateY(-800px)}
+}
+
+.eye{    
+    animation:eye 10s 2s linear forwards ;
+}
+@keyframes eye{
+    0%{}
+    10%{transform: translateX(20px)}
+    20%{transform: translateX(20px)}
+    30%{transform: translateX(-20px)}
+    40%{transform: translateX(-20px)}
+    50%{transform: translateX(20px)translateY(-20px)}
+    60%{transform: translateX(20px)translateY(-20px)}
+    70%{transform: translateX(-20px)translateY(20px)}
+    80%{transform: translateX(-20px)translateY(20px)}
+    90%{transform: translateX(20px)}
+    100%{transform: translateX(0px)translateY(0px)}
+}
+
+.dreamer .svg{
+    max-width: 500px;
+}
+.dreamer .ball1{
+    background: crimson;
+    width: 5px;
+    height: 5px;
+}
+.dreamer .ball2{
+    background: lightgreen;
+    width: 20px;
+    height: 20px;
+}
+.dreamer .ball3{
+    background: #ff00f5;
+    width: 15px;
+    height: 15px;
+}
+.dreamer .ball4{
+    background: #0000ff;
+    width: 10px;
+    height: 10px;
+}
+.dreamer .ball5{
+    background: #f5ff00;
+    width: 5px;
+    height: 5px;
+}
+.dreamer .ball-effect{
+    animation: grow 0.5s linear forwards;
+    border-radius: 100%;
+    position: fixed;
+    z-index: 999999999;
+}
+@keyframes grow {
+    0%{}
+    100%{
+        height: 100px;
+        width: 100px;
+        opacity: 0;
+    }
+}

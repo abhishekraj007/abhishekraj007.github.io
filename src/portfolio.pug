@@ -1,0 +1,27 @@
+doctype html
+html(lang='en')
+	
+	- var title = "Abhishek Raj - Portfolio"
+	- var page_name= "portfolio"
+	
+	include pug/base/head
+	+header(title)
+	
+	body.portfolio
+		//START: Header
+		include pug/base/nav-header
+		//START: Main
+		main
+			//Start: Banner
+			include pug/layouts/portfolio/main
+
+		//START: Chat
+		include pug/components/chat
+		//START: Chat
+		include pug/components/loader
+		//START: Footer
+		include pug/base/scripts
+		+script(page_name)
+		
+
+	

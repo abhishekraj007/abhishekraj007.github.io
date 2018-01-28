@@ -1,0 +1,43 @@
+.terminal
+  .terminal__window
+    .terminal__handle
+      .terminal__buttons
+        .button.close
+        .button.minimize
+        .button.maximize
+      span.terminal__title stranger@abhishekraj.net ~ (akrj)
+    .terminal__main
+      p#loadingProtocol.sign.default
+        |  Running Identity Detection Protocol
+        span#loading .
+      #identity-results.default
+        p#greeting
+        p#message
+      p#installingResume.is-hidden
+        | Installing abhishek-resume.
+        span#installer-loader
+        | .
+      p#loadingResume.is-hidden
+        | Extracting Abhishek's Resume.
+        span#resume-loader
+        | .
+      p#addedPackage.is-hidden.yellow.default
+        | +-- abhishek-resume@1.26<br>
+        | | +-- show-resume<br>
+        | | +-- show-contact<br>
+        | | +-- show-portfolio<br>
+        | | +-- help<br>
+      p#showResume.default
+      #resume.default
+        p#name
+        p#education
+        p#occupation
+        p#front-end
+        p#js-frameworks
+        p#js-libs
+        p#css-frameworks
+        p#branding
+        p#hobby
+      p#askName.default
+      #strangerIntro.stranger-intro.is-hidden
+        .terminal-prompt

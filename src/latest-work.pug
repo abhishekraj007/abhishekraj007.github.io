@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+	
+	- var title = "Abhishek Raj - Latest Work"
+	- var page_name= "latest_work"
+	
+	include pug/base/head
+	+header(title)
+	
+	body.latest
+		//START: Header
+		include pug/base/nav-header
+		//START: Main
+		main
+			//Start: Banner
+			include pug/layouts/latest-work
+
+		//START: Chat
+		include pug/components/chat
+		//START: Loader
+		include pug/components/loader
+		//START: Footer
+		include pug/base/scripts
+		+script(page_name)
+

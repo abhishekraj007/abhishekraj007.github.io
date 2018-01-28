@@ -1,0 +1,45 @@
+section.container
+  .sublime
+    header.sublime__title Sublime Text
+    ul.sublime-tabs
+      li.sublime-tabs__tab
+        a.sublime-tabs__link(href='#_github/mainjs', data-type='js', data-project='mainjs') introduction.js
+      li.sublime-tabs__tab
+        a.sublime-tabs__link(href='#_github/maincss', data-type='css', data-project='maincss') main.css
+    button.sublime__button.sublime__button--full.js-sublime-maximise(tabindex='-1') go fullscreen
+    button.sublime__button.sublime__button--maxi.js-sublime-toggle(tabindex='-1') maximise
+    button.sublime__button.sublime__button--exit.js-sublime-minimise(tabindex='-1') exit
+    .sublime-project(data-project-name='mainjs')
+      //- h4.sublime-project__title Javascript File
+      //- .js-typed.sublime-project__code.prettyprint.lang-js.linenums
+      //- div.src(style="display:none" id="js-src")
+      //-   ol.linenums        | 
+      //-     | <li class="L0">// A Visitor has come...</li>
+      //-     | <li class="L1">function greet(){</li>
+      //-     | <li class="L2">    alert('simple method');</li>
+      //-     | <li class="L3"> }​​​​​​​​</li>
+      div.src(style="display:none" id="js-src")
+        pre
+          code.
+            // A friend has come...
+            function greet(){
+              alert('simple method');
+            }​​​​​​​​
+        //- | <span>// A friend has come...
+        //- | function greet(){
+        //- |     alert('simple method');
+        //- |  }​​​​​​​​
+      pre.sublime-project__code.line-numbers
+        code#js-target.target.language-javascript
+
+    .sublime-project(data-project-name='maincss')
+      //- h4.sublime-project__title CSS File
+      pre.sublime-project__code.prettyprint.lang-css.linenums.
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        font-size: 1em;
+        font-weight: 400;
+        z-index: 40;
+    footer.sublime__footer HTML
