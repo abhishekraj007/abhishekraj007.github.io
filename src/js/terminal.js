@@ -294,12 +294,24 @@ $(function () {
   }
   // Help command
   function help() {
-    terminal.append("<p>\nHere is the list of command: \n &crarr; show-contact\n &crarr; show-resume\n &crarr; show-portfolio\n &crarr; show-latestwork\n &crarr; clear</p>\n");
+    terminal.append("<p>\nHere is the list of command: \n &crarr; show-contact\n &crarr; show-resume\n &crarr; show-portfolio\n &crarr; show-latestwork\n &crarr; show-certification\n &crarr; clear</p>\n");
   }
 
   // show contact command
   function showLoadedContact() {
     terminal.append("\n<p>Phone Number: +91-7727826586</p><p>Email: abhishekrajinfo@gmail\n\nYou can also send me message through that little bubble at right bottom corner of this window :) \n\n</p>")
+  }
+  // show certification command
+  var certificationLinks = '\n<p>Certification links:</p>' +
+    '<p><a href="https://www.dropbox.com/s/gew11lyddwohxkz/Certificate-jQuery.pdf?dl=0" target="_blank" class="open-link">  jQuery certification</a></p>' +
+    '<p><a href="https://www.dropbox.com/s/5wcxqnc6ef5seu1/Certificate-SQL.pdf?dl=0" target="_blank" class="open-link">  SQL certification</a></p>' +
+    '<p><a href="https://www.dropbox.com/s/aibfulx01ik7re5/Certificate-%20NoSql%20and%20DBaas.pdf?dl=0" target="_blank" class="open-link">  NoSQL and DBaaS</a></p>' +
+    '<p><a href="https://www.dropbox.com/s/mvzqhy3yn432tbx/certificate-%20Big%20Data.pdf?dl=0" target="_blank" class="open-link">  Big Data</a></p>' +
+    '<p><a href="https://www.dropbox.com/s/qwzhb91uu36edh0/Certificate-%20Microsoft%20Data%20Visualization.pdf?dl=0" target="_blank" class="open-link">  Data Visualization</a></p>';
+
+
+  function showCertification() {
+    terminal.append(certificationLinks);
   }
 
   var resumeContent = "\n<p>Name: Abhishek Raj (aka: akrj)</p>" +
@@ -354,6 +366,9 @@ $(function () {
   }, {
     "name": "show-latestwork",
     "function": showLatestWork
+  }, {
+    "name": "show-certification",
+    "function": showCertification
   }
   ];
 
