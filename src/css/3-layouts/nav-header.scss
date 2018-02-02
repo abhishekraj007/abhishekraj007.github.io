@@ -189,7 +189,7 @@
   //ICON
   &__icon {
       position: relative;
-      opacity: 0.9;
+    //   opacity: 0.9;
       &,
       &::before,
       &::after {
@@ -244,4 +244,9 @@
     }
 }
 
-
+.aboutme-link{
+    position: absolute;
+    right: 6rem;
+    top: 2rem;
+    z-index: 10;
+}

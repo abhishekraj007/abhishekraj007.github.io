@@ -78,4 +78,27 @@ $(function () {
 
 	});
 
+
+
+	// Modal
+	var aboutMeModal = document.querySelector('#aboutmeModal');
+	// Get the button that opens the modal
+	var openAboutLink = document.querySelector("#aboutmeLink");
+
+	// When the user clicks on the button, open the modal
+	openAboutLink.onclick = function () {
+		aboutMeModal.classList.add('active')
+	}
+
+	$(".modal__close").on('click', function () {
+		$(this).closest('.modal').removeClass('active');
+	});
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function (event) {
+		if (event.target == petModal) {
+			aboutMeModal.classList.remove('active');
+		}
+	}
+
 });
