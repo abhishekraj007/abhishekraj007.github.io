@@ -249,4 +249,7 @@
     right: 6rem;
     top: 2rem;
     z-index: 10;
+    @media (max-width: $sm){
+        display: none;
+    }
 }

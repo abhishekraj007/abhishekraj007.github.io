@@ -1,5 +1,12 @@
 .aboutme-block{
   color: $black3;
+  padding: 3rem;
+  @media (min-width: $lg){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 .article p{
   margin-bottom: 12px;
