@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+      <title>Abhishek Raj - Portfolio</title>
+      <meta name="abhishek raj" content="Abhishek raj is a Front End Engineer, UI Developer, Full stack javascript developer">
+      <meta meta name="keywords" content="Abhishek raj, UI Developer, Designer">
+      <meta name="author" content="abhishek raj">
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700,800" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Oswald:300,400,600,700|Source+Code+Pro:300,400" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    </head>
+  <body class="portfolio">
+    <!--START: Header-->
+    <header><a class="logo" href="index.html">
+        <div class="avatar"><img class="logo__img" src="./img/logo-white.png"></div>
+        <div class="tagline">
+          <div>abhishek raj</div>
+          <div class="tagline__small">Front End Engineer</div>
+        </div></a>
+      <div class="navigation"><a class="aboutme-link" href="javascript:void(0)" id="aboutmeLink" title="About me">About</a>
+        <input class="navigation__checkbox" type="checkbox" id="nav-toggle">
+        <label class="navigation__button hamburger" for="nav-toggle">
+          <div class="navigation__icon">&nbsp;</div>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="index.html">Home</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="latest-work.html">Latest Work</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--START: Main-->
+    <main>
+      <!--Start: Banner-->
+      <section class="tt-grid-wrapper">
+        <ul class="tt-grid tt-effect-superscale tt-effect-delay">
+          <li><a href="http://projects.lollypop.biz/runadam" target="_blank"><img src="img/portfolio/1.jpg" alt="img01"></a></li>
+          <li><a href="http://www.psgroup.in" target="_blank"><img src="img/portfolio/2.jpg" alt="img02"></a></li>
+          <li><a href="http://creditvidya.com" target="_blank"><img src="img/portfolio/3.jpg" alt="img03"></a></li>
+          <li><a href="https://talentica.com" target="_blank"><img src="img/portfolio/4.jpg" alt="img04"></a></li>
+          <li><a href="http://villasonrent.com" target="_blank"><img src="img/portfolio/5.jpg" alt="img05"></a></li>
+          <li><a href="http://factspan.com" target="_blank"><img src="img/portfolio/6.jpg" alt="img05"></a></li>
+        </ul>
+        <nav><a class="tt-current"></a><a></a><a></a></nav>
+      </section>
+    </main>
+    <!--START: Chat-->
+    <div class="chat">
+      <div class="chat-container">
+        <div class="form-content">
+          <h2 class="chat-container__heading">Let's talk</h2>
+          <form class="chat-form" id="chatForm">
+            <input class="chat-input" type="text" name="name" id="name" placeholder="Full Name" required>
+            <input class="chat-input" type="email" name="email" id="email" placeholder="Email" required>
+            <input class="chat-input" type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone number" required>
+            <textarea class="chat-message" name="message" id="message" placeholder="Your message" required></textarea>
+            <input class="is-hidden" type="text" name="_gotcha">
+            <input type="hidden" name="_subject" value="Subject">
+            <input class="chat-send" type="submit" value="Send">
+          </form>
+        </div>
+        <div class="form-content thank-you">
+          <div class="checkmark">
+            <svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 161.2 161.2" enable-background="new 0 0 161.2 161.2" xml:space="preserve">
+              <path class="path" fill="none" stroke="#7DB0D5" stroke-miterlimit="10" d="M425.9,52.1L425.9,52.1c-2.2-2.6-6-2.6-8.3-0.1l-42.7,46.2l-14.3-16.4          c-2.3-2.7-6.2-2.7-8.6-0.1c-1.9,2.1-2,5.6-0.1,7.7l17.6,20.3c0.2,0.3,0.4,0.6,0.6,0.9c1.8,2,4.4,2.5,6.6,1.4c0.7-0.3,1.4-0.8,2-1.5          c0.3-0.3,0.5-0.6,0.7-0.9l46.3-50.1C427.7,57.5,427.7,54.2,425.9,52.1z"></path>
+              <circle class="animate-success" fill="none" stroke="#fa71cd;" stroke-width="4" stroke-miterlimit="10" cx="80.6" cy="80.6" r="62.1"></circle>
+              <polyline class="animate-success" fill="none" stroke="#fa71cd;" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="113,52.8           74.1,108.4 48.2,86.4 "></polyline>
+            </svg>
+          </div>
+          <h3>Thank You</h3>
+          <p>I'll contact you shortly :)</p>
+        </div>
+      </div>
+      <div class="chat-button" onclick="toggleChat()"><img class="chat-icon" src="./img/chat-white.svg" alt="Chat"></div>
+    </div>
+    <!-- START: About Me-->
+    <div class="modal" id="aboutmeModal">
+      <!-- Modal content-->
+      <div class="modal-content"><span class="close modal__close">×</span>
+        <div class="aboutme-block">
+          <article class="article">
+            <p>Hello from the East coast!</p>
+            <p> I'm Abhishek Raj. And My passion is to invent and build enjoyable, useful, and novel user interfaces at the cusp of hardware and software. I am a proficient front-end and mobile web engineer with experience leading and handling small teams. In my projects, I tend to gravitate to web technologies because of the flexibility of the web platform.</p>
+            <p>Actually, I've built a terminal for you, to dig deeper, to know more about me and my awesome clients I worked for... you must give a try. But let me tell you one more thing just right here, When I'm not riding cycle and playing with my pets I must be finishing one more book from my bucket list.</p>
+            <p>In case you want to talk to me... There! There at right bottom corner of this window. You got it. :)</p>
+          </article>
+        </div>
+      </div>
+    </div>
+    <!--START: Chat-->
+    <div class="loader">
+      <!-- Loader 5-->
+      <div class="preloader" id="preloader"><span></span><span></span><span></span></div>
+    </div>
+    <!--START: Footer-->
+        <!--START: Scripts- Plugins-->
+        <script src="js/jquery.js"></script>
+        <script src="js/portfolio.min.js"></script>
+  </body>
+</html>
