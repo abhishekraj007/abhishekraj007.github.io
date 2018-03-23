@@ -5,7 +5,7 @@
 	// some dummy data to play with..
 	var allImages = {
 		page1: [
-			'<a href="http://projects.lollypop.biz/runadam" target="_blank"><img src="img/portfolio/1.jpg" alt="img01"/></a>',
+			'<a href="http://runadam.com" target="_blank"><img src="img/portfolio/1.jpg" alt="img01"/></a>',
 			'<a href="http://www.psgroup.in" target="_blank"><img src="img/portfolio/2.jpg" alt="img02"/></a>',
 			'<a href="http://creditvidya.com" target="_blank"><img src="img/portfolio/3.jpg" alt="img03"/></a>',
 			'<a href="http://www.talentica.com" target="_blank"><img src="img/portfolio/4.jpg" alt="img04"/></a>',
