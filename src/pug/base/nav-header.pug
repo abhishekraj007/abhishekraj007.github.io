@@ -1,0 +1,21 @@
+header
+  a(href="index.html").logo
+    .avatar
+      img.logo__img(src="./img/logo-white.png")
+    .tagline
+      div abhishek raj
+      div.tagline__small Front End Engineer
+  .navigation
+    a(href="javascript:void(0)" id="aboutmeLink" class="aboutme-link" title="About me") About
+    input.navigation__checkbox(type="checkbox" id="nav-toggle")
+    label.navigation__button.hamburger(for="nav-toggle")
+      .navigation__icon &nbsp;
+    .navigation__background &nbsp;
+    nav.navigation__nav
+      ul.navigation__list
+        li.navigation__item
+          a.navigation__link(href="index.html") Home
+        li.navigation__item
+          a.navigation__link(href="latest-work.html") Latest Work
+        li.navigation__item
+          a.navigation__link(href="portfolio.html") Portfolio

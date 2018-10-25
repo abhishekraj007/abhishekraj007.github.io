@@ -1,0 +1,32 @@
+
+<section class="container">
+  <div class="sublime">
+    <header class="sublime__title">Sublime Text</header>
+    <ul class="sublime-tabs">
+      <li class="sublime-tabs__tab"><a class="sublime-tabs__link" href="#_github/mainjs" data-type="js" data-project="mainjs">introduction.js</a></li>
+      <li class="sublime-tabs__tab"><a class="sublime-tabs__link" href="#_github/maincss" data-type="css" data-project="maincss">main.css</a></li>
+    </ul>
+    <button class="sublime__button sublime__button--full js-sublime-maximise" tabindex="-1">go fullscreen</button>
+    <button class="sublime__button sublime__button--maxi js-sublime-toggle" tabindex="-1">maximise</button>
+    <button class="sublime__button sublime__button--exit js-sublime-minimise" tabindex="-1">exit</button>
+    <div class="sublime-project" data-project-name="mainjs">
+      <div class="src" style="display:none;" id="js-src">
+        <pre><code>// A friend has come...
+function greet(){
+  alert('simple method');
+}​​​​​​​​</code></pre>
+      </div>
+      <pre class="sublime-project__code line-numbers"><code class="target language-javascript" id="js-target"></code></pre>
+    </div>
+    <div class="sublime-project" data-project-name="maincss">
+      <pre class="sublime-project__code prettyprint lang-css linenums">position: fixed;
+top: 0;
+right: 0;
+width: 100%;
+font-size: 1em;
+font-weight: 400;
+z-index: 40;</pre>
+    </div>
+    <footer class="sublime__footer">HTML</footer>
+  </div>
+</section>

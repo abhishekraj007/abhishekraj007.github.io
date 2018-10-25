@@ -1,0 +1,306 @@
+[
+
+  {
+    "title": "Feed",
+    "drawable": "ic_fb",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "IdeaSpot",
+        "provider": "facebook",
+        "arguments": [
+          "1578382845806916"
+        ]
+      }, {
+        "title": "Karen",
+        "provider": "facebook",
+        "arguments": [
+          "318094793706"
+        ]
+      }, {
+        "title": "The Light",
+        "provider": "facebook",
+        "arguments": [
+          "1047563178589559"
+        ]
+      }, {
+        "title": "Simple Reminder",
+        "provider": "facebook",
+        "arguments": [
+          "115818088452122"
+        ]
+      }, {
+        "title": "Idealist",
+        "provider": "facebook",
+        "arguments": [
+          "212514318782022"
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Videos",
+    "drawable": "ic_video",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "Absolute Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PLsixLV2OhyUxOBhjXsEncvx0j8rA5U-oA",
+          "UCpmZQGTZXn9xd4nN59pbIWQ"
+        ]
+      }, {
+        "title": "Fearless",
+        "provider": "youtube",
+        "arguments": [
+          "PLTFCM8gfGxuHBhndEzKpwLNbBn617cRft",
+          "UCf9_s9ii6BZ-klpgmtIi3WQ"
+        ]
+      }, {
+        "title": "Fight Mediocrity",
+        "provider": "youtube",
+        "arguments": [
+          "PL-bTaZrTDhtbhxgS59t4HzwCnq2iIYMgV",
+          "UCXLesGEfmyhxqOjoAqhRwhA"
+        ]
+      }, {
+        "title": "Picasso Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PL2tBZjk6erj2gK3ut--MeiC0m-63cbCpe",
+          "UCORp0Fxa5lHFuZfLHxfeLuQ"
+        ]
+      }, {
+        "title": "Be Inspired",
+        "provider": "youtube",
+        "arguments": [
+          "PL9XDPqN8lxBphPe-jqlu6cRejGpd54oqA",
+          "UCaKZDEMDdQc8t6GzFj1_TDw"
+        ]
+      }, {
+        "title": "Video Advice",
+        "provider": "youtube",
+        "arguments": [
+          "PLMuukMLwizzLB6LrL1Hl3CyNsqeNybvGC",
+          "UCAwylBbx8RiRD3VsaYdwNTw"
+        ]
+      }, {
+        "title": "RedFrost",
+        "provider": "youtube",
+        "arguments": [
+          "PLkXex0-Sjz1taMMLgTbUI6jdeBA6tnd_g",
+          "UCXD5aOFDPO1W264sJvYc85Q"
+        ]
+      }, {
+        "title": "TED",
+        "provider": "youtube",
+        "arguments": [
+          "PLAC463A2B6B2CEC7F",
+          "UCAuUUnT6oDeKwE6v1NGQxug"
+        ]
+      }, {
+        "title": "BigThink",
+        "provider": "youtube",
+        "arguments": [
+          "PL5uULy4b0kV7ptjEsuMwvBAHENZ0aiGcy",
+          "UCvQECJukTDE2i6aCoMnS-Vg"
+        ]
+      }
+
+    ]
+  },
+   {
+    "title": "Stories",
+    "drawable": "ic_article",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Motivational Stories",
+      "provider": "rss",
+      "arguments": [
+        "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
+      ]
+    }]
+  },
+
+  {
+    "title": "Movies",
+    "drawable": "ic_movie",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Inspiring Movies",
+      "provider": "youtube",
+      "arguments": [
+        "PLgfAA0wvcX0oiMmyWmS3D0KyQTPK1yDq1",
+        "UCnFpBpIRRn7FzXZcEJ8bxEA"
+      ]
+    }]
+  },
+
+  {
+    "title": "Speeches",
+    "drawable": "ic_speech",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Ultimate",
+      "provider": "soundcloud",
+      "arguments": [
+        "150128207", "playlist"
+      ]
+    }, {
+      "title": "Ambitious",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "playlist"
+      ]
+    }, {
+      "title": "Fearless",
+      "provider": "soundcloud",
+      "arguments": [
+        "131881637", "user"
+      ]
+    }, {
+      "title": "Success",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "playlist"
+      ]
+    }]
+  },
+  
+  {
+    "title": "Musics",
+    "drawable": "ic_headset",
+    "submenu": "",
+    "iap": false,
+    "tabs": [
+      
+      {
+        "title": "Code",
+        "provider": "soundcloud",
+        "arguments": [
+          "313658650", "playlist"
+        ]
+      },{
+        "title": "Freedom",
+        "provider": "soundcloud",
+        "arguments": [
+          "215553522", "playlist"
+        ]
+      },{
+        "title": "Breadbeat",
+        "provider": "soundcloud",
+        "arguments": [
+          "110542000", "playlist"
+        ]
+      },{
+        "title": "Beyond Silence",
+        "provider": "soundcloud",
+        "arguments": [
+          "12964808", "playlist"
+        ]
+      },
+       {
+        "title": "Nonstop",
+        "provider": "soundcloud",
+        "arguments": [
+          "27087959", "playlist"
+        ]
+      },
+      {
+        "title": "Ultimate",
+        "provider": "soundcloud",
+        "arguments": [
+          "86572871", "playlist"
+        ]
+      }, {
+        "title": "Study Focus",
+        "provider": "soundcloud",
+        "arguments": [
+          "59174100", "playlist"
+        ]
+      }, {
+        "title": "Relax",
+        "provider": "soundcloud",
+        "arguments": [
+          "266375639", "playlist"
+        ]
+      }, {
+        "title": "Workout",
+        "provider": "soundcloud",
+        "arguments": [
+          "203727010", "playlist"
+        ]
+      }
+
+      , {
+        "title": "Passion",
+        "provider": "soundcloud",
+        "arguments": [
+          "60125241", "playlist"
+        ]
+      }
+    ]
+  },
+  
+  {
+    "title": "Documentaries",
+    "drawable": "ic_movie",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Documentaries",
+      "provider": "youtube",
+      "arguments": [
+        "PLgfAA0wvcX0pTGRbjIc1PUZ4wU4-Lcqo-",
+        "UCnFpBpIRRn7FzXZcEJ8bxEA"
+      ]
+    }]
+  },
+  {
+    "title": "HD Wallpapers",
+    "drawable": "ic_wallpaper",
+    "submenu": "",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Lock Screen",
+        "provider": "tumblr",
+        "arguments": [
+          "ehlockscreenstwo"
+        ]
+      },
+      {
+        "title": "Magic",
+        "provider": "tumblr",
+        "arguments": [
+          "voidpapers"
+        ]
+      }, {
+        "title": "Dreamer",
+        "provider": "tumblr",
+        "arguments": [
+          "psychedelicdreamweaver"
+        ]
+      }, {
+        "title": "Nature HD",
+        "provider": "tumblr",
+        "arguments": [
+          "androidbackgrounds"
+        ]
+      },
+      {
+        "title": "Desktop",
+        "provider": "tumblr",
+        "arguments": [
+          "wallpaperaday"
+        ]
+      }
+    ]
+  }
+
+]

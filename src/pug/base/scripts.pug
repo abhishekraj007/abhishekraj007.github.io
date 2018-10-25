@@ -1,0 +1,13 @@
+mixin script(page_name)
+  //START: Scripts- Plugins
+  script(src="js/jquery.js")
+  if(page_name == "home")
+    script(src="js/TweenMax.min.js")
+    script(src="js/DrawSVGPlugin.min.js")
+    script(src="js/home.min.js")
+
+  if(page_name == "latest_work")
+    script(src="js/latest-work.min.js")
+
+  if(page_name == "portfolio")
+    script(src="js/portfolio.min.js")

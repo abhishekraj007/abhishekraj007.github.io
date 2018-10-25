@@ -1,0 +1,264 @@
+.home-slider{
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.home-slider__item{
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1.2s;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+  
+  &.active{
+    opacity: 1;
+    height: auto;
+    z-index: 1;
+  }
+  &.abs{
+    @media (min-width: $sm){
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+}
+
+
+
+// Banner
+
+.banner{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 80px;
+  
+  @media(min-width: $lg){
+    flex-direction: row;
+  }
+  @media (min-width: $sm) and (max-width: $lg){
+    margin-top: 500px;
+  }
+  &__heading{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    font-family: $oswald;
+    margin: 0;
+    @media (min-width: $sm){
+      font-size: 80px;
+      line-height: 80px;
+    }
+  }
+  &__heading--big{
+    font-size: 40px;
+    font-weight: 800;
+    @media (min-width: $sm){
+      font-size: 80px;
+    }
+  }
+  &__subheading{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__desc{
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 330px;
+  }
+
+}
+.intro{
+  // max-width: 330px;
+  @media (min-width: $sm){
+    width: 50%;
+  }
+}
+
+.skill-container{
+  @media (min-width: $sm){
+    margin-left: 80px;
+  }
+  @media (min-width: $lg){
+    margin-left: 140px;
+  }
+}
+
+.skill{
+  &__canvas{
+    width: 300px;
+    height: 300px;
+  }
+  
+  @media (min-width: $lg){
+    &__canvas{
+       width: 380px;
+      height: 380px;
+    }   
+  }
+}
+
+// Navigation
+
+
+.bike-nav {
+	position: relative;
+	align-self: end;
+	justify-self: end;
+	grid-area: bikenav;
+	display: flex;
+	pointer-events: auto;
+	flex-direction: column;
+	font-size: 1rem;
+
+	@media (max-width: 767px){
+		align-self: flex-end;
+	}
+}
+
+
+.bike-nav__item, .side-link {
+  cursor: pointer;
+  font-weight: 300;
+	transition: all 0.3s;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid $white;
+  position: relative;
+  margin-bottom: 0.8rem;
+  white-space: nowrap;
+  color: $primary;
+  color: var(--color-primary);
+  opacity: 0.5;
+
+  @media (max-width: 767px){
+    display: none;
+  } 
+
+  &:after{
+    position: absolute;
+    content: "";
+    left: 18px;
+    top: -7px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s;
+  }
+
+  &:hover{
+    color: $primary;
+    color: var(--color-primary);
+    opacity: 1;
+
+    &:after{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  
+  &.coder{
+    &:after{
+      content: 'coder';
+    }
+  }
+  &.cyclist{
+    &:after{
+      content: 'cyclist';
+    }
+  }
+  &.pet{
+    &:after{
+      content: 'pet lover';
+    }
+  }
+  &.portfolio{
+    &:after{
+      content: 'portfolio';
+    }
+  }
+  &.github{
+    &:after{
+      content: '> find me on github';
+    }
+  }
+
+
+}
+
+
+.bike-nav__item--current {
+  opacity: 0.8;
+}
+
+.bike-nav__item:not(:last-child) {
+	margin: 0 0 0.8rem 0;
+
+	@media (max-width: 767px){
+		margin: 0 0 0.4rem 0;
+	}
+		
+}
+
+.icon--bike {
+	font-size: 0.85em;
+}
+
+.bike-nav__title {
+	margin: 0 2em 0 0;
+	white-space: nowrap;
+	display: none;
+	position: absolute;
+	right: 100%;
+	top: 0;
+}
+
+.bike-nav__title::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: FEFEFE;
+	background: var(--color-text);
+	transition: transform 1s 0.2s cubic-bezier(0.2,1,0.3,1);
+	transform-origin: 100% 50%;
+}
+
+.render .bike-nav__title::after {
+	transform: scale3d(0,1,1);
+}
+
+.bike-nav__item--current .bike-nav__title {
+	display: block;
+}
+
+.bike-nav__item--current + .side-link {
+	animation: linkMotion 1.5s linear alternate infinite;
+	backface-visibility: hidden;
+}
+
+@keyframes linkMotion {
+ 0%{
+	 transform: translateX(2px);
+ }
+ 100%{
+	 transform: translateX(-2px);
+ }
+}

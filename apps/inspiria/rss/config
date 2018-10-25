@@ -1,0 +1,384 @@
+[{
+    "title": "Feed",
+    "drawable": "ic_fb",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "IdeaSpot",
+        "provider": "facebook",
+        "arguments": [
+          "1578382845806916"
+        ]
+      }, {
+        "title": "Karen",
+        "provider": "facebook",
+        "arguments": [
+          "318094793706"
+        ]
+      }, {
+        "title": "The Light",
+        "provider": "facebook",
+        "arguments": [
+          "1047563178589559"
+        ]
+      }, {
+        "title": "Simple Reminder",
+        "provider": "facebook",
+        "arguments": [
+          "115818088452122"
+        ]
+      }, {
+        "title": "Idealist",
+        "provider": "facebook",
+        "arguments": [
+          "212514318782022"
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Quotes",
+    "drawable": "ic_quote",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Latest",
+      "provider": "pinterest",
+      "arguments": [
+        "61783894827016980"
+      ]
+    }, {
+      "title": "Life",
+      "provider": "pinterest",
+      "arguments": [
+        "230035562155878604"
+      ]
+    }, {
+      "title": "Meaning",
+      "provider": "pinterest",
+      "arguments": [
+        "24981041622051313"
+      ]
+    }, {
+      "title": "Wisdom",
+      "provider": "pinterest",
+      "arguments": [
+        "438538151154634339"
+      ]
+    }, {
+      "title": "Success",
+      "provider": "pinterest",
+      "arguments": [
+        "832603118549078676"
+      ]
+    }, {
+      "title": "Proverb",
+      "provider": "pinterest",
+      "arguments": [
+        "537406236723888469"
+      ]
+    }, {
+      "title": "Failure",
+      "provider": "pinterest",
+      "arguments": [
+        "345721777584097534"
+      ]
+    }, {
+      "title": "Fitness",
+      "provider": "pinterest",
+      "arguments": [
+        "383580161951540105"
+      ]
+    }, {
+      "title": "Author",
+      "provider": "pinterest",
+      "arguments": [
+        "474989160638693835"
+      ]
+    }, {
+      "title": "Money",
+      "provider": "pinterest",
+      "arguments": [
+        "305119012193332344"
+      ]
+    }, {
+      "title": "Love",
+      "provider": "pinterest",
+      "arguments": [
+        "438538151154315345"
+      ]
+    }, {
+      "title": "Friendship",
+      "provider": "pinterest",
+      "arguments": [
+        "438538151154315347"
+      ]
+    }, {
+      "title": "Job",
+      "provider": "pinterest",
+      "arguments": [
+        "540432092723694944"
+      ]
+    }]
+  },
+
+
+  {
+    "title": "Videos",
+    "drawable": "ic_video",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "Absolute Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PLsixLV2OhyUxOBhjXsEncvx0j8rA5U-oA",
+          "UCpmZQGTZXn9xd4nN59pbIWQ"
+        ]
+      }, {
+        "title": "Fearless",
+        "provider": "youtube",
+        "arguments": [
+          "PLTFCM8gfGxuHBhndEzKpwLNbBn617cRft",
+          "UCf9_s9ii6BZ-klpgmtIi3WQ"
+        ]
+      }, {
+        "title": "Fight Mediocrity",
+        "provider": "youtube",
+        "arguments": [
+          "PL-bTaZrTDhtbhxgS59t4HzwCnq2iIYMgV",
+          "UCXLesGEfmyhxqOjoAqhRwhA"
+        ]
+      }, {
+        "title": "Picasso Motivation",
+        "provider": "youtube",
+        "arguments": [
+          "PL2tBZjk6erj2gK3ut--MeiC0m-63cbCpe",
+          "UCORp0Fxa5lHFuZfLHxfeLuQ"
+        ]
+      }, {
+        "title": "Be Inspired",
+        "provider": "youtube",
+        "arguments": [
+          "PL9XDPqN8lxBphPe-jqlu6cRejGpd54oqA",
+          "UCaKZDEMDdQc8t6GzFj1_TDw"
+        ]
+      }, {
+        "title": "Video Advice",
+        "provider": "youtube",
+        "arguments": [
+          "PLMuukMLwizzLB6LrL1Hl3CyNsqeNybvGC",
+          "UCAwylBbx8RiRD3VsaYdwNTw"
+        ]
+      }, {
+        "title": "RedFrost",
+        "provider": "youtube",
+        "arguments": [
+          "PLkXex0-Sjz1taMMLgTbUI6jdeBA6tnd_g",
+          "UCXD5aOFDPO1W264sJvYc85Q"
+        ]
+      }, {
+        "title": "TED",
+        "provider": "youtube",
+        "arguments": [
+          "PLAC463A2B6B2CEC7F",
+          "UCAuUUnT6oDeKwE6v1NGQxug"
+        ]
+      }, {
+        "title": "BigThink",
+        "provider": "youtube",
+        "arguments": [
+          "PL5uULy4b0kV7ptjEsuMwvBAHENZ0aiGcy",
+          "UCvQECJukTDE2i6aCoMnS-Vg"
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Movies",
+    "drawable": "ic_movie",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Inspiring Movies",
+      "provider": "youtube",
+      "arguments": [
+        "PLgfAA0wvcX0oiMmyWmS3D0KyQTPK1yDq1",
+        "UCnFpBpIRRn7FzXZcEJ8bxEA"
+      ]
+    }]
+  },
+
+  {
+    "title": "Speeches",
+    "drawable": "ic_speech",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Ultimate",
+      "provider": "soundcloud",
+      "arguments": [
+        "150128207", "playlist"
+      ]
+    }, {
+      "title": "Ambitious",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "playlist"
+      ]
+    }, {
+      "title": "Fearless",
+      "provider": "soundcloud",
+      "arguments": [
+        "131881637", "user"
+      ]
+    }, {
+      "title": "Success",
+      "provider": "soundcloud",
+      "arguments": [
+        "64500246", "playlist"
+      ]
+    }]
+  },
+
+  {
+    "title": "Musics",
+    "drawable": "ic_headset",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+        "title": "Study Focus",
+        "provider": "soundcloud",
+        "arguments": [
+          "59174100", "playlist"
+        ]
+      }, {
+        "title": "Study Grind",
+        "provider": "soundcloud",
+        "arguments": [
+          "27087959", "playlist"
+        ]
+      }, {
+        "title": "Relax",
+        "provider": "soundcloud",
+        "arguments": [
+          "266375639", "playlist"
+        ]
+      }, {
+        "title": "Workout",
+        "provider": "soundcloud",
+        "arguments": [
+          "203727010", "playlist"
+        ]
+      }
+
+      , {
+        "title": "Ultimate",
+        "provider": "soundcloud",
+        "arguments": [
+          "86572871", "playlist"
+        ]
+      }, {
+        "title": "Passion",
+        "provider": "soundcloud",
+        "arguments": [
+          "60125241", "playlist"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title": "Articles",
+    "drawable": "ic_article",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Pick The Brain",
+      "provider": "rss",
+      "arguments": [
+        "https://www.pickthebrain.com/blog/feed"
+      ]
+    }, {
+      "title": "Tiny Buddha",
+      "provider": "rss",
+      "arguments": [
+        "http://feeds.feedburner.com/tinybuddha"
+      ]
+    }, {
+      "title": "Success",
+      "provider": "rss",
+      "arguments": [
+        "https://addicted2success.com/feed"
+      ]
+    }, {
+      "title": "Invisible Mentor",
+      "provider": "rss",
+      "arguments": [
+        "http://theinvisiblementor.com/feed"
+      ]
+    }, {
+      "title": "Life Optimizer",
+      "provider": "rss",
+      "arguments": [
+        "http://feeds.feedburner.com/lifeoptimizer"
+      ]
+    }]
+  },
+
+  {
+    "title": "Stories",
+    "drawable": "ic_article",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Motivational Stories",
+      "provider": "rss",
+      "arguments": [
+        "https://abhishekraj007.github.io/apps/inspiria/rss/stories.rss"
+      ]
+    }]
+  },
+
+  {
+    "title": "HD Wallpapers",
+    "drawable": "ic_wallpaper",
+    "submenu": "",
+    "iap": false,
+    "tabs": [{
+      "title": "Quote Journal",
+      "provider": "tumblr",
+      "arguments": [
+        "thequotejournals"
+      ]
+    }, {
+      "title": "The Power",
+      "provider": "tumblr",
+      "arguments": [
+        "thepowerwithin"
+      ]
+    }, {
+      "title": "The Talk",
+      "provider": "tumblr",
+      "arguments": [
+        "quotethattalk"
+      ]
+    }]
+  }
+]
+
+
+
+
+{
+      "title": "Fearless",
+      "provider": "soundcloud",
+      "arguments": [
+        "131881637", "user"
+      ]
+    }

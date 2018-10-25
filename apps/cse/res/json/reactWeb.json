@@ -1,0 +1,34 @@
+[
+	{
+		"title":"Intro to React(Official)",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"https://reactjs.org/tutorial/tutorial.html"
+		]
+	},
+	{
+		"title":"React Enlightements",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"https://www.reactenlightenment.com/what-is-react.html"
+		]
+	},
+	{
+		"title":"Intro to React(SurviveJs)",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"https://survivejs.com/react/getting-started/introduction-to-react"
+		]
+	},
+	{
+		"title":"React Tutorial: Cloning Yelp",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp"
+		]
+	}
+]

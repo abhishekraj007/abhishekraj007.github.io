@@ -1,0 +1,311 @@
+[
+	{
+		"title": "Latest 10 in CS",
+		"drawable": "ic_stack",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "CodeCamp",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.freecodecamp.org/feed"
+				]
+			},
+			{
+				"title": "Interview",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/feed/tag/technical-interview"
+				]
+			},
+			{
+				"title": "Algorithm",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/feed/tag/algorithms"
+				]
+			},
+			{
+				"title": "Data Structure",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/feed/tag/data-structures"
+				]
+			},
+			{
+				"title": "Javascript",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/tag/javascript"
+				]
+			},
+			{
+				"title": "Programr",
+				"provider": "rss",
+				"arguments": [
+					"https://medium.com/feed/tag/programming"
+				]
+			},
+			{
+				"title": "Hacker News",
+				"provider": "rss",
+				"arguments": [
+					"https://hnrss.org/frontpage"
+				]
+			}
+		]
+	},
+	{
+		"title": "Data Structure & Algo",
+		"drawable": "ic_stack",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/dsa.json"
+				]
+			},
+			{
+				"title": "Reading/Notes",
+				"provider": "rss",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/xml/dsa.xml"
+				]
+			}
+		]
+	},
+	{
+		"title": "Database Management",
+		"drawable": "ic_dbms",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/dbms.json"
+				]
+			},
+			{
+				"title": "Reading/Notes",
+				"provider": "rss",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/xml/dbms.xml"
+				]
+			}
+		]
+	},
+	{
+		"title": "Java Programming",
+		"drawable": "ic_ca",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/java.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "C/C++ Programming",
+		"drawable": "ic_stack",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/cLang.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Operating System",
+		"drawable": "ic_os",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/os.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Computer Network",
+		"drawable": "ic_cn",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/cn.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Compiler Design",
+		"drawable": "ic_compiler",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/compiler.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Theory of Computation",
+		"drawable": "ic_computation",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/toc.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Computer Architecture",
+		"drawable": "ic_ca",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/computer_architecture.json"
+				]
+			},
+			{
+				"title": "Reading/Notes",
+				"provider": "rss",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/xml/computer_architecture.xml"
+				]
+			}
+		]
+	},
+	{
+		"title": "Digital Electronics",
+		"drawable": "ic_digital",
+		"submenu": "Intro to Computer Science",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/digital.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "HTML5/CSS3",
+		"drawable": "ic_html5",
+		"submenu": "Web Technology",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Web Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/html5web.json"
+				]
+			},
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/html5.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Javascript",
+		"drawable": "ic_javascript",
+		"submenu": "Web Technology",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/js.json"
+				]
+			},
+			{
+				"title": "Books/Web Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/jsWeb.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "React",
+		"drawable": "ic_react",
+		"submenu": "Web Technology",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/react.json"
+				]
+			},
+			{
+				"title": "Books/Web Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/reactWeb.json"
+				]
+			}
+		]
+	},
+	{
+		"title": "Programming Crash Courses",
+		"drawable": "ic_cn",
+		"submenu": "Crash Course",
+		"iap": false,
+		"tabs": [
+			{
+				"title": "Video Courses",
+				"provider": "overview",
+				"arguments": [
+					"https://abhishekraj007.github.io/apps/cse/res/json/crash_course.json"
+				]
+			}
+		]
+	}
+]

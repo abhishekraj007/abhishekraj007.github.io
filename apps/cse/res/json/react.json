@@ -1,0 +1,34 @@
+[
+	{
+		"title":"LearnCodeAcademy",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b", "playlist"
+		]
+	},
+	{
+		"title":"thenewboston",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PL6gx4Cwl9DGBuKtLgPR_zWYnrwv-JllpA", "playlist"
+		]
+	},
+	{
+		"title":"Academind",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PL55RiY5tL51oyA8euSROLjMFZbXaV7skS", "playlist"
+		]
+	},
+	{
+		"title":"Traversy Media",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLillGF-RfqbbKWfm3Y_RF57dNGsHnkYqO","playlist"
+		]
+	}
+]

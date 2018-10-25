@@ -1,0 +1,574 @@
+/* Global */
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* html .clearfix {
+  zoom: 1;
+}
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1;
+}
+
+/* IE7 */
+html,
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.btn-primary {
+  background-color: #02B3E4 !important;
+  text-transform: uppercase;
+  height: 3.5em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+button {
+  letter-spacing: 0.1em;
+}
+
+.navbar-toggle {
+  background: #ffffff;
+  margin: 1.5em;
+}
+
+.navbar-collapse {
+  background: #ffffff;
+}
+
+/*---------------------------- section-wise style -------------------------
+-------------------------------------------------------------------------*/
+#highlight-color {
+  color: #02B3E4 !important;
+}
+
+.container {
+  width: 95%;
+}
+
+.navbar-default {
+  margin: 0;
+  height: 8em;
+  background-color: #ffffff;
+}
+
+.navbar-default .container .navbar-header a {
+  font-weight: 500;
+}
+
+.navbar-default .container .navbar-header a img {
+  width: 300px;
+  height: 100px;
+}
+
+.navbar-default .container .navbar-right {
+  padding: 2em 0 0 0;
+}
+
+/* Banner */
+.banner {
+  background: url("https://in.udacity.com/assets/images/pages/homepage/homepage_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.banner .container .row {
+  padding: 6em;
+}
+
+.banner .container .row h1 {
+  font-size: 3.5em;
+  font-weight: 300;
+  padding-bottom: 0.4em;
+}
+
+.banner .container .row p {
+  font-size: 1.2em;
+}
+
+.banner .container .row img {
+  width: 450px;
+}
+
+.banner .container .row form {
+  padding: 3em;
+}
+
+.banner .container .row form .form-group {
+  padding-left: 4em;
+}
+
+.banner .container .row form .input-lg {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.3333333;
+  border-radius: 4px;
+}
+
+/* Programs style */
+.programs .container .row {
+  margin-bottom: 4em;
+}
+
+.programs .container .row .card-size-small {
+  height: 22em;
+}
+
+.programs .container .row .card-size-small .btn {
+  top: 18em;
+}
+
+.programs .container .row .card-size-large {
+  height: 28em;
+}
+
+.programs .container .row .card-size-large .btn {
+  top: 24em;
+}
+
+.programs .container .row .card {
+  box-shadow: 0px 4px 10px 3px #e4e4e4;
+  background-color: #ffffff;
+  margin: -60px 10px 0 30px;
+  position: relative;
+}
+
+.programs .container .row .card .nano-icon {
+  background-color: #02B3E4;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 2em 0 0 -1em;
+  text-align: center;
+  padding: 1em;
+}
+
+.programs .container .row .card .nano-icon i {
+  font-size: 4em;
+  color: #ffffff;
+}
+
+.programs .container .row .card .course-icon {
+  background-color: #15c26b;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 2em 0 0 -1em;
+  text-align: center;
+  padding: 1em;
+}
+
+.programs .container .row .card .course-icon i {
+  font-size: 4em;
+  color: #ffffff;
+}
+
+.programs .container .row .card h1 {
+  font-size: 2.4em;
+  padding: 2em 0 1em 4em;
+  font-weight: 300;
+  display: inline-block;
+  margin: 0;
+}
+
+.programs .container .row .card p {
+  padding: 0 4em 3em 8em;
+  font-size: 1.2em;
+}
+
+.programs .container .row .card .btn-default {
+  color: #02B3E4;
+  background-color: #fafbfc;
+  letter-spacing: 0.1em;
+  border-color: transparent;
+  height: 4em;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: absolute;
+}
+
+.programs .container .row .card .btn-default:hover {
+  color: #1a93b5;
+  background-color: #f5f5f5;
+}
+
+/* Car section */
+.driving-car {
+  background-image: url("https://in.udacity.com/assets/images/pages/homepage/sdc_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.driving-car h1 {
+  padding: 2em 0 0.5em 2em;
+  font-weight: 300;
+  font-size: 3.5em;
+}
+
+.driving-car p {
+  padding: 0 2em 1em 6.5em;
+  font-size: 1.1em;
+}
+
+.driving-car button {
+  padding: 1em 5em 1em 5em;
+  font-weight: 600;
+  margin: 1em 0 2em 7em;
+}
+
+.driving-car .video {
+  padding: 9em 2em;
+}
+
+.driving-car .video iframe {
+  width: 500px;
+  height: 300px;
+}
+
+/* Student section */
+.students {
+  background-color: #fafbfc;
+  text-align: center;
+}
+
+.students .heading h2 {
+  padding: 1.5em 0 2.5em 0;
+  font-size: 2.2em;
+  font-weight: 300;
+}
+
+.students .row {
+  text-align: center;
+}
+
+.students .row .graduate {
+  border-right: 1px solid #dbe2e8;
+}
+
+.students .row img.profile {
+  border-radius: 100%;
+  width: 6em;
+  height: 6em;
+}
+
+.students .row h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.students .row h4 {
+  color: #7d97ad;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.5em 0 0;
+}
+
+.students .row .company-logo {
+  margin: auto;
+  width: 6em;
+}
+
+.students .student-footer {
+  padding: 4em 0 10em 0;
+}
+
+.students .student-footer h3 {
+  padding: 1em;
+  font-weight: 300;
+}
+
+.students .student-footer button {
+  padding: 0 4em;
+}
+
+/* Footer */
+footer {
+  background: #f4f4ef;
+}
+
+footer .container {
+  padding: 4em 0 0 0;
+}
+
+footer .container .footer-menu p {
+  text-transform: uppercase;
+  padding: 1em 0 1em 0;
+}
+
+footer .container .footer-menu ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+footer .container .footer-menu ul li a {
+  color: #000000;
+  font-weight: 300;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  text-decoration: none;
+  float: left;
+  padding: 0.5em 0 0 0;
+}
+
+footer .container .copyright {
+  padding: 8em 0 4em 3em;
+}
+
+footer .container .copyright .dropupmenu {
+  width: 15em;
+}
+
+footer .container .copyright .dropupmenu button {
+  width: 15em;
+}
+
+footer .container .copyright span {
+  color: #7d97ad;
+  font-weight: 300;
+}
+
+footer .container .copyright .fa {
+  font-size: 2em;
+  color: #7d97ad;
+  padding: 0 1em 0 0;
+}
+
+/* Making website responsive */
+/* Media Queries */
+@media only screen and (max-width: 1150px) {
+  /* NavBar */
+  .navbar-default {
+    margin: 0;
+    height: 8em;
+    background-color: #ffffff;
+  }
+  .navbar-default .container .navbar-header a {
+    font-weight: 500;
+  }
+  .navbar-default .container .navbar-header a img {
+    width: 300px;
+    height: 100px;
+  }
+  .navbar-default .container .navbar-right {
+    padding: 2em 0 0 0;
+  }
+  .banner .container .row {
+    padding: 4em 0 0 2em;
+  }
+  .banner .container .row h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+    padding-bottom: 0.4em;
+  }
+  .banner .container .row form {
+    padding: 3em 0 0 0;
+  }
+  .banner .container .row form .form-group {
+    padding-left: 4em;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  /* NavBar */
+  .navbar-default {
+    margin: 0;
+    height: 6em;
+    background-color: #ffffff;
+  }
+  .navbar-default .container .navbar-header a {
+    font-weight: 500;
+  }
+  .navbar-default .container .navbar-header a img {
+    width: 200px;
+    height: 80px;
+  }
+  .navbar-default .container .navbar-right {
+    padding: 1em 0 0 0;
+  }
+  /* Programs style */
+  .programs .container .row {
+    margin-bottom: 4em;
+  }
+  .programs .container .row .col-sm-6 {
+    padding: 0;
+  }
+  .programs .container .row .col-sm-6 .card-size-small {
+    height: 18em;
+  }
+  .programs .container .row .col-sm-6 .card-size-small .btn {
+    top: 14em;
+  }
+  .programs .container .row .col-sm-6 .card-size-large {
+    height: 22em;
+  }
+  .programs .container .row .col-sm-6 .card-size-large .btn {
+    top: 18em;
+  }
+  .programs .container .row .col-sm-6 .card .nano-icon {
+    width: 80px;
+    height: 80px;
+    margin: 2em 0 0 -1em;
+    padding: 1em;
+  }
+  .programs .container .row .col-sm-6 .card .nano-icon i {
+    font-size: 3em;
+  }
+  .programs .container .row .col-sm-6 .card .course-icon {
+    width: 80px;
+    height: 80px;
+    margin: 2em 0 0 -1em;
+    padding: 1em;
+  }
+  .programs .container .row .col-sm-6 .card .course-icon i {
+    font-size: 3em;
+  }
+  .programs .container .row .col-sm-6 .card h1 {
+    font-size: 1.6em;
+    padding: 2.4em 0 1em 5em;
+  }
+  .programs .container .row .col-sm-6 .card p {
+    padding: 0 4em 3em 8em;
+    font-size: 1em;
+  }
+  /* Car section */
+  .driving-car h1 {
+    padding: 2em 0 0.5em 1em;
+    font-size: 3em;
+  }
+  .driving-car p {
+    padding: 0 2em 1em 2.5em;
+    font-size: 1.1em;
+  }
+  .driving-car button {
+    margin: 1em 0 2em 3em;
+  }
+  .driving-car .video {
+    padding: 9em 2em;
+  }
+  .driving-car .video iframe {
+    width: 350px;
+    height: 280px;
+  }
+  /* Student section */
+  .students .heading h2 {
+    font-size: 2em;
+  }
+  /* Footer */
+  footer .container .copyright .fa {
+    padding: 0 0.5em 0 0;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  /* NavBar */
+  .navbar-default .container .navbar-right {
+    padding: 2em 0 0 0;
+  }
+  .navbar-default .container .navbar-right li > a {
+    padding: 5px 8px;
+  }
+  .banner .container .row h1 {
+    font-size: 2.5em;
+  }
+  .banner .container .row form {
+    display: none;
+  }
+  /* Programs style */
+  .programs .container .row {
+    margin-bottom: 4em;
+  }
+  .programs .container .row .col-sm-6 {
+    padding: 0;
+  }
+  .programs .container .row .col-sm-6 .card {
+    margin-bottom: 100px;
+  }
+  .programs .container .row .col-sm-6 .card .card-size-small {
+    height: 17em;
+  }
+  .programs .container .row .col-sm-6 .card .card-size-small .btn {
+    top: 15em;
+  }
+  .programs .container .row .col-sm-6 .card .card-size-large {
+    height: 20em;
+  }
+  .programs .container .row .col-sm-6 .card .card-size-large .btn {
+    top: 16em;
+  }
+  .programs .container .row .col-sm-6 .card .nano-icon {
+    width: 60px;
+    height: 60px;
+    margin: 2em 0 0 -1em;
+    padding: 1;
+  }
+  .programs .container .row .col-sm-6 .card .nano-icon i {
+    font-size: 2em;
+  }
+  .programs .container .row .col-sm-6 .card .course-icon {
+    width: 60px;
+    height: 60px;
+    margin: 2em 0 0 -1em;
+    padding: 1;
+  }
+  .programs .container .row .col-sm-6 .card .course-icon i {
+    font-size: 2em;
+  }
+  .programs .container .row .col-sm-6 .card h1 {
+    font-size: 1.5em;
+    padding: 2.4em 0 1em 3em;
+  }
+  .programs .container .row .col-sm-6 .card p {
+    padding: 0 2em 0 5em;
+    font-size: 0.9em;
+  }
+  /* Car section */
+  .driving-car h1 {
+    padding: 2em 0 0.5em 1em;
+    font-size: 2.8em;
+  }
+  .driving-car .video {
+    padding: 9em 2em;
+  }
+  .driving-car .video iframe {
+    width: 500px;
+    height: 300px;
+  }
+  /* Student section */
+  .students .heading h2 {
+    font-size: 2em;
+  }
+  /* Footer */
+  footer .container img {
+    width: 200px;
+  }
+  footer .container .copyright .fa {
+    padding: 0 0.5em 0 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .video {
+    display: none;
+  }
+}

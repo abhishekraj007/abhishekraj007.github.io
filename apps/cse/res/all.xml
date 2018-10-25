@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+		<channel>
+				<title>Data Structure and Algorithm</title>
+				<link></link>
+				<description>Collection of Computer Science resources</description>
+
+				<item>
+					<title>Intro to Data Structure and Algorithm</title>
+					<link>https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm</link>
+					<pubDate></pubDate>
+					<description>
+					<![CDATA[
+						<p>
+							<img src="https://i.ytimg.com/vi/tJQC0HCv8yg/maxresdefault.jpg" alt="DSA"/>
+						</p>
+						<p>
+							<a href="https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm">Basics of Data Structure (Tutorialspoint)</a>
+						</p>
+						<p>
+							<a href="http://www.studytonight.com/data-structures/introduction-to-data-structures">Into to Data Structure (Studytonight)</a>
+						</p>
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/shs0KM3wKv8?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>						
+						<p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/DuDz6B4cqVc?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</p>					
+						 
+					]]>
+					</description>
+				</item>			
+
+		</channel>
+</rss>

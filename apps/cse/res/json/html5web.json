@@ -1,0 +1,34 @@
+[
+	{
+		"title":"Tutorialspoint(Web)",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"https://www.tutorialspoint.com/html5/html5_overview.htm"
+		]
+	},
+	{
+		"title":"KhanAcademy(Web)",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro"
+		]
+	},
+	{
+		"title":"Learn Shayhowe(Web)",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"https://learn.shayhowe.com/"
+		]
+	},
+	{
+		"title":"CSS-Tricks(Web)",
+		"provider":"webview",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"https://css-tricks.com"
+		]
+	}
+]

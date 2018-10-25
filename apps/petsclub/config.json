@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Club",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Pet Collective",
+        "provider": "facebook",
+        "arguments": [
+          "thepetcollective"
+        ]
+      },
+      {
+        "title": "The dodo",
+        "provider": "facebook",
+        "arguments": [
+          "thedodosite"
+        ]
+      },
+      {
+        "title": "We Rate Dogs",
+        "provider": "facebook",
+        "arguments": [
+          "WeRateDogs"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Inspire",
+    "drawable": "",
+    "submenu": "Other Apps",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Inspire",
+        "provider": "custom",
+        "arguments": [
+          "market://details?id=com.akrj.app.inspiria",
+          "url"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "LoL",
+    "drawable": "",
+    "submenu": "Other Apps",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "LoL",
+        "provider": "custom",
+        "arguments": [
+          "market://details?id=com.akrj.lol",
+          "url"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+
+
+
+.route {
+	width: 90%;
+	margin: 1em 0 0 0;
+}
+
+#bike {
+	position: absolute;
+	min-width: 320px;
+	width: 80%;
+	max-height: 80%;
+	opacity: 0;
+
+	@media (max-width: 767px){
+		padding: 1rem;
+	}
+}
+
+#mainpaths path:nth-child(8n+1) {
+	stroke: var(--animation-color-1);
+	fill: var(--animation-color-1);
+}
+
+#mainpaths path:nth-child(8n+2) {
+	stroke: var(--animation-color-2);
+	fill: var(--animation-color-2);
+}
+
+#mainpaths path:nth-child(8n+3) {
+	stroke: var(--animation-color-3);
+	fill: var(--animation-color-3);
+}
+
+#mainpaths path:nth-child(8n+4) {
+	stroke: var(--animation-color-4);
+	fill: var(--animation-color-4);
+}
+
+#mainpaths path:nth-child(8n+5) {
+	stroke: var(--animation-color-5);
+	fill: var(--animation-color-5);
+}
+
+#mainpaths path:nth-child(8n+6) {
+	stroke: var(--animation-color-6);
+	fill: var(--animation-color-6);
+}
+
+#mainpaths path:nth-child(8n+7) {
+	stroke: var(--animation-color-7);
+	fill: var(--animation-color-7);
+}
+
+#mainpaths path:nth-child(8n+8) {
+	stroke: var(--animation-color-8);
+	fill: var(--animation-color-8);
+}
+
+#bike rect {
+	stroke: none;
+	fill: none;
+}

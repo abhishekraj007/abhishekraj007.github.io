@@ -1,0 +1,28 @@
+
+// title of the quiz goes here
+# Let's see how well you got DBMS?
+
+1) When mapping a binary many-to-many relationship into a relation which of the following is true?
+
+  - One relation is created.
+  - Two relations are created.
+  * Three relations are created.	
+  - Four relations are created.
+
+  ""
+  
+  2) Most operational systems are based on the use of transient data
+  
+  * True
+  - False
+  
+  ""
+  
+  3) The object definition language (ODL) is which of the following?
+
+    - Used to develop logical schemas
+    - A data definition language for OODB
+    - A method to implement a logical schema	
+    * All of the above.
+    
+    ""

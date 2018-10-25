@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Material Design Bootstrap</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Your custom styles (optional) -->
+    <link href="../../css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+<!-- Start your project here-->
+
+<div class="container">
+    <p><strong>Q. There is a table where only one row is fully repeated. Write a Query to find the Repeated row</strong></p>
+    <table width="500">
+        <thead>
+        <tr>
+            <td><strong>Name</strong></td>
+            <td><strong>Section</strong></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>abc</td>
+            <td>CS1</td>
+        </tr>
+        <tr>
+            <td>bcd</td>
+            <td>CS2</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>CS1</td>
+        </tr>
+        </tbody>
+    </table>
+    <p>In the above table, we can find the duplicate row using below query.</p>
+<pre>SELECT name, section FROM tbl
+GROUP BY name, section
+HAVING COUNT(*) &gt; 1
+</pre>
+    <p><strong>Q. Query to find 2nd highest salary of an employee?</strong></p>
+<pre>SELECT max(salary) FROM EMPLOYEES WHERE salary IN
+(SELECT salary FROM EMPLOYEEs MINUS SELECT max(salary)
+FROM EMPLOYEES);</pre>
+    <p>OR</p>
+<pre>SELECT max(salary) FROM EMPLOYEES WHERE
+salary &lt;&gt; (SELECT max(salary) FROM EMPLOYEES);</pre>
+    <p><strong>Q.Consider the following Employee table.&nbsp;How many rows are there in the result of the following query?</strong></p>
+    <p><strong>ID salary DeptName</strong><br />1 &nbsp;10000 &nbsp;EC<br />2 &nbsp;40000 &nbsp;EC<br />3 &nbsp;30000 &nbsp;CS<br />4 &nbsp;40000 &nbsp;ME<br />5 &nbsp;50000 &nbsp;ME<br />6 &nbsp;60000 &nbsp;ME<br />7 &nbsp;70000 &nbsp;CS</p>
+    <p><strong>How many rows are there in the result of the following query?</strong></p>
+<pre>SELECT E.ID
+FROM Employee E
+WHERE EXISTS (SELECT E2.salary
+FROM Employee E2
+WHERE E2.DeptName = 'CS'
+AND E.salary &gt; E2.salary)</pre>
+    <p>Following 5 rows will&nbsp;be the result of the query as 3000 is the minimum salary of CS Employees and all these rows are greater than 30000.</p>
+    <p>2<br />4<br />5<br />6<br />7</p>
+    <p><strong>Q. There is a table which contains two column Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above average students.</strong></p>
+<pre>SELECT student, marks
+FROM table
+WHERE marks &gt; SELECT AVG(marks) from table;</pre>
+    <p><strong>Q.Name the student who has secured third highest marks using sub queries.</strong></p>
+<pre>SELECT Emp1.Name
+FROM Employee Emp1
+WHERE 2 = (SELECT COUNT(DISTINCT(Emp2.Salary))
+ FROM Employee Emp2
+ WHERE Emp2.Salary &gt; Emp1.Salary
+ )</pre>
+    <p>*LOGIC- Number of people with the salary higher than this person will be 2.</p>
+    <p><strong>Q. Why we cannot use WHERE clause with aggregate functions like HAVING?</strong></p>
+    <p>The difference between the having and where clause in SQL is that the where clause canNOT&nbsp;be used with aggregates, but the having clause can. Please note: It is not a predefined rule but by and large you&rsquo;ll see that in a good number of the SQL queries, we use&nbsp;WHERE&nbsp;prior to&nbsp;GROUP BY&nbsp;and&nbsp;HAVING&nbsp;after&nbsp;GROUP BY.</p>
+    <p>The Where clause acts as a pre-filter&nbsp;where as Having as a&nbsp;post filter.</p>
+    <p>The where clause works on row&rsquo;s data, not on aggregated data.</p>
+    <p>Let us consider below table &lsquo;Marks&rsquo;.</p>
+    <p><strong>Student Course Score</strong></p>
+    <p>a c1 40<br />a c2 50<br />b c3 60<br />d c1 70<br />e c2 80</p>
+    <p>Consider the query</p>
+<pre>SELECT Student, sum(Score) AS total
+FROM Marks</pre>
+    <p>This would select data row by row basis. The&nbsp;having&nbsp;clause works on aggregated data.</p>
+    <p>For example, output of below query</p>
+    <pre>SELECT Student, sum(score) AS total FROM Marks</pre>
+    <p><strong>Student Total</strong><br />a &nbsp;90<br />b 60<br />d 70<br />e 80</p>
+    <p>When we apply having in above query, we get</p>
+<pre>SELECT Student, sum(score) AS total
+FROM Marks having total &gt; 70</pre>
+    <p>Student Total<br />a 90<br />e 80</p>
+    <p><strong>Q. Difference between primary key and unique key and why one should use unique key if it allows only one null ?</strong></p>
+    <p>Primary key:</p>
+    <ul>
+        <li>Only one in a row(tuple).</li>
+        <li>Never allows a null value(only key field).</li>
+        <li>Unique key identifier and can not be null and must be unique.</li>
+    </ul>
+    <p>Unique Key:</p>
+    <ul>
+        <li>Can be more than one unique key in one row.</li>
+        <li>Unique key can have null values(only single null is allowed).</li>
+        <li>It can be a candidate key.</li>
+        <li>Unique key can be null and may not be unique.</li>
+    </ul>
+    <p><strong>Q. What&rsquo;s the difference between materialized and dynamic view?</strong></p>
+    <p>Materialized views</p>
+    <ul>
+        <li>Disk based and are updated periodically based on the query definition.</li>
+        <li>A materialized table is created or updated infrequently and it must be synchronized with its associated base tables.</li>
+    </ul>
+    <p>Dynamic views</p>
+    <ul>
+        <li>Virtual only and run the query definition each time they are accessed.</li>
+        <li>A dynamic view may be created every time that a specific view is requested by the user.</li>
+    </ul>
+    <p><strong>Q. What is embedded and dynamic SQL?&nbsp;</strong></p>
+    <p>Static or Embedded SQL</p>
+    <ul>
+        <li>SQL statements in an application that does not change at runtime and, therefore, can be hard-coded into the application.</li>
+    </ul>
+    <p>Dynamic SQL</p>
+    <ul>
+        <li>SQL statements that are constructed at runtime; for example, the application may allow users to enter their own queries.</li>
+        <li>Dynamic SQL is a programming technique that enables you to buildSQL statements dynamically at runtime. You can create more general purpose, flexible applications by using dynamic SQL because the full text of a SQL statement may be unknown at compilation.</li>
+    </ul>
+    <table border="1" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+            <td><strong>S.No.</strong></td>
+            <td><strong>Static (embedded) SQL</strong></td>
+            <td><strong>Dynamic (interactive) SQL</strong></td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>In static SQL how the database will be accessed is predetermined in the embedded SQL statement.</td>
+            <td>In dynamic SQL, how the database will be accessed is determined at run time.</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>It is more swift and efficient.</td>
+            <td>It is less swift and efficient.</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>SQL statements are compiled at compile time.</td>
+            <td>SQL statements are compiled at run time.</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Parsing, validation, optimization, and generation of application plan are done at compile time.</td>
+            <td>Parsing, validation, optimization, and generation of application plan are done at run time.</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>It is generally used for situations where data is distributed uniformly.</td>
+            <td>It is generally used for situations where data is distributed non-uniformly.</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>EXECUTE IMMEDIATEl, EXECUTE and PREPARE statements are not used.</td>
+            <td>EXECUTE IMMEDIATE, EXECUTE and PREPARE statements are used.</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>It is less flexible.</td>
+            <td>It is more flexible.</td>
+        </tr>
+        </tbody>
+    </table>
+    <p>http://docs.oracle.com/cd/A87860_01/doc/appdev.817/a76939/adg09dyn.htm</p>
+    <p><strong>Q. What is the difference between CHAR and VARCHAR?</strong></p>
+    <ul>
+        <li>CHAR and VARCHAR are differ in storage and retrieval.</li>
+        <li>CHAR column length is fixed while VARCHAR length is variable.</li>
+        <li>The maximum no. of character CHAR data type can hold is 255 character while VARCHAR can hold up to 4000 characters.</li>
+        <li>CHAR is 50% faster than VARCHAR.</li>
+        <li>CHAR uses static memory allocation while VARCHAR uses dynamic memory allocation.</li>
+    </ul>
+
+<!-- /Start your project here-->
+
+
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="../../js/jquery-3.1.1.min.js"></script>
+
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

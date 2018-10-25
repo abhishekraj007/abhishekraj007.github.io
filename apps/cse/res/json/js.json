@@ -1,0 +1,74 @@
+[
+	{
+		"title":"FreeCodeCamp (Javascript)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLWKjhJtqVAbmoiNlqLJg1gxEjEuKHHcn_", "playlist"
+		]
+	},
+	{
+		"title":"FreeCodeCamp (JQuery)",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLWKjhJtqVAbkyK9woUZUtunToLtNGoQHB", "playlist"
+		]
+	},
+	{
+		"title":"FreeCodeCamp (ES6)",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLWKjhJtqVAbljtmmeS0c-CEl2LdE-eR_F", "playlist"
+		]
+	},
+	{
+		"title":"thenewboston",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PL46F0A159EC02DF82", "playlist"
+		]
+	},
+	{
+		"title":"Kudvenkat",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PL6n9fhu94yhUA99nOsJkKXBqokT3MBK0b", "playlist"
+		]
+	},
+	{
+		"title":"Techsith (Advanced JS)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PL7pEw9n3GkoW5bYOhVAtmJlak3ZK7SaDf", "playlist"
+		]
+	},
+	{
+		"title":"Quentin Watt Tutorials",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PL41lfR-6DnOrwYi5d824q9-Y6z3JdSgQa", "playlist"
+		]
+	},
+	{
+		"title":"Traversy Media(Learn By Building)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX","playlist"
+		]
+	},
+	{
+		"title":"Traversy Media(ES6)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv","playlist"
+		]
+	}
+]

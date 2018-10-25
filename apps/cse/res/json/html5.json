@@ -1,0 +1,66 @@
+[
+	{
+		"title":"Envato Tuts+",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLgGbWId6zgaWZkPFI4Sc9QXDmmOWa1v5F", "playlist"
+		]
+	},
+	{
+		"title":"Quentin Watt Tutorials",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PL41lfR-6DnOq3BebucTNMSVDojCIiv_en", "playlist"
+		]
+	},
+	{
+		"title":"thenewboston",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=885",
+		"arguments": [
+			"PL081AC329706B2953", "playlist"
+		]
+	},
+	{
+		"title":"Eduonix Learning",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLDmvslp_VR0yi1C20O_CyG5VM4otTQ-lC", "playlist"
+		]
+	},
+	{
+		"title":"1stWebDesigner (Build A Website)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PL4fJKBgOm4xotbCtyt5MUGbzLc8ZyOcXt", "playlist"
+		]
+	},
+	{
+		"title":"Eduonix Learning(By Building Projects)",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLDmvslp_VR0wkiclky6vj6SSDx-N2QE9z", "playlist"
+		]
+	},
+	{
+		"title":"Traversy Media",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLillGF-RfqbbKWfm3Y_RF57dNGsHnkYqO","playlist"
+		]
+	},
+	{
+		"title":"DevTips",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLqGj3iMvMa4KeBN2krBtcO3U90_7SOl-A","playlist"
+		]
+	}
+]

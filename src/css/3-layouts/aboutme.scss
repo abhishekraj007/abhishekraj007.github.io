@@ -1,0 +1,18 @@
+.aboutme-block{
+  color: $black3;
+  padding: 3rem;
+  @media (min-width: $lg){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.article p{
+  margin-bottom: 12px;
+  font-family: $lato;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 17px;
+}

@@ -1,0 +1,58 @@
+[
+	{
+		"title":"Neso Academy",
+		"provider":"youtube",
+		"image": "https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev", "playlist"
+		]
+	},
+	{
+		"title":"ArsDigita University",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PL601FC994BDD963E4", "playlist"
+		]
+	},
+	{
+		"title":"Ravindrababu",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLEbnTDJUr_IdM___FmDFBJBz0zCsOFxfK", "playlist"
+		]
+	},
+	{
+		"title":"UCDavis",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLslgisHe5tBM8UTCt1f66oMkpmjCblzkt", "playlist"
+		]
+	},
+	{
+		"title":"Nptel",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=998",
+		"arguments": [
+			"PLbMVogVj5nJSd25WnSU144ZyGmsqjuKr3", "playlist"
+		]
+	},
+	{
+		"title":"Deeba kannan",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=635",
+		"arguments": [
+			"PLm5OVvSq7SrxwjbCdCA6LbkRzyLN_rWYJ", "playlist"
+		]
+	},
+	{
+		"title":"Gate UGC Lectures",
+		"provider":"youtube",
+		"image":"https://unsplash.it/720/480?image=1073",
+		"arguments": [
+			"PLS8ACsmFCpmQ7aMtE2tG9mhYYor0BQ-Hn", "playlist"
+		]
+	}
+]
