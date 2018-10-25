@@ -18,7 +18,7 @@
 			'<a href="https://www.cmpute.io" target="_blank"><img src="img/portfolio/batch.jpg" alt="img01"/></a>',
 			'<a href="https://rollr.io" target="_blank""><img src="img/portfolio/rolr.jpg" alt="img02"/></a>',
 			'<a href="https://www.hubfly.com" target="_blank"><img src="img/portfolio/hubl.jpg" alt="img03"/></a>',
-			'<a href="https://www.anildesign.com" target="_blank"><img src="img/portfolio/13.jpg" alt="img01"/></a>']
+			'<a href="https://www.anildesign.com" target="_blank"><img src="img/portfolio/anil.jpg" alt="img01"/></a>']
 	};
 
 	// http://coveroverflow.com/a/11381730/989439
