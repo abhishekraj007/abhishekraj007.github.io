@@ -36,8 +36,6 @@ $(function () {
 		}, 100)
 	});
 
-	console.log("jquery loaded!")
-
 
 	var $contactForm = $('#chatForm');
 	$contactForm.submit(function (e) {
@@ -89,5 +87,30 @@ $(function () {
 		});
 
 	});
+	
+	// Modal
+  var modal = document.querySelector('#aboutmeModal');
+
+  // Get the button that opens the modal
+  var openModal = document.querySelector("#aboutmeLink");
+
+  var closeModal = document.querySelector(".modal__close");
+
+  // When the user clicks on the button, open the modal 
+  openModal.onclick = function () {
+    modal.classList.add('active')
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  closeModal.onclick = function () {
+    modal.classList.remove('active')
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.classList.remove('active');
+    }
+  }
 
 });
